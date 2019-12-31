@@ -48,10 +48,10 @@ function capFirst(str) {
      return (raga);
    } // end findRaga 
 
-   function getRagas() { // Collate all ragams I know of
+   function getRagas() { // Collate all raga names I know of and sort
      ragams = [] ;
      obj.ragas.forEach ( function (ragam) { ragams.push(ragam.name) ; } );
-     return (ragams);
+     return (ragams.sort());
    } // end getRagas
 
     function dropListRagas() { // adds Ragas to drodownlist
