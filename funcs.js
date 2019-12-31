@@ -51,7 +51,7 @@ function capFirst(str) {
    function getRagas() { // Collate all ragams I know of
      ragams = [] ;
      obj.ragas.forEach ( function (ragam) { ragams.push(ragam.name) ; } );
-     return (ragams.sort());
+     return (ragams);
    } // end getRagas
 
     function dropListRagas() { // adds Ragas to drodownlist
@@ -81,7 +81,6 @@ function capFirst(str) {
 
     function listKritis() { // show matched Kritis
       let buf = [] ;
-      let ragas = getRagas() ;
       let astr = document.getElementById('ss').value;
       if(astr.trim()==="" || astr === null || astr === undefined) {
 	return ;
@@ -89,13 +88,13 @@ function capFirst(str) {
       
      buf.push("<div class='col'> <ul>");
       astr = astr.toUpperCase();
-      for (let k=0; k < ragas.length ; k++) {
-	let name = ragas[k] ;
+      for (let k=0; k < obj.ragas.length ; k++) {
+	let raga = obj.ragas[k].name ;
 	for (let j=0; j < obj.ragas[k].kritis.length ; j++) {
 	  let kriti = obj.ragas[k].kritis[j];
 	  if (kriti.toUpperCase().search(astr) != -1) { // if match
 	    buf.push ("<li>" + kriti + " -> " + "<a href='#' onclick='" 
-	      +  "selRaga(this);" + "'>" + name + "</a></li>");
+	      +  "selRaga(this);" + "'>" + raga + "</a></li>");
 	  }
 	}
       }
