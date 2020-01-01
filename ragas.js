@@ -387,7 +387,7 @@ var obj = {
     },
 
     {
-      "name": "varali",
+      "name": "varaali",
       "kritis": [
         "Marakata Mani",
         "Lambodaraaya Namaste",
@@ -607,6 +607,20 @@ var obj = {
       "notes": {
         "aarohana": "S R2 G3 P D2 S",
         "avarohana": "S D2 P G3 R2 S"
+      }
+    },
+    {
+      "name": "todi",
+      "kritis": [
+	"Karunaa Nidhi Ilalo",
+	"Vedalenu Kodanda Paani",
+	"Kaddanu Vaariki Kaddu Kaddani",
+	"Raju Vedale Choodamu Raara",
+	"Thaye Yashoda Vandan"
+      ],
+      "notes": {
+        "aarohana": "S R1 G2 M1 P D1 N2 S",
+        "avarohana": "S N2 D1 P M1 G2 R1 S"
       }
     }
   ]
