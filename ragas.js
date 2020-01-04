@@ -62,7 +62,8 @@ var obj = {
         "Govinda Ghataya",
         "Alamelu Manga Nee Aluka",
         "Baala Gopala",
-        "Neela Neerada Sareera"
+        "Neela Neerada Sareera",
+	"Mundatee Vale Naapai Nelavunna Naa Sami"
       ],
       "notes": {
         "aarohana": "S N2 D2 M1 G2 M1 P M1 G2 R2 S",
@@ -223,7 +224,8 @@ var obj = {
         "Kaaroo Baaru",
         "Ksheenamai Tiruga",
         "Sivaguru Naadanai",
-        "Chaaru Seele Priye (jampa)"
+        "Chaaru Seele Priye (jampa)",
+	"Talachi Nantane Naadamu Brahmanu"
       ],
       "notes": {
         "aarohana": "S R2 M1 P N2 D2 S",
@@ -430,7 +432,8 @@ var obj = {
         "DeenuDa Nenu DevuDavui Neevu",
         "Mani Moopura Dhaari Raja Gopala", 
         "LaaliLooGave MaaPaali",
-        "Uyyaala LooGaVayya"
+        "Uyyaala LooGaVayya",
+	"Madhava Maamava Deva"
       ],
       "notes": {
         "aarohana": "S G3 M1 P N3 S",
@@ -616,11 +619,45 @@ var obj = {
 	"Vedalenu Kodanda Paani",
 	"Kaddanu Vaariki Kaddu Kaddani",
 	"Raju Vedale Choodamu Raara",
-	"Thaye Yashoda Vandan"
+	"Thaye Yashoda Vandan",
+	"Kanulara Kanti Nipudu Kanchi Varada"
       ],
       "notes": {
         "aarohana": "S R1 G2 M1 P D1 N2 S",
         "avarohana": "S N2 D1 P M1 G2 R1 S"
+      }
+    },
+    {
+      "name": "kedara gowla",
+      "kritis": [
+	"Chaalu Chaalu",
+	"Venu Gaana Lola"
+      ],
+      "notes": {
+        "aarohana": "S R2 M1 P N2 S ",
+        "avarohana": "S N2 D2 P M1 G3 R2 S"
+      }
+    },
+    {
+      "name": "kama vardhini",
+      "kritis": [
+	"Raghu Vara nanu marava taguna",
+	"Sankari Ninne Ika Chala Nammitini"
+      ],
+      "notes": {
+        "aarohana": "S R1 G3 M2 P D1 N3 S",
+        "avarohana": "S N3 D1 P M2 G3 R1 S"
+      }
+    },
+    {
+      "name": "begada",
+      "kritis": [
+	"Nadopasana Chese Sankara Narayana",
+	"Neeveraa Kula Dhanamu"
+      ],
+      "notes": {
+        "aarohana": "S G3 R2 G3 M1 P D2 P S",
+        "avarohana": "S N3 D2 P M1 G3 R2"
       }
     }
   ]
