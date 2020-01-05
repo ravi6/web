@@ -670,6 +670,16 @@ var obj = {
         "aarohana": "S R1 G1 M1 P D1 N3 S",
         "avarohana": "S N3 D1 P M1 G1 R1 S"
       }
+    },
+    {
+      "name": "malaya marutham",
+      "kritis": [
+	"Dhanyu Devvado Daasaradhe"
+      ],
+      "notes": {
+        "aarohana": "S R1 G3 P D2 N2 S",
+        "avarohana": "S N2 D2 P G3 R1 S"
+      }
     }
   ]
 };
