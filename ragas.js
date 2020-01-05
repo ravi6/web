@@ -514,11 +514,12 @@ var obj = {
     {
       "name": "dhenkua",
       "kritis": [
+	"Teliya Leru Rama Bhakti Margamu",
 	"Kaama Dhenuka Aasraye"
       ],
       "notes": {
-        "aarohana": "S R1 G2 M1 P D1 N2 S",
-        "avarohana": "S N2 D1 P M1 G2 R1 S"
+        "aarohana": "S R1 G2 M1 P D1 N3 S",
+        "avarohana": "S N3 D1 P M1 G2 R1 S"
       }
     },
 
@@ -658,6 +659,16 @@ var obj = {
       "notes": {
         "aarohana": "S G3 R2 G3 M1 P D2 P S",
         "avarohana": "S N3 D2 P M1 G3 R2"
+      }
+    },
+    {
+      "name": "gana murthi",
+      "kritis": [
+	"Gaana Moorthe Sri Krishna Venu Gana Lola",
+      ],
+      "notes": {
+        "aarohana": "S R1 G1 M1 P D1 N3 S",
+        "avarohana": "S N3 D1 P M1 G1 R1 S"
       }
     }
   ]
