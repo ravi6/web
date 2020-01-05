@@ -664,7 +664,7 @@ var obj = {
     {
       "name": "gana murthi",
       "kritis": [
-	"Gaana Moorthe Sri Krishna Venu Gana Lola",
+	"Gaana Moorthe Sri Krishna Venu Gana Lola"
       ],
       "notes": {
         "aarohana": "S R1 G1 M1 P D1 N3 S",
