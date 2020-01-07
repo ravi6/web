@@ -161,7 +161,8 @@ var obj = {
         "Raamuni sannidhi",
         "Etaavuna Nilakada",
         "Dayaado ramgaa",
-        "Patita Paavana Amboruha SharaNe"
+        "Patita Paavana Amboruha SharaNe",
+	"Sundari Nee Diya Roopamunu Chooda"
       ],
       "notes": {
         "aarohana": "S R2 G3 M2 P D2 N3 S",
