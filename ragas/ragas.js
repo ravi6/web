@@ -146,7 +146,9 @@ var obj = {
     {
       "name": "kaapi",
       "kritis": [
-        "Parulanna Maata Namma Vaddu"
+        "Parulanna Maata Namma Vaddu",
+	"Charanamule Nammithi",
+	"Jagado dharana"
       ],
       "notes": {
         "aarohana": "S R2 M1 P N3 S",
