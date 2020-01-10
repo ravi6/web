@@ -486,6 +486,18 @@ var obj = {
     },
 
     {
+      "name": "revathi",
+      "kritis": [
+	"Raagi Thandeera  Bhikshake",
+	"Naanati Bratuku Natakamu"
+      ],
+      "notes": {
+        "aarohana": "S R1 M1 P N2 S",
+        "avarohana": "S N2 P M1 R1 S"
+      }
+    },
+
+    {
       "name": "vaachaspathi",
       "kritis": [
         "Kanta Choodumi",
