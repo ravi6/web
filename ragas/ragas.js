@@ -763,5 +763,16 @@ var obj = {
         "avarohana": "S N3 D2 P M1 G3 R2 S"
       }
     },
+
+    {
+      "name": "nattai kurinji",
+      "kritis": [
+	"Nannu Brova Neeku Bharama"
+      ],
+      "notes": {
+        "aarohana": "S R2 G3 M1 N2 D2 N2 P D2 N2 S",
+        "avarohana": "S N2 D2 M1 G3 M1 P G3 R2 S"
+      }
+    },
   ]
 };
