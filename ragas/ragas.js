@@ -5,6 +5,19 @@ Date:   31st Dec. 2019
 var obj = {
   "ragas": [
     {
+      "name": "saveri",
+      "kritis": [
+	"Bhavayami Raghu Ramam",
+	"Deenuda Nenu Devudavu Neevu",
+	"Sree Raja Gopaala bala sringara",
+        "Murugaa Murugaa enDraal"
+      ],
+      "notes": {
+        "aarohana": "S R1 M1 P D1 S",
+        "avarohana": "S N3 D1 P M1 G3 R1 S"
+      }
+    },
+    {
       "name": "suddha saveri",
       "kritis": [
         "NaaraaYanaTe NamoNamo"
@@ -20,7 +33,8 @@ var obj = {
       "kritis": [
         "Okapari Kokaparia",
         "Prakkala nilabadia",
-        "Janakee pathe jaya kaarunya"
+        "Janakee pathe jaya kaarunya",
+	"Bharathi Deviya Ne Ne"
       ],
       "notes": {
         "aarohana":  "S R2 G2 M1 P D2 N2 S",
@@ -179,7 +193,7 @@ var obj = {
         "Evari Maata Vinnaavo Raavo",
         "Sri Subhranyaya",
         "Sri Raghava",
-        "Emayya Raama"
+        "Emayya Raama Brahmendradula Kaina"
       ],
       "notes": {
         "aarohana": "S R2 G3 M1 P D2 S",
@@ -357,8 +371,8 @@ var obj = {
       "name": "nattai",
       "kritis": [
         "Jaya Jayaswamin JayJaya",
+	"Namo Namo Raghu Kula Naayaka",
         "Gopaalaka Paahimaam Anisham  Gaayatri Venkatraghvan",
-        "Sarvam Eka Samakha MS"
       ],
       "notes": {
         "aarohana": "S R3 G3 M1 P D3 N3 S",
@@ -386,8 +400,8 @@ var obj = {
         "Ille Vaikhuntamu"
       ],
       "notes": {
-        "aarohana": "",
-        "avarohana": ""
+        "aarohana": "S R2 G3 P M2 P D2 N3 S",
+        "avarohana": "S N3 D2 P M2 P G3 M1 R2 S"
       }
     },
 
@@ -408,9 +422,9 @@ var obj = {
       "name": "poorvi kalyani",
       "kritis": [
         "Gummani Yedi Sruthi", 
-        "Tillai Chidambaram Endraa Nalla Sruti Moodee",
         "PaRaLoka SaaDhaNaMe",
-        "JnaaNaMoSaGa LeDaa" 
+        "JnaaNaMoSaGa LeDaa", 
+        "Tillai Chidambaram Endraa Nalla Sruti Moodee"
       ],
       "notes": {
         "aarohana": "S R1 G3 M2 P D2 P S",
@@ -482,7 +496,8 @@ var obj = {
     {
       "name": "aarabhi",
       "kritis": [
-        "SamaYaaniKi TaguMaataLaDeNe"
+        "SamaYaaniKi TaguMaataLaDeNe",
+	"Paahi Paarvatha Nandini MaaMayi Pavane"
       ],
       "notes": {
         "aarohana": "S R2 M1 P D2 S",
@@ -506,7 +521,7 @@ var obj = {
     {
       "name": "dhanyasi",
       "kritis": [
-        "TeliyaaLeru Raama BhaktiMaarGamu",
+	"Hari Hari Rama Nannarama Choodaku",
         "Baagaayanayya Neemahima"
       ],
       "notes": {
@@ -514,6 +529,7 @@ var obj = {
         "avarohana": "S N2 D1 P M1 G2 R1 S"
       }
     },
+
     {
       "name": "dhenkua",
       "kritis": [
@@ -682,6 +698,52 @@ var obj = {
       "notes": {
         "aarohana": "S R1 G3 P D2 N2 S",
         "avarohana": "S N2 D2 P G3 R1 S"
+      }
+    },
+
+    {
+      "name": "jayanta sena",
+      "kritis": [
+	"Vinata Suta Vahana Ghana Sree Ramana"
+      ],
+      "notes": {
+        "aarohana": "S G2 M1 P D2 S",
+        "avarohana": "S N2 D2 P M1 G2 S"
+      }
+    },
+
+    {
+      "name": "huseni",
+      "kritis": [
+	"Sarva Loka Dayanidhe Saarwa bhowma Dasaradhe",
+	"Taliro Boni",
+	"Kanaka Maya Maheedum Kamla vaahana Mathim"
+      ],
+      "notes": {
+        "aarohana": "S R2 G2 M1 P N2 D2 N2 S",
+        "avarohana": "S N2 D1 P M1 G2 R2 S"
+      }
+    },
+
+    {
+      "name": "sowrashtra",
+      "kritis": [
+	"Sree Ganapathini Sevimpa Raare"
+      ],
+      "notes": {
+        "aarohana": "S R1 G3 M1 P M1 D2 N3 S",
+        "avarohana": "S N3 D2 N2 D2 P M1 G3 R1 S"
+      }
+    },
+    
+    {
+      "name": "atana",
+      "kritis": [
+	"Gopa Kumaara Nanda Gopa Kumara"
+      ],
+      "notes": {
+        "aarohana": "S R2 M1 P N3 S",
+        "avarohana": "S N3 D2 P M1 G3 R2 S"
       }
     }
   ]
