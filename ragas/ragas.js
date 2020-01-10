@@ -77,7 +77,9 @@ var obj = {
         "Alamelu Manga Nee Aluka",
         "Baala Gopala",
         "Neela Neerada Sareera",
-	"Mundatee Vale Naapai Nelavunna Naa Sami"
+	"Mundatee Vale Naapai Nelavunna Naa Sami",
+	"Etulaina Bhakti Vachutake Yatnamu Seyave",
+	"Ettanai Kaettalum"
       ],
       "notes": {
         "aarohana": "S N2 D2 M1 G2 M1 P M1 G2 R2 S",
@@ -227,6 +229,8 @@ var obj = {
     {
       "name": "poorna chandrika",
       "kritis": [
+	"NeChesina Paapa Mettidanina",
+	"Palukavemi Naa Daivama Rama",
         "Telisi Raama Chintana"
       ],
       "notes": {
@@ -625,6 +629,7 @@ var obj = {
       "kritis": [
         "Nanu Paalimpa Nadachi",
 	"EvarooRa Ninu Vina",
+	"Mohana Rama Modati Daivama",
 	"Narasimhaa Gaccha Vara Puccha"
       ],
       "notes": {
@@ -745,6 +750,6 @@ var obj = {
         "aarohana": "S R2 M1 P N3 S",
         "avarohana": "S N3 D2 P M1 G3 R2 S"
       }
-    }
+    },
   ]
 };
