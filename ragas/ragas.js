@@ -387,6 +387,7 @@ var obj = {
     {
       "name": "kamas",
       "kritis": [
+       "Broche Vaarevaru Raa",
        "Rama Jogi Mandoo",
        "Santaana Gopaala Krishnan MupaasmaHe"
       ],
@@ -512,7 +513,7 @@ var obj = {
     {
       "name": "aarabhi",
       "kritis": [
-        "SamaYaaniKi TaguMaataLaDeNe",
+        "Saadhinchene Oh Manasa",
 	"Paahi Paarvatha Nandini MaaMayi Pavane"
       ],
       "notes": {
@@ -761,6 +762,28 @@ var obj = {
       "notes": {
         "aarohana": "S R2 M1 P N3 S",
         "avarohana": "S N3 D2 P M1 G3 R2 S"
+      }
+    },
+
+    {
+      "name": "nattai kurinji",
+      "kritis": [
+	"Nannu Brova Neeku Bharama"
+      ],
+      "notes": {
+        "aarohana": "S R2 G3 M1 N2 D2 N2 P D2 N2 S",
+        "avarohana": "S N2 D2 M1 G3 M1 P G3 R2 S"
+      }
+    },
+
+    {
+      "name": "vasanta",
+      "kritis": [
+	"Seethamma Maa yamma Sree Ramudu Maaku Tandri"
+      ],
+      "notes": {
+        "aarohana":  "S M1 G3 M1 D2 N3 S",
+        "avarohana": "S N3 D2 M1 G3 R1 S"
       }
     },
 
