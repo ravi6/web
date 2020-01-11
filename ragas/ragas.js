@@ -164,6 +164,7 @@ var obj = {
       "kritis": [
         "Parulanna Maata Namma Vaddu",
 	"Charanamule Nammithi",
+	"Jaanakee Ramana Dasaratha Nandana",
 	"Jagado dharana"
       ],
       "notes": {
