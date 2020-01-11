@@ -584,6 +584,7 @@ var obj = {
     {
       "name": "bilahari",
       "kritis": [
+        "Rara Venu Gopa Bala",
         "Sree MadhuRaapuri Viharini",
         "ToliJANmamula jesi Duduku Telisenu Rama"
       ],
