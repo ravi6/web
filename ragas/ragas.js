@@ -387,7 +387,7 @@ var obj = {
     {
       "name": "kamas",
       "kritis": [
-       "Broche Vaarevaru Raa",
+       "Broche Vaarevaru Raa ",
        "Rama Jogi Mandoo",
        "Santaana Gopaala Krishnan MupaasmaHe"
       ],
