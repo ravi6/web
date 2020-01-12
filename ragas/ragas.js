@@ -441,11 +441,12 @@ var obj = {
     {
       "name": "jaya manohari",
       "kritis": [
-        "Nee Bhakthi Bhagya Sudhaa"
+        "Nee Bhakthi Bhagya Sudhaa",
+	"Yjnaadulu Sukhamanu Variki"
       ],
       "notes": {
-        "aarohana": "",
-        "avarohana": ""
+        "aarohana": "S R2 G2 M1 D2 S",
+        "avarohana": "S N2 D2 M1 G2 R2 S"
       }
     },
 
@@ -587,7 +588,7 @@ var obj = {
       "kritis": [
         "Rara Venu Gopa Bala",
         "Sree MadhuRaapuri Viharini",
-        "ToliJANmamula jesi Duduku Telisenu Rama"
+        "ToliJANmamula jeyu Duduku Telisenu Rama"
       ],
       "notes": {
         "aarohana": "S P A S A RI G2",
@@ -712,10 +713,12 @@ var obj = {
         "avarohana": "S N3 D1 P M1 G1 R1 S"
       }
     },
+
     {
       "name": "malaya marutham",
       "kritis": [
-	"Dhanyu Devvado Daasaradhe"
+	"Dhanyu Devvado Daasaradhe",
+	"Manasaa Yetulotune"
       ],
       "notes": {
         "aarohana": "S R1 G3 P D2 N2 S",
@@ -810,7 +813,18 @@ var obj = {
       ],
       "notes": {
         "aarohana": "S R G P N S",
-        "avarohana":"S N P G R S"
+        "avarohana": "S N P G R S"
+      }
+    },
+
+    {
+      "name": "paras",
+      "kritis": [
+	"Cheli Nenetlu Sahintune"
+      ],
+      "notes": {
+        "aarohana": "S G3 P D1 N3 S",
+        "avarohana": "S N3 D1 P M1 G3 R1 S"
       }
     },
   ]
