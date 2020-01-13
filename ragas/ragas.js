@@ -56,10 +56,10 @@ var obj = {
     {
       "name": "reeti gowla",
       "kritis": [
-        "Enna punniyam Seyadu",
         "Nannoo Vidachi Kadalakura",
-        "Brindaavana Nilayer",
         "Chera Rava Demira",
+        "Enna punniyam Seyadu",
+        "Brindaavana Nilayer",
         "Aadi Vinaayakam",
         "SathguruSwaamikai"
       ],
@@ -292,9 +292,10 @@ var obj = {
     {
       "name": "pantu varaali",
       "kritis": [
-        "Shiva Shiva YanaRaaDa",
-        "RaghuVara Ninne",
         "Apa Raama Bhakti Yento",
+	"Raghu Vara nanu marava taguna",
+        "Shiva Shiva YanaRaaDa",
+	"Sankari Ninne Ika Chala Nammitini",
         "Sambho MahaaDeva Sankara", 
         "SaaKetha PuraMelaLeda Konnallu"
       ],
@@ -671,17 +672,7 @@ var obj = {
         "avarohana": "S N2 D2 P M1 G3 R2 S"
       }
     },
-    {
-      "name": "kama vardhini",
-      "kritis": [
-	"Raghu Vara nanu marava taguna",
-	"Sankari Ninne Ika Chala Nammitini"
-      ],
-      "notes": {
-        "aarohana": "S R1 G3 M2 P D1 N3 S",
-        "avarohana": "S N3 D1 P M2 G3 R1 S"
-      }
-    },
+
     {
       "name": "begada",
       "kritis": [
@@ -782,17 +773,6 @@ var obj = {
       "notes": {
         "aarohana":  "S M1 G3 M1 D2 N3 S",
         "avarohana": "S N3 D2 M1 G3 R1 S"
-      }
-    },
-
-    {
-      "name": "nattai kurinji",
-      "kritis": [
-	"Nannu Brova Neeku Bharama"
-      ],
-      "notes": {
-        "aarohana": "S R2 G3 M1 N2 D2 N2 P D2 N2 S",
-        "avarohana": "S N2 D2 M1 G3 M1 P G3 R2 S"
       }
     },
 
