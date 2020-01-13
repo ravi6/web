@@ -631,17 +631,6 @@ var obj = {
     },
 
     {
-      "name": "poorvi kalyani",
-      "kritis": [
-        "Gummani Yedi Sruthi"
-      ],
-      "notes": {
-        "aarohana": "S R1 G3 M2 P D2 P S",
-        "avarohana": "S N3 D2 P M2 G3 R1 S"
-      }
-    },
-
-    {
       "name": "mohana",
       "kritis": [
         "Nanu Paalimpa Nadachi",
@@ -849,6 +838,17 @@ var obj = {
       "notes": {
         "aarohana": "S R1 M1 P D1 S",
         "avarohana": "S N2 S P D1 M1 P R1 G2 R1 S"
+      }
+    },
+
+    {
+      "name": "sri",
+      "kritis": [
+	"Sree Vara Lakshmi Namastubhyam Vasuprade"
+      ],
+      "notes": {
+        "aarohana": "S R2 M1 P N2 S",
+        "avarohana": "S N2 P D2 N2 P M1 R2 G2 R2 S"
       }
     },
   ]
