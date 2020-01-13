@@ -840,5 +840,16 @@ var obj = {
         "avarohana": "S N2 D1 P M1 G2 R2 S"
       }
     },
+
+    {
+      "name": "asaaveri",
+      "kritis": [
+	"Ra Rama Inti Daaka Raghu Veera Sukumara"
+      ],
+      "notes": {
+        "aarohana": "S R1 M1 P D1 S",
+        "avarohana": "S N2 S P D1 M1 P R1 G2 R1 S"
+      }
+    },
   ]
 };
