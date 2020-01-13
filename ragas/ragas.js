@@ -207,6 +207,7 @@ var obj = {
     {
       "name": "kuntala varaali",
       "kritis": [
+	"Bhogeendra SaiNam Guru Kusala Daayinam",
         "Deenuda Nenu Devudavu Neevu",
         "Devi PaavaNi Shive Sharane"
       ],
@@ -742,6 +743,7 @@ var obj = {
       "kritis": [
 	"Sarva Loka Dayanidhe Saarwa bhowma Dasaradhe",
 	"Taliro Boni",
+	"Emani Vegintune Sree Rama",
 	"Kanaka Maya Maheedum Kamla vaahana Mathim"
       ],
       "notes": {
