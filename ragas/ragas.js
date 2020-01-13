@@ -829,5 +829,16 @@ var obj = {
         "avarohana": "S N3 D1 P M1 G3 R1 S"
       }
     },
+
+    {
+      "name": "jonpuri",
+      "kritis": [
+	"EppOVaru Vaaro enthan kali theera"
+      ],
+      "notes": {
+        "aarohana": "S R2 M1 P D1 N2 S",
+        "avarohana": "S N2 D1 P M1 G2 R2 S"
+      }
+    },
   ]
 };
