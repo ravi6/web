@@ -543,6 +543,7 @@ var obj = {
       "name": "dhanyasi",
       "kritis": [
 	"Hari Hari Rama Nannarama Choodaku",
+	"Samayamu Telisi Punyamaarjinchani",
         "Baagaayanayya Neemahima"
       ],
       "notes": {
