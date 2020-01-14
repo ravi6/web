@@ -136,6 +136,16 @@ var obj = {
     },
 
     {
+      "name": "simhendra madhyamam",
+      "kritis": [
+        "Ninne Nammithi Nayyaa Sree Rama"
+      ],
+      "notes": {
+        "aarohana": "S R2 G2 M2 P D1 N3 S",
+        "avarohana": "S N3 D1 P M2 G2 R2 S"
+      }
+    },
+    {
       "name": "hindolam",
       "kritis": [
         "Saamja VaraGamana",
@@ -812,9 +822,11 @@ var obj = {
     },
 
     {
-      "name": "asaaveri",
+      "name": "asaveri",
       "kritis": [
-	"Ra Rama Inti Daaka Raghu Veera Sukumara"
+	"Dasaradha Nandana Daanava Mardhana",
+	"Ra Rama Inti Daaka Raghu Veera Sukumara",
+	"Samayamu Telisi Punyamulaarjinchani"
       ],
       "notes": {
         "aarohana": "S R1 M1 P D1 S",
