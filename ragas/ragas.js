@@ -469,7 +469,7 @@ var obj = {
         "Mani Moopura Dhaari Raja Gopala", 
         "LaaliLooGave MaaPaali",
         "Uyyaala LooGaVayya",
-	"Madhava Maamava Deva"
+	"Madhava Maamava Deva Krishna"
       ],
       "notes": {
         "aarohana": "S G3 M1 P N3 S",
@@ -842,6 +842,36 @@ var obj = {
       "notes": {
         "aarohana": "S R2 M1 P N2 S",
         "avarohana": "S N2 P D2 N2 P M1 R2 G2 R2 S"
+      }
+    },
+    {
+      "name": "bowli",
+      "kritis": [
+	"Parama Purusha Nirupamana"
+      ],
+      "notes": {
+        "aarohana": "S R1 G3 P D1 S",
+        "avarohana": "S N3 D1 P G3 R1 S"
+      }
+    },
+    {
+      "name": "maand",
+      "kritis": [
+	"Baaro Krishnayya Ninne Bhakta Ramana Geega"
+      ],
+      "notes": {
+        "aarohana": "S G3 M1 D2 N3 S",
+        "avarohana": "S N3 D2 P M1 G3 R2 S"
+      }
+    },
+    {
+      "name": "ravi chandrika",
+      "kritis": [
+	"MaaKela Raa VichaaRamu"
+      ],
+      "notes": {
+        "aarohana": "S R2 G3 M1 D2 N2 D2 S",
+        "avarohana": "S N2 D2 M1 G3 R2 S"
       }
     },
   ]
