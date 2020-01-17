@@ -126,7 +126,8 @@ var obj = {
     {
       "name": "hemavathi",
       "kritis": [
-        "Sree KaantheeMathi Sankari Yuvati", 
+	"Ika Thalalenura Ina Vamsa Tilaka",
+        "Sree KaantheeMathi Sankara Yuvati", 
         "Ninne Nammithi Neeraja Dalal Nayana"
       ],
       "notes": {
@@ -376,7 +377,8 @@ var obj = {
     {
       "name": "yedukula kambhoji",
       "kritis": [
-        "Eteeruga Nanu Daya ChoocheDavo"
+        "Eteeruga Nanu Daya ChoocheDavo",
+	"Hecharikaga Rara Oh Rama Chandra"
       ],
       "notes": {
         "aarohana": "S R2 M1 P D2 S",
