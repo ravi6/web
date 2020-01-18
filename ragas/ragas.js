@@ -45,6 +45,7 @@ var obj = {
     {
       "name": "abheri",
       "kritis": [
+      "Bhajare Maanasa Sree Raghu Veeram",
       "Nagumomu kanaleni"
       ],
       "notes": {
@@ -173,9 +174,9 @@ var obj = {
     {
       "name": "kaapi",
       "kritis": [
+	"Jaanakee Ramana Dasaratha Nandana",
         "Parulanna Maata Namma Vaddu",
 	"Charanamule Nammithi",
-	"Jaanakee Ramana Dasaratha Nandana",
 	"Jagado dharana"
       ],
       "notes": {
@@ -231,7 +232,7 @@ var obj = {
     {
       "name": "hari kambhoji",
       "kritis": [
-        "Annapoorne VisaLakshee"
+        "Indariki Abhayambu Lichu Cheyi"
       ],
       "notes": {
         "aarohana": "S R2 G3 M1 P D2 N2 S",
@@ -344,11 +345,12 @@ var obj = {
     {
       "name": "shyama",
       "kritis": [
+	"Anna PoornE VisaLakshi",
         "NimishaMaiNa Sree RaamaaYanaRaaDa"
       ],
       "notes": {
-        "aarohana": "",
-        "avarohana": ""
+        "aarohana": "S R2 M1 P D2 S",
+        "avarohana": "S D2 P M1 G3 R2 S"
       }
     },
 
@@ -415,6 +417,7 @@ var obj = {
     {
       "name": "yamuna kalyani",
       "kritis": [
+	"Oh Rama Nee Nama Menta Ruchira",
         "Marakata Mani",
         "Lambodaraaya Namaste",
         "Ille Vaikhuntamu"
@@ -866,6 +869,7 @@ var obj = {
         "avarohana": "S N3 D2 P M1 G3 R2 S"
       }
     },
+
     {
       "name": "ravi chandrika",
       "kritis": [
@@ -874,6 +878,17 @@ var obj = {
       "notes": {
         "aarohana": "S R2 G3 M1 D2 N2 D2 S",
         "avarohana": "S N2 D2 M1 G3 R2 S"
+      }
+    },
+
+    {
+      "name": "jonpuri",
+      "kritis": [
+	"EppOvaruAro Enthan Kali Theera",
+      ],
+      "notes": {
+        "aarohana": "S R2 M1 P D1 N2 S",
+        "avarohana": "S N2 D1 P M1 G2 R2 S"
       }
     },
   ]
