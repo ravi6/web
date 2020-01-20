@@ -232,7 +232,8 @@ var obj = {
     {
       "name": "hari kambhoji",
       "kritis": [
-        "Indariki Abhayambu Lichu Cheyi"
+        "Indariki Abhayambu Lichu Cheyi",
+	"Oh Ranga Sayee"
       ],
       "notes": {
         "aarohana": "S R2 G3 M1 P D2 N2 S",
@@ -431,9 +432,10 @@ var obj = {
     {
       "name": "varaali",
       "kritis": [
+	"Kanaka Saila Viharini",
+        "Ille Vaikhuntamu",
         "Marakata Mani",
-        "Lambodaraaya Namaste",
-        "Ille Vaikhuntamu"
+        "Lambodaraaya Namaste"
       ],
       "notes": {
         "aarohana": "S G1 R1 G1 M2 P D1 N3 S",
