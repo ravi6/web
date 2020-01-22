@@ -854,7 +854,8 @@ var obj = {
     {
       "name": "bowli",
       "kritis": [
-	"Parama Purusha Nirupamana"
+	"Meluko Vayya Mammeluko Sree Rama",
+	"Sreeman Narayana ..  Sree paadame Saranu"
       ],
       "notes": {
         "aarohana": "S R1 G3 P D1 S",
