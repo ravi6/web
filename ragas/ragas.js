@@ -189,9 +189,7 @@ var obj = {
       "name": "kalyani",
       "kritis": [
         "Nidhi Chaala Sukhama",
-        "Raamuni sannidhi",
         "Etaavuna Nilakada",
-        "Dayaado ramgaa",
         "Patita Paavana Amboruha SharaNe",
 	"Sundari Nee Diya Roopamunu Chooda"
       ],
