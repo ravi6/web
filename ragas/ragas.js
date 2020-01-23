@@ -487,7 +487,8 @@ var obj = {
     {
       "name": "suddha dhanyasi",
       "kritis": [
-        "Enta VaaraLaina KaanTaa DaaSuLe",
+        "Enta Chesina Enta Joochina Enta VaaraLaina",
+	"Himagiri Tanaye Hema Lathe",
         "SubhrhamManyeNa RaaKshiToHam"
       ],
       "notes": {
