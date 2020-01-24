@@ -693,6 +693,7 @@ var obj = {
     {
       "name": "begada",
       "kritis": [
+	"Vallabha Nayakasyapa Snapaami",
 	"Nadopasana Chese Sankara Narayana",
 	"Neeveraa Kula Dhanamu"
       ],
