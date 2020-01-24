@@ -525,8 +525,8 @@ var obj = {
         "Paraatpara Parameswara"
       ],
       "notes": {
-        "aarohana": "",
-        "avarohana": ""
+        "aarohana": "S R2 G3 M2 P D2 N2 S",
+        "avarohana": "S N2 D2 P M2 G3 R2 S"
       }
     },
 
