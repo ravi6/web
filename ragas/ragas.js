@@ -91,9 +91,10 @@ var obj = {
     {
       "name": "mayaa malawa gowla",
       "kritis": [
-        "Deva Deva SharanambiKe",
         "Meru SamaaNa",
-        "DuduKooGala Ninne DoraKoduKu"
+        "DuduKooGala Ninne DoraKoduKu",
+	"Inta Parakaa NeeVeduta Palukutaku",
+        "Deva Deva SharanambiKe"
       ],
       "notes": {
         "aarohana": "S G2 R2 G2 M1 N2 N2 S",
@@ -419,7 +420,8 @@ var obj = {
 	"Oh Rama Nee Nama Menta Ruchira",
         "Marakata Mani",
         "Lambodaraaya Namaste",
-        "Ille Vaikhuntamu"
+        "Ille Vaikhuntamu",
+	"Narayana Hari Narayana Hari"
       ],
       "notes": {
         "aarohana": "S R2 G3 P M2 P D2 N3 S",
