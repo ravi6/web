@@ -178,7 +178,7 @@ var obj = {
 	"Jaanakee Ramana Dasaratha Nandana",
         "Parulanna Maata Namma Vaddu",
 	"Charanamule Nammithi",
-	"Jagado dharana"
+	"Jagado dharana Adisidale Yesoda"
       ],
       "notes": {
         "aarohana": "S R2 M1 P N3 S",
@@ -207,7 +207,8 @@ var obj = {
         "Evari Maata Vinnaavo Raavo",
         "Sri Subhranyaya",
         "Sri Raghava",
-        "Emayya Raama Brahmendradula Kaina"
+        "Emayya Raama Brahmendradula Kaina",
+	"Maa Janaki Jata Pattaka"
       ],
       "notes": {
         "aarohana": "S R2 G3 M1 P D2 S",
@@ -788,7 +789,8 @@ var obj = {
     {
       "name": "vasanta",
       "kritis": [
-	"Seethamma Maa yamma Sree Ramudu Maaku Tandri"
+	"Seethamma Maa yamma Sree Ramudu Maaku Tandri",
+	"Sree Kamaakshi Kataakshi"
       ],
       "notes": {
         "aarohana":  "S M1 G3 M1 D2 N3 S",
@@ -894,6 +896,17 @@ var obj = {
       "notes": {
         "aarohana": "S R2 M1 P D1 N2 S",
         "avarohana": "S N2 D1 P M1 G2 R2 S"
+      }
+    },
+
+    {
+      "name": "kannada gowla",
+      "kritis": [
+	"Sogasu Chooda Tarama",
+      ],
+      "notes": {
+        "aarohana": "S R2 G2 M1 P N2 S",
+        "avarohana": "S N2 D2 P M1 G2 S"
       }
     },
   ]
