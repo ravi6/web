@@ -920,5 +920,16 @@ var obj = {
         "avarohana": "N3 D1 P M1 G3 R1 S N3"
       }
     },
+
+    {
+      "name": "lalita",
+      "kritis": [
+	"KannuLedutiDe Ghana VaiKhuntamu"
+      ],
+      "notes": {
+        "aarohana": "S R1 G3 M1 D1 N3 S",
+        "avarohana": "S N3 D1 M1 G3 R1 S"
+      }
+    },
   ]
 };
