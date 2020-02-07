@@ -909,5 +909,16 @@ var obj = {
         "avarohana": "S N2 D2 P M1 G2 S"
       }
     },
+
+    {
+      "name": "nada nama kriya",
+      "kritis": [
+	"Karunaa Jaladhe Daasaradhe"
+      ],
+      "notes": {
+        "aarohana": "S R1 G3 M1 P D1 N3",
+        "avarohana": "N3 D1 P M1 G3 R1 S N3"
+      }
+    },
   ]
 };
