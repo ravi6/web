@@ -611,8 +611,9 @@ var obj = {
     {
       "name": "bilahari",
       "kritis": [
-        "Rara Venu Gopa Bala",
         "ToliJANmamula jeyu Duduku Telisenu Rama",
+	"Paridaana MichiTe Paalintu Vemo",
+        "Rara Venu Gopa Bala",
 	"KanuGontiNi Sree Ramuni Nenu",
         "Sree MadhuRaapuri Viharini"
       ],
@@ -955,6 +956,17 @@ var obj = {
       "notes": {
         "aarohana": "S R2 G2 M1 P D1 N3 S",
         "avarohana": "S N3 D1 P M1 G2 R2 S"
+      }
+    },
+
+    {
+      "name": "janjooti",
+      "kritis": [
+        "RaamuDuDhbaVinchi Naadu Raghu Kulambuna"
+      ],
+      "notes": {
+        "aarohana": "D2 S R2 G3 M1 P D2 N2",
+        "avarohana": "D2 P M1 G3 R2 S N2 D2 P D2"
       }
     },
   ]
