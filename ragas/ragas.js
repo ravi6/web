@@ -945,5 +945,17 @@ var obj = {
         "avarohana": "S N2 P D2 N2 P M1 R2 G2 R2 S"
       }
     },
+
+    {
+      "name": "keervani",
+      "kritis": [
+	"Karuna Karane Siva Sankara Ne",
+	"Bala Sarasa Murali"
+      ],
+      "notes": {
+        "aarohana": "S R2 G2 M1 P D1 N3 S",
+        "avarohana": "S N3 D1 P M1 G2 R2 S"
+      }
+    },
   ]
 };
