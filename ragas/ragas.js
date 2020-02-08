@@ -153,7 +153,8 @@ var obj = {
       "kritis": [
         "Saamja VaraGamana",
         "Neerada Sama Neela Krishnaa Yegi",
-        "Bhajere Gopalam"
+        "Bhajere Gopalam",
+	"KaruNalaYa Nidhi Nilaye"
       ],
       "notes": {
         "aarohana": "S G2 M1 D1 N2 S",
@@ -192,7 +193,8 @@ var obj = {
         "Nidhi Chaala Sukhama",
         "Etaavuna Nilakada",
         "Patita Paavana Amboruha SharaNe",
-	"Sundari Nee Diya Roopamunu Chooda"
+	"Sundari Nee Diya Roopamunu Chooda",
+	"Bhajana Seyave Manasa Parama PreetiTho"
       ],
       "notes": {
         "aarohana": "S R2 G3 M2 P D2 N3 S",
@@ -381,7 +383,8 @@ var obj = {
       "name": "yedukula kambhoji",
       "kritis": [
         "Eteeruga Nanu Daya ChoocheDavo",
-	"Hecharikaga Rara Oh Rama Chandra"
+	"Hecharikaga Rara Oh Rama Chandra",
+	"Kanrunaa Karane Daasaradhe"
       ],
       "notes": {
         "aarohana": "S R2 M1 P D2 S",
@@ -609,8 +612,9 @@ var obj = {
       "name": "bilahari",
       "kritis": [
         "Rara Venu Gopa Bala",
-        "Sree MadhuRaapuri Viharini",
-        "ToliJANmamula jeyu Duduku Telisenu Rama"
+        "ToliJANmamula jeyu Duduku Telisenu Rama",
+	"KanuGontiNi Sree Ramuni Nenu",
+        "Sree MadhuRaapuri Viharini"
       ],
       "notes": {
         "aarohana": "S P A S A RI G2",
@@ -667,12 +671,12 @@ var obj = {
     {
       "name": "todi",
       "kritis": [
-	"Karunaa Nidhi Ilalo",
 	"Vedalenu Kodanda Paani",
 	"Kaddanu Vaariki Kaddu Kaddani",
 	"Raju Vedale Choodamu Raara",
 	"Thaye Yashoda Vandan",
-	"Kanulara Kanti Nipudu Kanchi Varada"
+	"Kanulara Kanti Nipudu Kanchi Varada",
+	"Karunaa Nidhi Ilalo",
       ],
       "notes": {
         "aarohana": "S R1 G2 M1 P D1 N2 S",
@@ -929,6 +933,16 @@ var obj = {
       "notes": {
         "aarohana": "S R1 G3 M1 D1 N3 S",
         "avarohana": "S N3 D1 M1 G3 R1 S"
+      }
+    },
+    {
+      "name": "sree",
+      "kritis": [
+	"Karuna Choodu Ninnu Nammina Vaadanu Kadaa"
+      ],
+      "notes": {
+        "aarohana": "S R2 M1 P N2 S",
+        "avarohana": "S N2 P D2 N2 P M1 R2 G2 R2 S"
       }
     },
   ]
