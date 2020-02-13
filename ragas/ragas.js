@@ -334,6 +334,7 @@ var obj = {
     {
       "name": "ananda bhairavi",
       "kritis": [
+	"Paluke Bangara Mayena",
         "KheeraSagara Vihara",
         "MariVere Gati EvvaRamma",
         "SabhaaPathiKi Veru Daivam",
@@ -827,13 +828,13 @@ var obj = {
     },
 
     {
-      "name": "jonpuri",
+      "name": "bindu maalini",
       "kritis": [
-	"EppOVaru Vaaro enthan kali theera"
+	"Enata Moddu Enta Sogasu"
       ],
       "notes": {
-        "aarohana": "S R2 M1 P D1 N2 S",
-        "avarohana": "S N2 D1 P M1 G2 R2 S"
+        "aarohana": "S G3 R1 G3 M1 P N2 S",
+        "avarohana": "S N2 S D2 P G3 R1 S"
       }
     },
 
