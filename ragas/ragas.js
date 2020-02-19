@@ -398,7 +398,7 @@ var obj = {
       "kritis": [
         "Jaya Jayaswamin JayJaya",
 	"Namo Namo Raghu Kula Naayaka",
-        "Gopaalaka Paahimaam Anisham  Gaayatri Venkatraghvan",
+        "Gopaalaka Paahimaam Anisham ",
       ],
       "notes": {
         "aarohana": "S R3 G3 M1 P D3 N3 S",
@@ -494,7 +494,8 @@ var obj = {
       "kritis": [
         "Enta Chesina Enta Joochina Enta VaaraLaina",
 	"Himagiri Tanaye Hema Lathe",
-        "SubhrhamManyeNa RaaKshiToHam"
+        "SubhrhamManyeNa RaaKshiToHam",
+	"BhavamuLona Bahyamu Nandunu Govinda"
       ],
       "notes": {
         "aarohana": "S G2 M1 P N2 S",
