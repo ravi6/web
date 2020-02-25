@@ -128,7 +128,7 @@ var obj = {
     {
       "name": "hemavathi",
       "kritis": [
-	"Ika Thalalenura Ina Vamsa Tilaka",
+	"Ika Thala Lenura Ina Vamsa Tilaka",
         "Sree KaantheeMathi Sankara Yuvati", 
         "Ninne Nammithi Neeraja Dalal Nayana"
       ],
@@ -361,7 +361,7 @@ var obj = {
     {
       "name": "latangi",
       "kritis": [
-        "Kanta JooduMi"
+        "Kanta JooduMi Oka Pariki"
       ],
       "notes": {
         "aarohana": "S R2 G3 M2 P D1 N3 S",
@@ -969,6 +969,17 @@ var obj = {
       "notes": {
         "aarohana": "D2 S R2 G3 M1 P D2 N2",
         "avarohana": "D2 P M1 G3 R2 S N2 D2 P D2"
+      }
+    },
+
+    {
+      "name": "eesa manohari",
+      "kritis": [
+        "Manasaa Sri Ramachadruni Maravake Emarake"
+      ],
+      "notes": {
+        "aarohana": "S R2 G3 M1 P D2 N2 S",
+        "avarohana": "S N2 D2 P M1 G3 M1 R2 S"
       }
     },
   ]
