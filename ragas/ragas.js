@@ -785,7 +785,8 @@ var obj = {
     {
       "name": "nattai kurinji",
       "kritis": [
-	"Nannu Brova Neeku Bharama"
+	"Nannu Brova Neeku Bharama",
+	"Chalamela Jesevayya Chakkani Ma Rangayya"
       ],
       "notes": {
         "aarohana": "S R2 G3 M1 N2 D2 N2 P D2 N2 S",
@@ -980,6 +981,29 @@ var obj = {
       "notes": {
         "aarohana": "S R2 G3 M1 P D2 N2 S",
         "avarohana": "S N2 D2 P M1 G3 M1 R2 S"
+      }
+    },
+
+    {
+      "name": "madhya mavathi",
+      "kritis": [
+        "Bhagyada Laxshmi Baarammaa",
+	"Paalinchu Kaamakshi"
+      ],
+      "notes": {
+        "aarohana": "S R2 M1 P N2 S",
+        "avarohana": "S N2 P M1 R2 S"
+      }
+    },
+
+    {
+      "name": "sri ranjani",
+      "kritis": [
+        "Sari Evvare Sri Janakee Rama",
+      ],
+      "notes": {
+        "aarohana": "S R2 G2 M1 D2 N2 S",
+        "avarohana": "S N2 D2 M1 G2 R2 S"
       }
     },
   ]
