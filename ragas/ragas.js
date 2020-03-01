@@ -205,6 +205,7 @@ var obj = {
     {
       "name": "kambhoji",
       "kritis": [
+	"Govinda Ghataya Paramananda Miha",
         "Mari Mari Ninne",
         "Evari Maata Vinnaavo Raavo",
         "Sri Subhranyaya",
@@ -1004,6 +1005,16 @@ var obj = {
       "notes": {
         "aarohana": "S R2 G2 M1 D2 N2 S",
         "avarohana": "S N2 D2 M1 G2 R2 S"
+      }
+    },
+    {
+      "name": "sindhu  bhairavi",
+      "kritis": [
+	"Venkata Chala Ramana Vaikhunta Pura Vasa",
+      ],
+      "notes": {
+        "aarohana": "S R2 G2 M1 P D1 N2 S",
+        "avarohana": "S N2 D1 P M1 G2 R2 S"
       }
     },
   ]
