@@ -1017,5 +1017,19 @@ var obj = {
         "avarohana": "S N2 D1 P M1 G2 R2 S"
       }
     },
+
+    {
+      "name": "punnaga varali",
+      "kritis": [
+	"Kanaka Saila Viharini",
+	"Dasaradha Nandana Daanava Mardhan",
+	"Shiva Ganagaa Nagara Nivaasini",
+	"Gandhamu Puyyarugua"
+      ],
+      "notes": {
+        "aarohana": "N2 S R1 G2 M1 P D1 N2",
+        "avarohana": "N2 D1 P M1 G2 R2 S N2"
+      }
+    },
   ]
 };
