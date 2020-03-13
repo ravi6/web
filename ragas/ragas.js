@@ -1055,5 +1055,17 @@ var obj = {
         "avarohana": "S N3 P M1 G3 R2 S"
       }
     },
+
+    {
+      "name": "ahiri",
+      "kritis": [
+	"MaaYamma Yanine Pilichite",
+	"Challere Rama Chandruni",
+      ],
+      "notes": {
+        "aarohana": "S R1 M1 G3 M1 P D1 N2 S",
+        "avarohana": "S N2 D1 P M1 G3 R1 S"
+      }
+    },
   ]
 };
