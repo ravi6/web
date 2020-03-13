@@ -34,7 +34,8 @@ var obj = {
         "Okapari Kokaparia",
         "Prakkala nilabadia",
         "Janakee pathe jaya kaarunya",
-	"Bharathi Deviya Ne Ne"
+	"Bharathi Deviya Ne Ne",
+	"Chakkani Raja Marga mundaga"
       ],
       "notes": {
         "aarohana":  "S R2 G2 M1 P D2 N2 S",
@@ -857,6 +858,7 @@ var obj = {
     {
       "name": "sri",
       "kritis": [
+	"Endaro Mahanu Bhavulu",
 	"Sree Vara Lakshmi Namastubhyam Vasuprade"
       ],
       "notes": {
@@ -1029,6 +1031,17 @@ var obj = {
       "notes": {
         "aarohana": "N2 S R1 G2 M1 P D1 N2",
         "avarohana": "N2 D1 P M1 G2 R2 S N2"
+      }
+    },
+
+    {
+      "name": "kurunji",
+      "kritis": [
+	"Muddu Gaare Yahsoda",
+      ],
+      "notes": {
+        "aarohana": "S N3 S R2 G3 M1 P D2",
+        "avarohana": "D2 P M1 G3 R2 S N3 S"
       }
     },
   ]
