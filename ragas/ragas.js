@@ -1044,5 +1044,16 @@ var obj = {
         "avarohana": "D2 P M1 G3 R2 S N3 S"
       }
     },
+
+    {
+      "name": "nalina kanthi",
+      "kritis": [
+	"ManaviNaalaKincha RaaDate",
+      ],
+      "notes": {
+        "aarohana": "S G3 R2 M1 P N3 S",
+        "avarohana": "S N3 P M1 G3 R2 S"
+      }
+    },
   ]
 };
