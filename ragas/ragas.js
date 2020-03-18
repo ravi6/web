@@ -1067,5 +1067,16 @@ var obj = {
         "avarohana": "S N2 D1 P M1 G3 R1 S"
       }
     },
+
+    {
+      "name": "deva manohari",
+      "kritis": [
+	"Kula Birudulu Brochu Kondammu",
+      ],
+      "notes": {
+        "aarohana": "S R2 M1 P D2 N2 S",
+        "avarohana": "S N2 D2 N2 P M1 R2 S"
+      }
+    },
   ]
 };
