@@ -859,7 +859,8 @@ var obj = {
       "name": "sri",
       "kritis": [
 	"Endaro Mahanu Bhavulu",
-	"Sree Vara Lakshmi Namastubhyam Vasuprade"
+	"Sree Vara Lakshmi Namastubhyam Vasuprade",
+	"Karuna Choodu Ninnu Nammina VaaduGadaa"
       ],
       "notes": {
         "aarohana": "S R2 M1 P N2 S",
@@ -1076,6 +1077,40 @@ var obj = {
       "notes": {
         "aarohana": "S R2 M1 P D2 N2 S",
         "avarohana": "S N2 D2 N2 P M1 R2 S"
+      }
+    },
+
+    {
+      "name": "kannada",
+      "kritis": [
+	"NinnadaNela NeeraJaaKsha",
+	"Inta Kante Kaavalene",
+      ],
+      "notes": {
+        "aarohana": "S R2 G3 M1 P M1 D2 N3 S",
+        "avarohana": "S N3 S D2 P M1 G3 M1 G3 M1 R2 S"
+      }
+    },
+
+    {
+      "name": "ratnangi",
+      "kritis": [
+	"JanaNee Ashrita Paalini",
+      ],
+      "notes": {
+        "aarohana": "S R1 G1 M1 P D1 N2 S",
+        "avarohana": "S N2 D1 P M1 G1 R1 S"
+      }
+    },
+
+    {
+      "name": "sahana",
+      "kritis": [
+	"MagaDochhi PiliChedu Poyi Vattura Saami",
+      ],
+      "notes": {
+        "aarohana": "S R2 G3 M1 P M1 D2 N2 S",
+        "avarohana": "S N2 D2 P M1 G3 M1 R2 G3 R2 S"
       }
     },
   ]
