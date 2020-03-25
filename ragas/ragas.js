@@ -325,7 +325,7 @@ var obj = {
     {
       "name": "deva gaandhari",
       "kritis": [
-        "SabhaaPathiKi Veru Daivam"
+	"VinaRaada Naa Manavi",
       ],
       "notes": {
         "aarohana": "S R2 M1 P D2 S",
