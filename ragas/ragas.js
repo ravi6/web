@@ -192,10 +192,11 @@ var obj = {
       "name": "kalyani",
       "kritis": [
         "Nidhi Chaala Sukhama",
+	"Amma RaaVamma",
         "Etaavuna Nilakada",
-        "Patita Paavana Amboruha SharaNe",
 	"Sundari Nee Diya Roopamunu Chooda",
-	"Bhajana Seyave Manasa Parama PreetiTho"
+	"Bhajana Seyave Manasa Parama PreetiTho",
+        "Patita Paavana Amboruha SharaNe",
       ],
       "notes": {
         "aarohana": "S R2 G3 M2 P D2 N3 S",
@@ -992,7 +993,8 @@ var obj = {
       "name": "madhya mavathi",
       "kritis": [
         "Bhagyada Laxshmi Baarammaa",
-	"Paalinchu Kaamakshi"
+	"Paalinchu Kaamakshi",
+	"Deva Devam Kvetitam MrugaYaama VayaMiha",
       ],
       "notes": {
         "aarohana": "S R2 M1 P N2 S",
@@ -1111,6 +1113,17 @@ var obj = {
       "notes": {
         "aarohana": "S R2 G3 M1 P M1 D2 N2 S",
         "avarohana": "S N2 D2 P M1 G3 M1 R2 G3 R2 S"
+      }
+    },
+
+    {
+      "name": "keeranavali",
+      "kritis": [
+	"Yetti Yochanalu ChesevuRaa",
+      ],
+      "notes": {
+        "aarohana": "S R2 G2 M1 P D1 N3 S",
+        "avarohana": "S D1 P M1 G2 R2 S"
       }
     },
   ]
