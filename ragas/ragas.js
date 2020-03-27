@@ -813,11 +813,12 @@ var obj = {
       "name": "hamsadhwani",
       "kritis": [
 	"Vaatapi Gana Pathim Bhaje",
+	"ChalaDaa HariNama SowkhyaMrutamu",
 	"Paarvathi Pathim"
       ],
       "notes": {
-        "aarohana": "S R G P N S",
-        "avarohana": "S N P G R S"
+        "aarohana": "S R2 G3 P N3 S",
+        "avarohana": "S N3 P G3 R2 S"
       }
     },
 
