@@ -343,7 +343,6 @@ var obj = {
 	"Paluke Bangara Mayena",
         "KheeraSagara Vihara",
         "MariVere Gati EvvaRamma",
-        "SabhaaPathiKi Veru Daivam",
         "Sama Gaana Priye Tamil"
       ],
       "notes": {
