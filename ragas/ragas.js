@@ -629,8 +629,8 @@ var obj = {
         "Sree MadhuRaapuri Viharini"
       ],
       "notes": {
-        "aarohana": "S P A S A RI G2",
-        "avarohana": "R G M P D N S"
+        "aarohana":  "S R2 G3 P D2 S",
+        "avarohana": "S N3 D2 P M1 G3 R2 S"
       }
     },
 
@@ -809,7 +809,8 @@ var obj = {
       "name": "vasanta",
       "kritis": [
 	"Seethamma Maa yamma Sree Ramudu Maaku Tandri",
-	"Sree Kamaakshi Kataakshi"
+	"Sree Kamaakshi Kataakshi",
+	"Parama Purusha JagaDeeswara Jaya Jaya",
       ],
       "notes": {
         "aarohana":  "S M1 G3 M1 D2 N3 S",
