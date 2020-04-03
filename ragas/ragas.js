@@ -431,7 +431,8 @@ var obj = {
         "Marakata Mani",
         "Lambodaraaya Namaste",
         "Ille Vaikhuntamu",
-	"Narayana Hari Narayana Hari"
+	"Narayana Hari Narayana Hari",
+	"Seshaa Chala Nayakam BhajaamYaham",
       ],
       "notes": {
         "aarohana": "S R2 G3 P M2 P D2 N3 S",
