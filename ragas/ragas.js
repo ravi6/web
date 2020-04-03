@@ -155,7 +155,8 @@ var obj = {
         "Saamja VaraGamana",
         "Neerada Sama Neela Krishnaa Yegi",
         "Bhajere Gopalam",
-	"KaruNalaYa Nidhi Nilaye"
+	"KaruNalaYa Nidhi Nilaye",
+	"PadmaNaabha Paahi DviPaapa SaraGuna Vaasana",
       ],
       "notes": {
         "aarohana": "S G2 M1 D1 N2 S",
@@ -193,9 +194,10 @@ var obj = {
       "kritis": [
         "Nidhi Chaala Sukhama",
 	"Amma RaaVamma",
-        "Etaavuna Nilakada",
+	"Birana VaraLichi Brovumu Ninu NeraNammiti",
 	"Sundari Nee Diya Roopamunu Chooda",
 	"Bhajana Seyave Manasa Parama PreetiTho",
+        "Etaavuna Nilakada",
         "Patita Paavana Amboruha SharaNe",
       ],
       "notes": {
@@ -266,7 +268,8 @@ var obj = {
         "Ksheenamai Tiruga",
         "Sivaguru Naadanai",
         "Chaaru Seele Priye (jampa)",
-	"Talachi Nantane Naadamu Brahmanu"
+	"Talachi Nantane Naadamu Brahmanu",
+	"MuriPemu Kalige Kadaa Rama"
       ],
       "notes": {
         "aarohana": "S R2 M1 P N2 D2 S",
@@ -557,6 +560,9 @@ var obj = {
       "name": "sankarabharanam",
       "kritis": [
         "Enduku PeddaLaVale",
+	"NaaPaali Sree Rama BhooPalaka Somaa",
+	"Rama Sree Rama Laali UguChu GhanaShyama",
+	"Seeta Kalyana VaibhogaMe",
         "Eduta NilaCheeTe NiluVu",
         "Manavi CheKona Raada"
       ],
@@ -766,6 +772,7 @@ var obj = {
     {
       "name": "sowrashtra",
       "kritis": [
+	"TakkuVemi Manakoo RamunDokkaDunDu Varaku",
 	"Sree Ganapathini Sevimpa Raare"
       ],
       "notes": {
@@ -777,7 +784,8 @@ var obj = {
     {
       "name": "atana",
       "kritis": [
-	"Gopa Kumaara Nanda Gopa Kumara"
+	"Gopa Kumaara Nanda Gopa Kumara",
+	"Bhajana Seya Raada Raama Bhajana",
       ],
       "notes": {
         "aarohana": "S R2 M1 P N3 S",
@@ -993,6 +1001,7 @@ var obj = {
     {
       "name": "madhya mavathi",
       "kritis": [
+	"Nagumomu KalaVaani NaaManoharuNi",
         "Bhagyada Laxshmi Baarammaa",
 	"Paalinchu Kaamakshi",
 	"Deva Devam Kvetitam MrugaYaama VayaMiha",
