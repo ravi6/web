@@ -269,7 +269,8 @@ var obj = {
         "Sivaguru Naadanai",
         "Chaaru Seele Priye (jampa)",
 	"Talachi Nantane Naadamu Brahmanu",
-	"MuriPemu Kalige Kadaa Rama"
+	"MuriPemu Kalige Kadaa Rama",
+	"Chaaru Seele Priye"
       ],
       "notes": {
         "aarohana": "S R2 M1 P N2 D2 S",
@@ -1135,6 +1136,17 @@ var obj = {
       "notes": {
         "aarohana": "S R2 G2 M1 P D1 N3 S",
         "avarohana": "S D1 P M1 G2 R2 S"
+      }
+    },
+
+    {
+      "name": "nagaswaraavali",
+      "kritis": [
+	"Sree Pathe Nee Pada Chintana JeevaNamu",
+      ],
+      "notes": {
+        "aarohana": "S G3 M1 P D2 S",
+        "avarohana": "S D2 P M1 G3 S"
       }
     },
   ]
