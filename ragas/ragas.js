@@ -8,7 +8,6 @@ var obj = {
       "name": "saveri",
       "kritis": [
 	"Bhavayami Raghu Ramam",
-	"Deenuda Nenu Devudavu Neevu",
 	"Sree Raja Gopaala bala sringara",
         "Murugaa Murugaa enDraal"
       ],
@@ -20,11 +19,13 @@ var obj = {
     {
       "name": "suddha saveri",
       "kritis": [
-        "NaaraaYanaTe NamoNamo"
+        "NaaraaYanaTe NamoNamo",
+	"EkaaMbreSa NaayaKe",
+	"Kala Harana MelaRa Hare",
       ],
       "notes": {
-        "aarohana": "S P A S A RI G2",
-        "avarohana": "R G M P D N S"
+        "aarohana": "S R2 M1 P D2 S",
+        "avarohana": "S D2 P M1 R2 S"
       }
     },
 
@@ -80,11 +81,12 @@ var obj = {
         "Baala Gopala",
         "Neela Neerada Sareera",
 	"Mundatee Vale Naapai Nelavunna Naa Sami",
+	"Enaati Nomu Phalamo
 	"Etulaina Bhakti Vachutake Yatnamu Seyave",
 	"Ettanai Kaettalum"
       ],
       "notes": {
-        "aarohana": "S N2 D2 M1 G2 M1 P M1 G2 R2 S",
+        "aarohana": "S R2 G2 M1 P D2 N2 S" 
         "avarohana": "S N2 D1 P M1 G2 R2 S"
       }
     },
@@ -227,7 +229,6 @@ var obj = {
       "name": "kuntala varaali",
       "kritis": [
 	"Bhogeendra SaiNam Guru Kusala Daayinam",
-        "Deenuda Nenu Devudavu Neevu",
         "Devi PaavaNi Shive Sharane"
       ],
       "notes": {
@@ -292,7 +293,8 @@ var obj = {
     {
       "name": "bahudaari",
       "kritis": [
-        "Sadaa Nanda Taandavam"
+        "Sadaa Nanda Taandavam",
+	"Brova Bharama Raghu Raama",
       ],
       "notes": {
         "aarohana": "S G3 M1 P D2 N2 S",
@@ -417,6 +419,7 @@ var obj = {
       "kritis": [
        "Broche Vaarevaru Raa",
        "Rama Jogi Mandoo",
+       "Mathe MalayaDhwaja PaanDya SanJate",
        "Santaana Gopaala Krishnan MupaasmaHe"
       ],
       "notes": {
@@ -459,9 +462,9 @@ var obj = {
       "name": "poorvi kalyani",
       "kritis": [
         "Gummani Yedi Sruthi", 
+	"OhRama NeeNama MeMiRuchi Raa",
         "PaRaLoka SaaDhaNaMe",
         "JnaaNaMoSaGa LeDaa", 
-        "Tillai Chidambaram Endraa Nalla Sruti Moodee"
       ],
       "notes": {
         "aarohana": "S R1 G3 M2 P D2 P S",
@@ -484,7 +487,7 @@ var obj = {
     {
       "name": "neelambari",
       "kritis": [
-        "DeenuDa Nenu DevuDavui Neevu",
+        "DeenuDa Nenu DevuDavu Neevu",
         "Mani Moopura Dhaari Raja Gopala", 
         "LaaliLooGave MaaPaali",
         "Uyyaala LooGaVayya",
@@ -627,6 +630,7 @@ var obj = {
 	"Paridaana MichiTe Paalintu Vemo",
         "Rara Venu Gopa Bala",
 	"KanuGontiNi Sree Ramuni Nenu",
+	"Sree Bala AaGachhaGraNya Sri ChidaaNanda",
         "Sree MadhuRaapuri Viharini"
       ],
       "notes": {
@@ -1147,6 +1151,17 @@ var obj = {
       "notes": {
         "aarohana": "S G3 M1 P D2 S",
         "avarohana": "S D2 P M1 G3 S"
+      }
+    },
+
+    {
+      "name": "kalkada",
+      "kritis": [
+	"Parvathi NiNuNe Nera Nammiti",
+      ],
+      "notes": {
+        "aarohana": "S R1 G3 P D1 N1 S",
+        "avarohana": "S N1 D1 P M1 G3 R1 S"
       }
     },
   ]
