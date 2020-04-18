@@ -346,7 +346,8 @@ var obj = {
 	"Paluke Bangara Mayena",
         "KheeraSagara Vihara",
         "MariVere Gati EvvaRamma",
-        "Sama Gaana Priye Tamil"
+        "Sama Gaana Priye Tamil",
+	"MaaYamma AniNe PilaChiThe"
       ],
       "notes": {
         "aarohana": "S G2 R2 G2 M1 P D2 P S",
@@ -1164,5 +1165,17 @@ var obj = {
         "avarohana": "S N1 D1 P M1 G3 R1 S"
       }
     },
+
+    {
+      "name": "gurivelavali",
+      "kritis": [
+	"Para Shakthi Eeswari Jaga Janani",
+      ],
+      "notes": {
+        "aarohana": "S R2 G1 G2 S R2 M1 M1 P D2 D2 S",
+        "avarohana": "S N3 D2 P M1 G1 G2 R2 S"
+      }
+    },
+
   ]
 };
