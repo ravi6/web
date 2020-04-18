@@ -81,12 +81,12 @@ var obj = {
         "Baala Gopala",
         "Neela Neerada Sareera",
 	"Mundatee Vale Naapai Nelavunna Naa Sami",
-	"Enaati Nomu Phalamo
+	"Enaati Nomu Phalamo",
 	"Etulaina Bhakti Vachutake Yatnamu Seyave",
 	"Ettanai Kaettalum"
       ],
       "notes": {
-        "aarohana": "S R2 G2 M1 P D2 N2 S" 
+        "aarohana": "S R2 G2 M1 P D2 N2 S", 
         "avarohana": "S N2 D1 P M1 G2 R2 S"
       }
     },
