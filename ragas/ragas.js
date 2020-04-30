@@ -109,7 +109,7 @@ var obj = {
       "name": "kedaaram",
       "kritis": [
         "Valachee Vachi yunna naapi",
-        "Ananda Natanaa Prakaasam"
+        "Ananda Natanaa Prakaasam",
       ],
       "notes": {
         "aarohana": "S M1 G3 M1 P N3 S",
@@ -132,7 +132,7 @@ var obj = {
       "name": "hemavathi",
       "kritis": [
 	"Ika Thala Lenura Ina Vamsa Tilaka",
-        "Sree KaantheeMathi Sankara Yuvati", 
+        "Sree Kaanthi Mathi Sankara Yuvati", 
         "Ninne Nammithi Neeraja Dalal Nayana"
       ],
       "notes": {
@@ -435,7 +435,6 @@ var obj = {
 	"Oh Rama Nee Nama Menta Ruchira",
         "Marakata Mani",
         "Lambodaraaya Namaste",
-        "Ille Vaikhuntamu",
 	"Narayana Hari Narayana Hari",
 	"Seshaa Chala Nayakam BhajaamYaham",
       ],
@@ -792,6 +791,8 @@ var obj = {
       "kritis": [
 	"Gopa Kumaara Nanda Gopa Kumara",
 	"Bhajana Seya Raada Raama Bhajana",
+	"Sri Vaidya Nadam Bhajami",
+	"Anupama GunamBhudi Yani Ninu Nera Nammina",
       ],
       "notes": {
         "aarohana": "S R2 M1 P N3 S",
@@ -1177,5 +1178,15 @@ var obj = {
       }
     },
 
+    {
+      "name": "sunada vinodini",
+      "kritis": [
+	"Deva Deva Sree VaasuDeva Kavumayya",
+      ],
+      "notes": {
+        "aarohana": "S G3 M2 D2 N3 S",
+        "avarohana": "S N3 D2 M2 G3 S"
+      }
+    },
   ]
 };
