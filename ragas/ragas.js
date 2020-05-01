@@ -381,7 +381,7 @@ var obj = {
     {
       "name": "kaanada",
       "kritis": [
-        "Maama Mama Sadaa"
+        "MaamaVa Sadaa Janani"
       ],
       "notes": {
         "aarohana": "S R2 P G2 M1 D2 N2 S",
@@ -1186,6 +1186,17 @@ var obj = {
       "notes": {
         "aarohana": "S G3 M2 D2 N3 S",
         "avarohana": "S N3 D2 M2 G3 S"
+      }
+    },
+
+    {
+      "name": "bhoopalam",
+      "kritis": [
+	"Gopalaka Paahimam Anisham",
+      ],
+      "notes": {
+        "aarohana": "S R1 G2 P D1 S",
+        "avarohana": "S D1 P G2 R1 S"
       }
     },
   ]
