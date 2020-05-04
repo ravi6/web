@@ -829,7 +829,6 @@ var obj = {
       "name": "hamsadhwani",
       "kritis": [
 	"Vaatapi Gana Pathim Bhaje",
-	"ChalaDaa HariNama SowkhyaMrutamu",
 	"Paarvathi Pathim"
       ],
       "notes": {
@@ -954,7 +953,8 @@ var obj = {
     {
       "name": "lalita",
       "kritis": [
-	"KannuLedutiDe Ghana VaiKhuntamu"
+	"KannuLedutiDe Ghana VaiKhuntamu",
+	"ChalaDaa HariNama SowkhyaMrutamu",
       ],
       "notes": {
         "aarohana": "S R1 G3 M1 D1 N3 S",
@@ -1197,6 +1197,17 @@ var obj = {
       "notes": {
         "aarohana": "S R1 G2 P D1 S",
         "avarohana": "S D1 P G2 R1 S"
+      }
+    },
+
+    {
+      "name": "suryakantam",
+      "kritis": [
+	"Muddu Momu Elaagu ChelaGeno",
+      ],
+      "notes": {
+        "aarohana": "S R1 G3 M1 P D2 N3 S",
+        "avarohana": "S N3 D2 P M1 G3 R1 S"
       }
     },
   ]
