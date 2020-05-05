@@ -282,7 +282,8 @@ var obj = {
     {
       "name": "hamsaanandam",
       "kritis": [
-        "Bantu Reeti KoluveeyaVayya"
+        "Bantu Reeti KoluveeyaVayya",
+	"ChalaDaa HariNama SowkhyaMrutamu",
       ],
       "notes": {
         "aarohana": "S R2 M2 P N3 S",
@@ -954,7 +955,6 @@ var obj = {
       "name": "lalita",
       "kritis": [
 	"KannuLedutiDe Ghana VaiKhuntamu",
-	"ChalaDaa HariNama SowkhyaMrutamu",
       ],
       "notes": {
         "aarohana": "S R1 G3 M1 D1 N3 S",
