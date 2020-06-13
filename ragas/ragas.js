@@ -22,6 +22,7 @@ var obj = {
         "NaaraaYanaTe NamoNamo",
 	"EkaaMbreSa NaayaKe",
 	"Kala Harana MelaRa Hare",
+	"Samaja Varada Neeku Saati Evvaru",
       ],
       "notes": {
         "aarohana": "S R2 M1 P D2 S",
@@ -62,6 +63,7 @@ var obj = {
         "Nannoo Vidachi Kadalakura",
         "Chera Rava Demira",
         "Enna punniyam Seyadu",
+	"Dwaitamu SukhaMaa Adwaitamu Sukhama",
         "Brindaavana Nilayer",
         "Aadi Vinaayakam",
         "SathguruSwaamikai"
@@ -943,7 +945,8 @@ var obj = {
     {
       "name": "nada nama kriya",
       "kritis": [
-	"Karunaa Jaladhe Daasaradhe"
+	"Karunaa Jaladhe Daasaradhe",
+	"Eteeruga Nanu Daya Choochedavo",
       ],
       "notes": {
         "aarohana": "S R1 G3 M1 P D1 N3",
@@ -964,7 +967,8 @@ var obj = {
     {
       "name": "sree",
       "kritis": [
-	"Karuna Choodu Ninnu Nammina Vaadanu Kadaa"
+	"Karuna Choodu Ninnu Nammina Vaadanu Kadaa",
+	"Sree Vara Laxshmi NamaStuBhyam VasuPrade"
       ],
       "notes": {
         "aarohana": "S R2 M1 P N2 S",
@@ -1181,7 +1185,7 @@ var obj = {
     {
       "name": "sunada vinodini",
       "kritis": [
-	"Deva Deva Sree VaasuDeva Kavumayya",
+	"Devaadi Deva Sree VaasuDeva Kavumayya",
       ],
       "notes": {
         "aarohana": "S G3 M2 D2 N3 S",
@@ -1208,6 +1212,17 @@ var obj = {
       "notes": {
         "aarohana": "S R1 G3 M1 P D2 N3 S",
         "avarohana": "S N3 D2 P M1 G3 R1 S"
+      }
+    },
+
+    {
+      "name": "kannadabangala",
+      "kritis": [
+	"Renukaa Devi SamRakshiToham",
+      ],
+      "notes": {
+        "aarohana": "S R1 M1 G3 M1 D1 P D1 S",
+        "avarohana": "S D1 P M1 G3 R1 S"
       }
     },
   ]
