@@ -411,6 +411,7 @@ var obj = {
         "Jaya Jayaswamin JayJaya",
 	"Namo Namo Raghu Kula Naayaka",
         "Gopaalaka Paahimaam Anisham ",
+	"Swami Nadha PariPalaya Sumaam",
       ],
       "notes": {
         "aarohana": "S R3 G3 M1 P D3 N3 S",
@@ -508,7 +509,8 @@ var obj = {
         "Enta Chesina Enta Joochina Enta VaaraLaina",
 	"Himagiri Tanaye Hema Lathe",
         "SubhrhamManyeNa RaaKshiToHam",
-	"BhavamuLona Bahyamu Nandunu Govinda"
+	"BhavamuLona Bahyamu Nandunu Govinda",
+	"Narayanaa Ninna Naamada SmaraNeya"
       ],
       "notes": {
         "aarohana": "S G2 M1 P N2 S",
@@ -854,7 +856,7 @@ var obj = {
     {
       "name": "bindu maalini",
       "kritis": [
-	"Enata Moddu Enta Sogasu"
+	"Enata Muddo Enta Sogaso"
       ],
       "notes": {
         "aarohana": "S G3 R1 G3 M1 P N2 S",
