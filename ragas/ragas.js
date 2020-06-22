@@ -1227,5 +1227,15 @@ var obj = {
         "avarohana": "S D1 P M1 G3 R1 S"
       }
     },
+    {
+      "name": "suritti",
+      "kritis": [
+	"Rama DaivaMaa Momu ChoopuMaa",
+      ],
+      "notes": {
+        "aarohana": "S R2 M1 P N2 D2 N2 S",
+        "avarohana": "S N2 D2 P M1 G3 P M1 R2 S"
+      }
+    },
   ]
 };
