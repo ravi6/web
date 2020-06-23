@@ -1237,5 +1237,15 @@ var obj = {
         "avarohana": "S N2 D2 P M1 G3 P M1 R2 S"
       }
     },
+    {
+      "name": "dharmavati",
+      "kritis": [
+	"Bhajana Seya Rada Oh Manasa",
+      ],
+      "notes": {
+        "aarohana": "S R2 G2 M2 P D2 N3 S",
+        "avarohana": "S N3 D2 P M2 G2 R2 S"
+      }
+    },
   ]
 };
