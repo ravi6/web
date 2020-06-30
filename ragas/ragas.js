@@ -7,9 +7,11 @@ var obj = {
     {
       "name": "saveri",
       "kritis": [
+	"Deva EeTagavu Teercha Vayya",
 	"Bhavayami Raghu Ramam",
 	"Sree Raja Gopaala bala sringara",
-        "Murugaa Murugaa enDraal"
+        "Murugaa Murugaa enDraal",
+	"Saroja Dala Netri Himagiri Putri",
       ],
       "notes": {
         "aarohana": "S R1 M1 P D1 S",
@@ -157,10 +159,10 @@ var obj = {
       "name": "hindolam",
       "kritis": [
         "Saamja VaraGamana",
-        "Neerada Sama Neela Krishnaa Yegi",
         "Bhajere Gopalam",
 	"KaruNalaYa Nidhi Nilaye",
 	"PadmaNaabha Paahi DviPaapa SaraGuna Vaasana",
+        "Neerada Sama Neela Krishnaa Yegi",
       ],
       "notes": {
         "aarohana": "S G2 M1 D1 N2 S",
@@ -609,7 +611,8 @@ var obj = {
     {
       "name": "shanmukha priya",
       "kritis": [
-        "ParamaPurusha Nirupa Maana"
+        "ParamaPurusha Nirupa Maana",
+	"Siddhi Vinayakam Anisham ChinyaMaaYaHam"
       ],
       "notes": {
         "aarohana": "S R2 G2 M2 P D1 N2 S",
@@ -723,8 +726,10 @@ var obj = {
       "name": "begada",
       "kritis": [
 	"Vallabha Nayakasyapa Snapaami",
+	"Saamiki Sari Jeppa Jaala",
 	"Nadopasana Chese Sankara Narayana",
-	"Neeveraa Kula Dhanamu"
+	"Neeveraa Kula Dhanamu",
+	"Bhaktunee ChareeTramu VinaVe Manasa",
       ],
       "notes": {
         "aarohana": "S G3 R2 G3 M1 P D2 P S",
@@ -783,7 +788,8 @@ var obj = {
       "name": "sowrashtra",
       "kritis": [
 	"TakkuVemi Manakoo RamunDokkaDunDu Varaku",
-	"Sree Ganapathini Sevimpa Raare"
+	"Sree Ganapathini Sevimpa Raare",
+	"Surya Murthe NamoSthuThe Sundara ChayaaDhi Pathe",
       ],
       "notes": {
         "aarohana": "S R1 G3 M1 P M1 D2 N3 S",
@@ -834,7 +840,8 @@ var obj = {
       "name": "hamsadhwani",
       "kritis": [
 	"Vaatapi Gana Pathim Bhaje",
-	"Paarvathi Pathim"
+	"Paarvathi Pathim",
+	"Vara Vallabha Ramana Vigna Harana,
       ],
       "notes": {
         "aarohana": "S R2 G3 P N3 S",
@@ -1245,6 +1252,18 @@ var obj = {
       "notes": {
         "aarohana": "S R2 G2 M2 P D2 N3 S",
         "avarohana": "S N3 D2 P M2 G2 R2 S"
+      }
+    },
+
+    {
+      "name": "jayanta shri",
+      "kritis": [
+	"Marugela Raa Oh Ragava",
+      ],
+      "notes": {
+        "aarohana": "S G2 M1 D1 N2 S",
+        "avarohana": "S N2 D1 M1 P M1 G2 S"
+
       }
     },
   ]
