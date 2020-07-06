@@ -427,7 +427,7 @@ var obj = {
        "Broche Vaarevaru Raa",
        "Rama Jogi Mandoo",
        "Mathe MalayaDhwaja PaanDya SanJate",
-       "Santaana Gopaala Krishnan MupaasmaHe"
+       "Santaana Gopaala Krishnan MupaasmaHe".
       ],
       "notes": {
         "aarohana": "S M1 G3 M1 P D2 N2 S",
@@ -900,7 +900,7 @@ var obj = {
       "name": "bowli",
       "kritis": [
 	"Meluko Vayya Mammeluko Sree Rama",
-	"Sreeman Narayana ..  Sree paadame Saranu"
+	"Sreeman Narayana ..  Sree paadame Saranu",
       ],
       "notes": {
         "aarohana": "S R1 G3 P D1 S",
@@ -1264,6 +1264,16 @@ var obj = {
         "aarohana": "S G2 M1 D1 N2 S",
         "avarohana": "S N2 D1 M1 P M1 G2 S"
 
+      }
+    },
+    {
+      "name": "reva gupthi",
+      "kritis": [
+	"Puru ShaaRdhaMuda Neevu PuruShaaDhaMuda Nenu",
+      ],
+      "notes": {
+        "aarohana": "S R1 G3 P D1 S",
+        "avarohana": "S D1 P G3 R1 S"
       }
     },
   ]
