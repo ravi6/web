@@ -427,7 +427,7 @@ var obj = {
        "Broche Vaarevaru Raa",
        "Rama Jogi Mandoo",
        "Mathe MalayaDhwaja PaanDya SanJate",
-       "Santaana Gopaala Krishnan MupaasmaHe".
+       "Santaana Gopaala Krishnan MupaasmaHe",
       ],
       "notes": {
         "aarohana": "S M1 G3 M1 P D2 N2 S",
@@ -841,7 +841,7 @@ var obj = {
       "kritis": [
 	"Vaatapi Gana Pathim Bhaje",
 	"Paarvathi Pathim",
-	"Vara Vallabha Ramana Vigna Harana,
+	"Vara Vallabha Ramana Vigna Harana",
       ],
       "notes": {
         "aarohana": "S R2 G3 P N3 S",
