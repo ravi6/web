@@ -427,6 +427,7 @@ var obj = {
        "Broche Vaarevaru Raa",
        "Rama Jogi Mandoo",
        "Mathe MalayaDhwaja PaanDya SanJate",
+       "Sujana Jeevana Rama Suguna Bhushana",
        "Santaana Gopaala Krishnan MupaasmaHe",
       ],
       "notes": {
@@ -814,6 +815,7 @@ var obj = {
     {
       "name": "nattai kurinji",
       "kritis": [
+	"Maama Mama Sadaa Varade MahishaaSura Sundari",
 	"Nannu Brova Neeku Bharama",
 	"Chalamela Jesevayya Chakkani Ma Rangayya"
       ],
@@ -1274,6 +1276,29 @@ var obj = {
       "notes": {
         "aarohana": "S R1 G3 P D1 S",
         "avarohana": "S D1 P G3 R1 S"
+      }
+    },
+
+    {
+      "name": "behag",
+      "kritis": [
+	"Parama Purusha Manu YaaMava",
+      ],
+      "notes": {
+        "aarohana": "S G3 M1 P N3 D2 N3 S",
+        "avarohana": "S N3 D2 P M2 G3 M1 G3 R2 S"
+      }
+    },
+    {
+      "name": "darbari kannada",
+      "kritis": [
+	"Govardhana Giridhara Govinda ",
+	"Haree Haree Haree Tuma Haro GhanaKhee",
+	"Sree Hanumanu Gurucharanamula Iha",
+      ],
+      "notes": {
+        "aarohana": "N2 S R2 G2 R2 S M1 P D1 N2 S",
+        "avarohana": "S D1 N2 P M1 P G2 M1 R2 S",
       }
     },
   ]
