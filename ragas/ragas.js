@@ -1301,5 +1301,15 @@ var obj = {
         "avarohana": "S D1 N2 P M1 P G2 M1 R2 S",
       }
     },
+    {
+      "name": "keeranavali",
+      "kritis": [
+        "Yetti Yochanalu Chesevuraa",
+      ],
+      "notes": {
+        "aarohana": "S R2 G2 M2 P D1 N3 S",
+        "avarohana": "S D1 P M2 G2 R2 S"
+      }
+    },
   ]
 };
