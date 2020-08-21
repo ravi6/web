@@ -101,7 +101,7 @@ var obj = {
         "Meru SamaaNa",
         "DuduKooGala Ninne DoraKoduKu",
 	"Inta Parakaa NeeVeduta Palukutaku",
-        "Deva Deva SharanambiKe"
+        "Deva Deva Kalayamithe Charanambuja"
       ],
       "notes": {
         "aarohana": "S G2 R2 G2 M1 N2 N2 S",
@@ -245,7 +245,8 @@ var obj = {
       "name": "hari kambhoji",
       "kritis": [
         "Indariki Abhayambu Lichu Cheyi",
-	"Oh Ranga Sayee"
+	"Oh Ranga Sayee",
+	"Suguna Bhooshana Rama Bhujaga Sayana",
       ],
       "notes": {
         "aarohana": "S R2 G3 M1 P D2 N2 S",
@@ -1309,6 +1310,36 @@ var obj = {
       "notes": {
         "aarohana": "S R2 G2 M2 P D1 N3 S",
         "avarohana": "S D1 P M2 G2 R2 S"
+      }
+    },
+    {
+      "name": "vagadheeswari",
+      "kritis": [
+        "ParaMaatmuDu",
+      ],
+      "notes": {
+        "aarohana":  "S R1 G3 M1 P D2 N2 S",
+        "avarohana": "S N2 D2 P M1 G3 R3 S"
+      }
+    },
+    {
+      "name": "anandolika",
+      "kritis": [
+        "Raga Sudha Rasa Paanamu Chese",
+      ],
+      "notes": {
+        "aarohana":  "S R2 M P N2 S",
+        "avarohana": "S N2 D2 M1 R2 S"
+      }
+    },
+    {
+      "name": "brindavana saranga",
+      "kritis": [
+        "Ranga Pura Vihaara Jaya Kodanda Ramavatara",
+      ],
+      "notes": {
+        "aarohana":  "S R2 M1 P N2 S",
+        "avarohana": "S N2 P M1 R2 G2 R2 S"
       }
     },
   ]
