@@ -1238,9 +1238,10 @@ var obj = {
       }
     },
     {
-      "name": "suritti",
+      "name": "suriti",
       "kritis": [
 	"Rama DaivaMaa Momu ChoopuMaa",
+	"Intakante Ghana MikaLedoo Santata",
       ],
       "notes": {
         "aarohana": "S R2 M1 P N2 D2 N2 S",
@@ -1340,6 +1341,16 @@ var obj = {
       "notes": {
         "aarohana":  "S R2 M1 P N2 S",
         "avarohana": "S N2 P M1 R2 G2 R2 S"
+      }
+    },
+    {
+      "name": "saaramathi",
+      "kritis": [
+        "Mokshamu Galadaa Bhuvilo",
+      ],
+      "notes": {
+        "aarohana":  "S R2 G2 M1 P D1 N2 S",
+        "avarohana": "S N2 D1 M1 G2 S"
       }
     },
   ]
