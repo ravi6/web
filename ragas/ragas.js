@@ -1535,7 +1535,7 @@ var obj = {
     },
 
     {
-      "name": "gurjari"
+      "name": "gurjari",
       "kritis": [
 	"Guni JanaDi Nuta Guru GuhoDaYe",
       ],
