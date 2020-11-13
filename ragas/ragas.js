@@ -218,6 +218,7 @@ var obj = {
         "Patita Paavana Amboruha SharaNe",
 	"Raamuni Bhajimpu Manasaa",
 	"Talli Ninu Nenu Nera NammiNaanu",
+	"Saraswathee NannePudu Challaga ChoodaVamma",
       ],
       "notes": {
         "aarohana": "S R2 G3 M2 P D2 N3 S",
@@ -661,7 +662,8 @@ var obj = {
     {
       "name": "janaranjani",
       "kritis": [
-        "VidaJaaLanuRaa NaaManaSu VinaRaa"
+        "VidaJaaLanuRaa NaaManaSu VinaRaa",
+	"PaahiMaam Sree Raja Rajeswari",
       ],
       "notes": {
         "aarohana": "S R2 G3 M1 P D2 P N3 S",
@@ -1113,7 +1115,8 @@ var obj = {
 	"Kanaka Saila Viharini",
 	"Dasaradha Nandana Daanava Mardhan",
 	"Shiva Ganagaa Nagara Nivaasini",
-	"Gandhamu Puyyarugua"
+	"Gandhamu Puyyarugua",
+	"Maamava MeeNakshee RajaMarthanda",
       ],
       "notes": {
         "aarohana": "N2 S R1 G2 M1 P D1 N2",
@@ -1149,6 +1152,7 @@ var obj = {
       "kritis": [
 	"MaaYamma Yanine Pilichite",
 	"Challere Rama Chandruni",
+	"Sree Kamalambaa Jayathi",
       ],
       "notes": {
         "aarohana": "S R1 M1 G3 M1 P D1 N2 S",
@@ -1529,5 +1533,17 @@ var obj = {
         "avarohana": "S D1 P M1 G2 R1 S"
       }
     },
+
+    {
+      "name": "gurjari"
+      "kritis": [
+	"Guni JanaDi Nuta Guru GuhoDaYe",
+      ],
+      "notes": {
+        "aarohana":  "S R1 G3 M1 P D1 N3 S",
+        "avarohana": "S D1 N3 P M1 G3 R1 S"
+      }
+    },
+
   ]
 };
