@@ -1544,6 +1544,5 @@ var obj = {
         "avarohana": "S D1 N3 P M1 G3 R1 S"
       }
     },
-
   ]
 };
