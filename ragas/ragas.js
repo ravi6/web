@@ -36,7 +36,7 @@ var obj = {
       "name": "karaha priya",
       "kritis": [
         "Okapari Kokaparia",
-        "Prakkala nilabadia",
+        "Prakkala Nilabadia",
         "Janakee pathe jaya kaarunya",
 	"Bharathi Deviya Ne Ne",
 	"Chakkani Raja Marga mundaga",
@@ -104,6 +104,7 @@ var obj = {
       "kritis": [
         "Meru SamaaNa",
         "DuduKooGala Ninne DoraKoduKu",
+	"Sree Naataadi Guru Guho Jayate",
 	"Inta Parakaa NeeVeduta Palukutaku",
         "Deva Deva Kalayamithe Charanambuja",
 	"Sarasuda EeVela",
@@ -167,6 +168,7 @@ var obj = {
       "kritis": [
         "Saamja VaraGamana",
         "Bhajere Gopalam",
+	"Maamavathu Sree Sarsvathi",
 	"KaruNalaYa Nidhi Nilaye",
 	"PadmaNaabha Paahi DviPaapa SaraGuna Vaasana",
         "Neerada Sama Neela Krishnaa Yegi",
@@ -700,9 +702,9 @@ var obj = {
     },
 
     {
-      "name": "devaranji",
+      "name": "devaranjani",
       "kritis": [
-        "Namaste Para Devate"
+        "Namaste Para Devate KaamaKshi"
       ],
       "notes": {
         "aarohana": "S M1 P D1 P N3 S",
@@ -1027,6 +1029,7 @@ var obj = {
 	"Sree Vara Lakshmi Namastubhyam Vasuprade",
 	"Karuna Choodu Ninnu Nammina Vaadanu Kadaa",
 	"NammiTe CharaNa Sarasija YugaLe",
+	"Shree Kamalaambike Shive Paahimaam Lalithe",
       ],
       "notes": {
         "aarohana": "S R2 M1 P N2 S",
