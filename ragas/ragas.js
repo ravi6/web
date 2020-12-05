@@ -105,6 +105,7 @@ var obj = {
         "Meru SamaaNa",
         "DuduKooGala Ninne DoraKoduKu",
 	"Sree Naataadi Guru Guho Jayate",
+        "Mayaa Teeta SwaroopiNi",
 	"Inta Parakaa NeeVeduta Palukutaku",
         "Deva Deva Kalayamithe Charanambuja",
 	"Sarasuda EeVela",
@@ -751,6 +752,7 @@ var obj = {
 	"Karunaa Nidhi Ilalo",
 	"Ninne Nammi Naanu Sadaa",
 	"HimaGiri Kumari Kanchi KaaMakshi",
+	"DhyanaMe VaraMaina Gangaa SnaNaMaina Manasaa",
       ],
       "notes": {
         "aarohana": "S R1 G2 M1 P D1 N2 S",
@@ -1030,6 +1032,7 @@ var obj = {
 	"Karuna Choodu Ninnu Nammina Vaadanu Kadaa",
 	"NammiTe CharaNa Sarasija YugaLe",
 	"Shree Kamalaambike Shive Paahimaam Lalithe",
+	"Yuktamu Gaadu Nanu RakshimPaGa",
       ],
       "notes": {
         "aarohana": "S R2 M1 P N2 S",
@@ -1545,6 +1548,17 @@ var obj = {
       "notes": {
         "aarohana":  "S R1 G3 M1 P D1 N3 S",
         "avarohana": "S D1 N3 P M1 G3 R1 S"
+      }
+    },
+
+    {
+      "name": "gangaya bhooshani",
+      "kritis": [
+	"Evvare RaamaYyaa Nee Sari Evvare",
+      ],
+      "notes": {
+        "aarohana":  "S R3 G3 M1 P D1 N3 S",
+        "avarohana": "S N3 D1 P M1 G3 R3 S"
       }
     },
   ]
