@@ -884,6 +884,7 @@ var obj = {
 	"Seethamma Maa yamma Sree Ramudu Maaku Tandri",
 	"Sree Kamaakshi Kataakshi",
 	"Parama Purusha JagaDeeswara Jaya Jaya",
+	"NinnuKori Yunnara NenaRuchi NanneluKora",
 	"He Ramba SadavaNamba Charu DunaKadamba",
 	"Pal Muruga ShanMuga",
       ],
@@ -1559,6 +1560,28 @@ var obj = {
       "notes": {
         "aarohana":  "S R3 G3 M1 P D1 N3 S",
         "avarohana": "S N3 D1 P M1 G3 R3 S"
+      }
+    },
+
+    {
+      "name": "chakravakam",
+      "kritis": [
+	"SugunamuLe CheppuKonti",
+      ],
+      "notes": {
+        "aarohana":  "S R1 G3 M1 P D2 N2 S",
+        "avarohana": "S N2 D2 P M1 G3 R1 S"
+      }
+    },
+
+    {
+      "name": "bhiravam",
+      "kritis": [
+	"Mariyada GaaDayya Mamu PaavaDeMayya",
+      ],
+      "notes": {
+        "aarohana":  "S R1 G3 M1 P D2 N3 S",
+        "avarohana": "S D2 P M1 G3 R1 S"
       }
     },
   ]
