@@ -611,6 +611,7 @@ var obj = {
       "name": "sankarabharanam",
       "kritis": [
         "Enduku PeddaLaVale",
+	"Ento MahaaNu BhaaVudavu Neevu Ento Chakkani",
 	"NaaPaali Sree Rama BhooPalaka Somaa",
 	"Rama Sree Rama Laali UguChu GhanaShyama",
 	"Seeta Kalyana VaibhogaMe",
