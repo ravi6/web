@@ -232,12 +232,14 @@ var obj = {
     {
       "name": "kambhoji",
       "kritis": [
+        "Emayya Raama Brahmendradula Kaina",
 	"Govinda Ghataya Paramananda Miha",
         "Mari Mari Ninne",
+	"Oh Ranga Sayee",
         "Evari Maata Vinnaavo Raavo",
+	"Elaraa Krishna Nato Chalmu Krishna Neeku",
         "Sri Subhranyaya Namaste",
         "Sri Raghava",
-        "Emayya Raama Brahmendradula Kaina",
 	"Maa Janaki Jata Pattaka"
       ],
       "notes": {
@@ -261,10 +263,8 @@ var obj = {
     {
       "name": "hari kambhoji",
       "kritis": [
-        "Indariki Abhayambu Lichu Cheyi",
-	"Oh Ranga Sayee",
-	"Sree Pathe NeePathe ChintaNe Jeevanamu",
-	"Suguna Bhooshana Rama Bhujaga Sayana",
+	"Rama Nannu Brovara",
+	"Dinamani Vamsa",
       ],
       "notes": {
         "aarohana": "S R2 G3 M1 P D2 N2 S",
