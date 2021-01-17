@@ -12,6 +12,7 @@ var obj = {
 	"Sree Raja Gopaala bala sringara",
         "Murugaa Murugaa enDraal",
 	"Saroja Dala Netri Himagiri Putri",
+	"PaaDa BhajaNa SadaaNandaMe ParaMeswari",
       ],
       "notes": {
         "aarohana": "S R1 M1 P D1 S",
@@ -80,14 +81,15 @@ var obj = {
     {
       "name": "bhairavi",
       "kritis": [
-        "Viri Boni Chiru navvu",
-        "Govinda Ghataya",
-        "Alamelu Manga Nee Aluka",
         "Baala Gopala",
-        "Neela Neerada Sareera",
 	"Mundatee Vale Naapai Nelavunna Naa Sami",
 	"Enaati Nomu Phalamo",
 	"Etulaina Bhakti Vachutake Yatnamu Seyave",
+	"UpakaraMuLanoo Che Konavayyaa",
+        "Neela Neerada Sareera",
+        "Viri Boni Chiru navvu",
+        "Govinda Ghataya",
+        "Alamelu Manga Nee Aluka",
 	"Ettanai Kaettalum",
 	"Mariyaada GaadaYya Mamu PaavaDeMayya",
 	"Ramaa RaghuKula Vaarnidhi Soma",
@@ -104,7 +106,7 @@ var obj = {
       "kritis": [
         "Meru SamaaNa",
         "DuduKooGala Ninne DoraKoduKu",
-	"Sree Naataadi Guru Guho Jayate",
+	"Sree Naathaadi Guru Guho Jayate",
         "Mayaa Teeta SwaroopiNi",
 	"Inta Parakaa NeeVeduta Palukutaku",
         "Deva Deva Kalayamithe Charanambuja",
@@ -185,6 +187,7 @@ var obj = {
       "kritis": [
         "AkhilaanDeswari RakshaMaam",
 	"Harini Vidichi Naadu Chittamu",
+	"Cheta Sree Bala KrishNam BhajaRe",
 
       ],
       "notes": {
@@ -320,6 +323,7 @@ var obj = {
       "kritis": [
         "Sadaa Nanda Taandavam",
 	"Brova Bharama Raghu Raama",
+	"Bhaja Manasa VigneSa MahiSham",
       ],
       "notes": {
         "aarohana": "S G3 M1 P D2 N2 S",
@@ -460,6 +464,7 @@ var obj = {
        "Mathe MalayaDhwaja PaanDya SanJate",
        "Sujana Jeevana Rama Suguna Bhushana",
        "Santaana Gopaala Krishnan MupaasmaHe",
+       "SeeThaaPathi Naa Manasu SiddhanataMani YunnaNuRa",
       ],
       "notes": {
         "aarohana": "S M1 G3 M1 P D2 N2 S",
@@ -695,6 +700,7 @@ var obj = {
     {
       "name": "gambhiranata",
       "kritis": [
+	"Jaya JaanaKee Ramana Jaya VibheeShana SharaNa",
         "Amma Ananda Daayini"
       ],
       "notes": {
@@ -937,7 +943,9 @@ var obj = {
       "kritis": [
 	"Dasaradha Nandana Daanava Mardhana",
 	"Ra Rama Inti Daaka Raghu Veera Sukumara",
-	"Samayamu Telisi Punyamulaarjinchani"
+	"Samayamu Telisi PunyamuLaarJinChani",
+        "Chandram Bhaja Maanasa Saadhu Hridaya Sadrisham",
+	"Sree Kanchi NaaYaKe SrithaJana Phala DaayaKe",
       ],
       "notes": {
         "aarohana": "S R1 M1 P D1 S",
@@ -1058,7 +1066,6 @@ var obj = {
       "name": "janjooti",
       "kritis": [
         "RaamuDuDhbaVinchi Naadu Raghu Kulambuna",
-	"Rama Jogi Mandoo KonaRe",
 	"Sarvam Brahma Mayam Re Re",
 	"Hae Sakhi PranaSakhuDitlu CheseNe",
       ],
