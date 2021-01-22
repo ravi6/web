@@ -1104,6 +1104,7 @@ var obj = {
     {
       "name": "sri ranjani",
       "kritis": [
+	"BroChe VaaRevare Sri Raghu Pathe",
         "Sari Evvare Sri Janakee Rama",
       ],
       "notes": {
