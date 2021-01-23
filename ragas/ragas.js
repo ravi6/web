@@ -512,6 +512,7 @@ var obj = {
         "PaRaLoka SaaDhaNaMe",
         "JnaaNaMoSaGa LeDaa", 
 	"Amba Nee Daya Raadaa",
+	"Ninu VinaGaa Mari DikkeVvaRunnaRu",
       ],
       "notes": {
         "aarohana": "S R1 G3 M2 P D2 P S",
@@ -1491,17 +1492,6 @@ var obj = {
       "notes": {
         "aarohana": "S P M2 D2 N3 S",
         "avarohana": "S D2 P M2 R2 G3 M1 R2 S"
-      }
-    },
-
-    {
-      "name": "anandolika",
-      "kritis": [
-        "Raga Sudhaa Rasaa PaaNamu Chese",
-      ],
-      "notes": {
-        "aarohana": "S R2 M1 P N2 S",
-        "avarohana": "S N2 D2 P M1 R2 S"
       }
     },
 
