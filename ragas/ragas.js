@@ -634,6 +634,7 @@ var obj = {
     {
       "name": "dhanyasi",
       "kritis": [
+	"Yochana Meena Lochana Brova",
 	"Hari Hari Rama Nannarama Choodaku",
 	"Samayamu Telisi Punyamaarjinchani",
         "Baagaayanayya Neemahima"
@@ -947,6 +948,7 @@ var obj = {
 	"Samayamu Telisi PunyamuLaarJinChani",
         "Chandram Bhaja Maanasa Saadhu Hridaya Sadrisham",
 	"Sree Kanchi NaaYaKe SrithaJana Phala DaayaKe",
+	"Rama Bana Trana SourYa MeMani PogaDudu",
       ],
       "notes": {
         "aarohana": "S R1 M1 P D1 S",
@@ -1217,6 +1219,7 @@ var obj = {
       "name": "sahana",
       "kritis": [
 	"MagaDochhi PiliChedu Poyi Vattura Saami",
+	"Eee Vasudha Nee Vanti DaiVamu Nendu GanaRaa",
       ],
       "notes": {
         "aarohana": "S R2 G3 M1 P M1 D2 N2 S",
