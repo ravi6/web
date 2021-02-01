@@ -224,6 +224,7 @@ var obj = {
         "Patita Paavana Amboruha SharaNe",
 	"Raamuni Bhajimpu Manasaa",
 	"Talli Ninu Nenu Nera NammiNaanu",
+	"Sri Venkata Ramana PankaJaa CharaNaa",
 	"Saraswathee NannePudu Challaga ChoodaVamma",
       ],
       "notes": {
@@ -556,7 +557,8 @@ var obj = {
 	"Himagiri Tanaye Hema Lathe",
         "SubhrhamManyeNa RaaKshiToHam",
 	"BhavamuLona Bahyamu Nandunu Govinda",
-	"Narayanaa Ninna Naamada SmaraNeya"
+	"Narayanaa Ninna Naamada SmaraNeya",
+	"Sree Paartha SaaraDhi Naa PaaliTho SmaYamHam Sadaa",
       ],
       "notes": {
         "aarohana": "S G2 M1 P N2 S",
@@ -691,6 +693,7 @@ var obj = {
         "Rara Venu Gopa Bala",
 	"KanuGontiNi Sree Ramuni Nenu",
 	"Sree Bala AaGachhaGraNya Sri ChidaaNanda",
+	"NaraSimha Nannu BrovaVe Sree Laxshmi",
         "Sree MadhuRaapuri Viharini"
       ],
       "notes": {
@@ -1043,6 +1046,7 @@ var obj = {
 	"Endaro Mahanu Bhavulu",
 	"Sree Vara Lakshmi Namastubhyam Vasuprade",
 	"Karuna Choodu Ninnu Nammina Vaadanu Kadaa",
+	"Vande VaasuDevam BrinDaraKaa Dheesa Vandita",
 	"NammiTe CharaNa Sarasija YugaLe",
 	"Shree Kamalaambike Shive Paahimaam Lalithe",
 	"Yuktamu Gaadu Nanu RakshimPaGa",
