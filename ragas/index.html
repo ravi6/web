@@ -17,13 +17,13 @@
  .dropmenu {
     height: auto;
     max-height: 100px;
-	background: transparent;
+    background-color: rgba(245, 245, 245, 0.4 );
     overflow-y: scroll;
  }
 
  .dropdown-menu  a:hover {
         text-decoration: none;
-	background: transparent;
+	background-color: rgba(245, 245, 245, 0.4 );
 	font-size: 19 px;
 	text-color: yellow ;
  }
@@ -45,6 +45,10 @@
         height: 100%;
     }
 
+    .navbar-dark .navbar-nav .nav-link {
+        color: yellow;
+     }
+
 </style>
 
 <body>
@@ -64,7 +68,7 @@
         <a class="nav-link dropdown-toggle"  data-toggle="dropdown" >
           Ragam
         </a>
-	  <div class="dropdown-menu dropmenu" id="menuRaga">
+	  <div class="dropdown-menu dropmenu " id="menuRaga">
              <a class="dropdown-item" href="#"> act</a>
              <a class="dropdown-item" href="#"> else</a>
           </div>
