@@ -10,9 +10,9 @@ var obj = {
 	"Deva EeTagavu Teercha Vayya",
 	"Bhavayami Raghu Ramam",
 	"Sree Raja Gopaala bala sringara",
-        "Murugaa Murugaa enDraal",
 	"Saroja Dala Netri Himagiri Putri",
 	"PaaDa BhajaNa SadaaNandaMe ParaMeswari",
+        "Murugaa Murugaa enDraal",
       ],
       "notes": {
         "aarohana": "S R1 M1 P D1 S",
@@ -537,12 +537,13 @@ var obj = {
     {
       "name": "neelambari",
       "kritis": [
+	"TolliYunu MaaRaaKu ThoTTelaNa OoGeDaNe",
         "DeenuDa Nenu DevuDavu Neevu",
-        "Mani Moopura Dhaari Raja Gopala", 
-        "LaaliLooGave MaaPaali",
         "Uyyaala LooGaVayya",
 	"Madhava Maamava Deva Krishna",
-	"TolliYunu MaaRaaKu ThoTeelaNa OoGeDaNe",
+        "Mani Moopura Dhaari Raja Gopala", 
+        "LaaliLooGave MaaPaali",
+	"Brovva Vamma BangaRu Bomma Maa Yamma",
       ],
       "notes": {
         "aarohana": "S G3 M1 P N3 S",
@@ -665,6 +666,7 @@ var obj = {
         "ParamaPurusha Nirupa Maana",
 	"Siddhi Vinayakam Anisham ChinyaMaaYaHam",
 	"Mari Vere DikkevaRayya Raama",
+	"Valli Naayaka Neeve Gathi Yani ManaSaaRaGa NammiNaaNu",
       ],
       "notes": {
         "aarohana": "S R2 G2 M2 P D1 N2 S",
@@ -694,7 +696,8 @@ var obj = {
 	"KanuGontiNi Sree Ramuni Nenu",
 	"Sree Bala AaGachhaGraNya Sri ChidaaNanda",
 	"NaraSimha Nannu BrovaVe Sree Laxshmi",
-        "Sree MadhuRaapuri Viharini"
+        "Sree MadhuRaapuri Viharini",
+	"Sree ChaMunDesWari PalayaMaam KriPaaKari SanKari",
       ],
       "notes": {
         "aarohana":  "S R2 G3 P D2 S",
@@ -1199,7 +1202,6 @@ var obj = {
       "name": "kanada",
       "kritis": [
 	"NinnadaNela NeeraJaaKsha",
-	"Inta Kante Ghana Mika Ledu Santata Sowkhyamu",
 	"Inta Kante Kaavalene",
       ],
       "notes": {
@@ -1325,6 +1327,7 @@ var obj = {
 	"Rama DaivaMaa Momu ChoopuMaa",
 	"Intakante Ghana MikaLedoo Santata",
 	"Mangalam Mastu RamaaDhaVaTe",
+	"Bhajana ParuLaKeLa DanDaPaaNi BhaYaMu ManaSaa", 
       ],
       "notes": {
         "aarohana": "S R2 M1 P N2 D2 N2 S",
