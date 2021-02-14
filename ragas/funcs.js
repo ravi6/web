@@ -13,16 +13,10 @@ function capFirst(str) {
     return str.join(" ");
 } // capFirst
 
-   function selRaga (sel) { //Display selected raga
-     // Storing last two raga selections
-     count = count + 1 ;
-     if (count > 1) count = 0 ;
-     if (count == 0)
-       rag1 = sel.innerHTML ;
-     else
-      rag2 = sel.innerHTML ;
-
-     let raga = findRaga(sel.innerHTML);
+function showRagaKritis (name) { 
+   // Given a Raga Name Query Data and get details and display
+   // all kriitis in that Ragam
+     let raga = findRaga(name);
      let buf = [] ;
      raga.kritis.forEach (function (elm) {
                   buf.push ("<li>" + elm + "</li>");
@@ -35,6 +29,16 @@ function capFirst(str) {
               + "<li>Avarohanam: " + raga.notes.avarohana
               + "</li></ul>";
      document.getElementById("notes").innerHTML = txt ;
+} // end show All Kritis in Raga
+
+function selRaga (sel) { //Process Raga Drop Down List
+     // Storing last two raga selections
+     let ragam = sel.innerHTML ;
+     count = count + 1 ;
+     if (count > 1) count = 0 ;
+     if (count == 0) rag1 = ragam ;
+     else rag2 = ragam ;
+     showRagaKritis(ragam)  ;
   } // end selRaga
 
    function findRaga (name) {// pick a raga object
@@ -107,7 +111,6 @@ function capFirst(str) {
     function compRagas() {
       let i1, i2 ;
       let buf = [] ;
-      console.log(rag1, rag2);
       let ragas = getRagas() ;
         for (let i=0 ; i < ragas.length ; i++) {
 	    if (obj.ragas[i].name == rag1)
@@ -120,11 +123,17 @@ function capFirst(str) {
       buf.push("<td>Aarohana</td>");
       buf.push("<td>Avarohana</td>");
       buf.push("<tr>");
-      buf.push("<tr>"); buf.push("<td>" + rag1 + "</td>");
+      buf.push("<tr>"); buf.push("<td>"); 
+      let cmd = "\"showRagaKritis('" + rag1 + "');\"" ;
+      buf.push ("<a href='#' onclick=" +  cmd + '\>' + rag1 + "</a>");
+      buf.push("</td>");
       buf.push("<td>" + obj.ragas[i1].notes.aarohana + "</td>");
       buf.push("<td>" + obj.ragas[i1].notes.avarohana + "</td>");
       buf.push("<tr>");
-      buf.push("<tr>"); buf.push("<td>" + rag2 + "</td>");
+      buf.push("<tr>"); buf.push("<td>"); 
+      cmd = "\"showRagaKritis('" + rag2 + "');\"" ;
+      buf.push ("<a href='#' onclick=" +  cmd + '\>' + rag2 + "</a>");
+      buf.push("</td>");
       buf.push("<td>" + obj.ragas[i2].notes.aarohana + "</td>");
       buf.push("<td>" + obj.ragas[i2].notes.avarohana + "</td>");
       buf.push("<tr>");
