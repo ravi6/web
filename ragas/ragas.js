@@ -269,6 +269,7 @@ var obj = {
       "kritis": [
 	"Rama Nannu Brovara",
 	"Dinamani Vamsa",
+	"EnduKu NirdaYa AvaRunnaRu Raa",
       ],
       "notes": {
         "aarohana": "S R2 G3 M1 P D2 N2 S",
@@ -351,6 +352,7 @@ var obj = {
 	"Raghu Vara nanu marava taguna",
         "Apa Raama Bhakti Yento",
         "Shiva Shiva YanaRaaDa",
+	"Rama NaaDham BhaJeHam Rama Chadra PooJiTam",
 	"Sankari Ninne Ika Chala Nammitini",
         "Sambho MahaaDeva Sankara", 
         "SaaKetha PuraMelaLeda Konnallu",
@@ -638,6 +640,7 @@ var obj = {
       "name": "dhanyasi",
       "kritis": [
 	"Yochana Meena Lochana Brova",
+	"DhyanaMe VaraMaiNa GanGaa SnaaNaMe Manasa",
 	"Hari Hari Rama Nannarama Choodaku",
 	"Samayamu Telisi Punyamaarjinchani",
         "Baagaayanayya Neemahima"
@@ -768,6 +771,7 @@ var obj = {
 	"Ninne Nammi Naanu Sadaa",
 	"HimaGiri Kumari Kanchi KaaMakshi",
 	"DhyanaMe VaraMaina Gangaa SnaNaMaina Manasaa",
+	"NinnaNodi Dhanya NaaDaNo He SreeNiVasaa",
       ],
       "notes": {
         "aarohana": "S R1 G2 M1 P D1 N2 S",
@@ -1487,6 +1491,7 @@ var obj = {
       "name": "gowli pantu",
       "kritis": [
         "Anna Poorne VisaaLakshi",
+	"Tera TeeyaGa RaaDa NaaLoNi",
       ],
       "notes": {
         "aarohana": "S R1 M2 P N3 S",
@@ -1576,6 +1581,7 @@ var obj = {
       "name": "chakravakam",
       "kritis": [
 	"SugunamuLe CheppuKonti",
+	"Etula BroThuVo TeliYa YeKaantha Ramayya",
       ],
       "notes": {
         "aarohana":  "S R1 G3 M1 P D2 N2 S",

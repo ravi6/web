@@ -115,20 +115,20 @@ function capFirst(str) {
 	    else if (obj.ragas[i].name == rag2)
 	       i2 = i;
 	}
-      buf.push("<table class='table table-striped table-condensed'><tbody>")
-      buf.push("<tr>"); buf.push("<td>  </td>");
+      buf.push("<table class='table table-striped'><tbody>")
+      buf.push("<tr>"); buf.push("<td>Ragam</td>");
       buf.push("<td>Aarohana</td>");
       buf.push("<td>Avarohana</td>");
-      buf.push("/<tr>");
+      buf.push("<tr>");
       buf.push("<tr>"); buf.push("<td>" + rag1 + "</td>");
       buf.push("<td>" + obj.ragas[i1].notes.aarohana + "</td>");
       buf.push("<td>" + obj.ragas[i1].notes.avarohana + "</td>");
-      buf.push("/<tr>");
+      buf.push("<tr>");
       buf.push("<tr>"); buf.push("<td>" + rag2 + "</td>");
       buf.push("<td>" + obj.ragas[i2].notes.aarohana + "</td>");
       buf.push("<td>" + obj.ragas[i2].notes.avarohana + "</td>");
-      buf.push("/<tr>");
-      buf.push("</tbody></table>")
+      buf.push("<tr>");
+      buf.push("</tbody></table>");
       document.getElementById("output").innerHTML = buf.join("") ;
       document.getElementById("outputTitle").innerHTML = "Comparison" ;
     }
