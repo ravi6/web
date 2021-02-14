@@ -115,7 +115,7 @@ function capFirst(str) {
 	    else if (obj.ragas[i].name == rag2)
 	       i2 = i;
 	}
-      buf.push("<table class='table table-striped'><tbody>")
+      buf.push("<table class='table table-striped table-condensed'><tbody>")
       buf.push("<tr>"); buf.push("<td>Ragam</td>");
       buf.push("<td>Aarohana</td>");
       buf.push("<td>Avarohana</td>");
