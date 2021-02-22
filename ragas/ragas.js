@@ -124,6 +124,7 @@ var obj = {
       "kritis": [
         "Valachee Vachi yunna naapi",
         "Ananda Natanaa Prakaasam",
+	"RaMaa NeePai ThanKoo PreMa Podu",
       ],
       "notes": {
         "aarohana": "S M1 G3 M1 P N3 S",
@@ -610,7 +611,8 @@ var obj = {
       "name": "aarabhi",
       "kritis": [
         "Saadhinchene Oh Manasa",
-	"Paahi Paarvatha Nandini MaaMayi Pavane"
+	"KoluVai UnnaDe SuLalita MaDuLai SaaRaGu SeeLuLai",
+	"Paahi Paarvatha Nandini MaaMayi Pavane",
       ],
       "notes": {
         "aarohana": "S R2 M1 P D2 S",
@@ -643,7 +645,6 @@ var obj = {
 	"DhyanaMe VaraMaiNa GanGaa SnaaNaMe Manasa",
 	"Hari Hari Rama Nannarama Choodaku",
 	"Samayamu Telisi Punyamaarjinchani",
-        "Baagaayanayya Neemahima"
       ],
       "notes": {
         "aarohana": "S G2 M1 P N2 S",
@@ -1120,6 +1121,7 @@ var obj = {
       "kritis": [
 	"BroChe VaaRevare Sri Raghu Pathe",
         "Sari Evvare Sri Janakee Rama",
+	"SogasuGaa MruDanGa TaalaMu",
       ],
       "notes": {
         "aarohana": "S R2 G2 M1 D2 N2 S",
@@ -1599,5 +1601,49 @@ var obj = {
         "avarohana": "S D2 P M1 G3 R1 S"
       }
     },
+
+    {
+      "name": "malavi",
+      "kritis": [
+	"NeraNunchi Naanu AnniTiKi NiDaaNuDaNai",
+      ],
+      "notes": {
+        "aarohana":  "S R2 G3 M1 P M1 D2 N2 S",
+        "avarohana": "S N2 D2 P M1 G3 M1 R2 S"
+      }
+    },
+
+    {
+      "name": "ranjani",
+      "kritis": [
+	"DurMaaRga ChaRaaDhaMula Dora NeeVana JaaLaDa",
+      ],
+      "notes": {
+        "aarohana":  "S R2 G2 M2 D2 S",
+        "avarohana": "S N3 D2 M2 G2 S"
+      }
+    },
+
+    {
+      "name": "chandra jyothi",
+      "kritis": [
+	"BaaGaaYa NaYya Nee MayaLenTho",
+      ],
+      "notes": {
+        "aarohana":  "S R1 G1 M2 P D2 S",
+        "avarohana": "S D2 P M2 G1 R1 S"
+      }
+    },
+
+    {
+      "name": "kantha mani",
+      "kritis": [
+	"PaaLintuVo PaaLinCha RaaVo",
+      ],
+      "notes": {
+        "aarohana":  "S R2 G3 M2 P D1 N1 S",
+        "avarohana": "S N1 D1 P M2 G3 R2 S"
+      }
+    }
   ]
 };
