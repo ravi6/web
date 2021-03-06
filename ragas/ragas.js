@@ -645,6 +645,8 @@ var obj = {
 	"DhyanaMe VaraMaiNa GanGaa SnaaNaMe Manasa",
 	"Hari Hari Rama Nannarama Choodaku",
 	"Samayamu Telisi Punyamaarjinchani",
+	"AbbaBbaa RamaNaaMaMoo AtyaDhBhuTaMu",
+	"Mohamu VidaChuTe MokshaMadee",
       ],
       "notes": {
         "aarohana": "S G2 M1 P N2 S",
@@ -1644,6 +1646,29 @@ var obj = {
         "aarohana":  "S R2 G3 M2 P D1 N1 S",
         "avarohana": "S N1 D1 P M2 G3 R2 S"
       }
-    }
+    },
+
+    {
+      "name": "nataka priya",
+      "kritis": [
+	"Idi SamYamu BrovaRaaDa YaduKula TilaKaa",
+	"Geeta Vaadya Natana Naatakapriye Rasike SanGeeTa",
+      ],
+      "notes": {
+        "aarohana":  "S R1 G2 M1 P D2 N2 S",
+        "avarohana": "S N2 D2 P M1 G2 R1 S"
+      }
+    },
+
+    {
+      "name": "padi",
+      "kritis": [
+	"Sakala ShanThi KaraMoo Sarveshaa",
+      ],
+      "notes": {
+        "aarohana":  "S R1 M1 P N3 S",
+        "avarohana": "S N3 P D1 P M1 R1 S"
+      }
+    },
   ]
 };
