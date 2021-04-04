@@ -1031,6 +1031,7 @@ var obj = {
 	"Karunaa Jaladhe Daasaradhe",
 	"Eteeruga Nanu Daya Choochedavo",
 	"Paahi Paahi Maam Parama Krupano",
+	"BhajaSwa Sree Tripura Sundaree",
       ],
       "notes": {
         "aarohana": "S R1 G3 M1 P D1 N3",
@@ -1124,6 +1125,7 @@ var obj = {
 	"BroChe VaaRevare Sri Raghu Pathe",
         "Sari Evvare Sri Janakee Rama",
 	"SogasuGaa MruDanGa TaalaMu",
+	"Sree Laxshmi KaanTham BhajeHam",
       ],
       "notes": {
         "aarohana": "S R2 G2 M1 D2 N2 S",
@@ -1256,6 +1258,7 @@ var obj = {
       "name": "nagaswaraavali",
       "kritis": [
 	"Sree Pathe Nee Pada Chintana JeevaNamu",
+	"Seetaa Shoka ViGhathaKa PaaTaaLa Lankaa Vihara",
       ],
       "notes": {
         "aarohana": "S G3 M1 P D2 S",
@@ -1381,6 +1384,7 @@ var obj = {
       "name": "behag",
       "kritis": [
 	"Parama Purusha Manu YaaMava",
+	"NaaraYanaThe Namo Namo Bhava",
       ],
       "notes": {
         "aarohana": "S G3 M1 P N3 D2 N3 S",
