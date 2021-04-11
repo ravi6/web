@@ -11,6 +11,7 @@ var obj = {
 	"Bhavayami Raghu Ramam",
 	"Sree Raja Gopaala bala sringara",
 	"Saroja Dala Netri Himagiri Putri",
+	"AaloKaYe RukMini KalYana Gopalam",
 	"PaaDa BhajaNa SadaaNandaMe ParaMeswari",
         "Murugaa Murugaa enDraal",
       ],
@@ -1385,6 +1386,7 @@ var obj = {
       "kritis": [
 	"Parama Purusha Manu YaaMava",
 	"NaaraYanaThe Namo Namo Bhava",
+	"SaraMaina MaataLento ChaaLu ChaaLu Raa",
       ],
       "notes": {
         "aarohana": "S G3 M1 P N3 D2 N3 S",
