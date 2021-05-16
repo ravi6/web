@@ -387,6 +387,7 @@ var obj = {
 	"MaaYamma AniNe PilaChiThe",
 	"SadBhaktiYu Chesi SantaSillu",
 	"Saami NeePai Marulu Konnadi Raa",
+	"O Jagadamba Nanu Neevu Javamuna Brovu",
       ],
       "notes": {
         "aarohana": "S G2 R2 G2 M1 P D2 P S",
@@ -632,6 +633,7 @@ var obj = {
         "Eduta NilaCheeTe NiluVu",
         "Manavi CheKona Raada",
 	"Saroja Dala Netra Vinodini",
+	"Akshaya Linga Vibho",
       ],
       "notes": {
         "aarohana": "S R2 G3 M1 P D2 N3 S",
@@ -697,6 +699,7 @@ var obj = {
       "name": "bilahari",
       "kritis": [
         "ToliJANmamula jeyu Duduku Telisenu Rama",
+	"Inta KannaNanda Memi Oh Rama Rama",
 	"Paridaana MichiTe Paalintu Vemo",
 	"Pooraya Mama Kaamam Gopalam",
         "Rara Venu Gopa Bala",
@@ -959,6 +962,7 @@ var obj = {
       "kritis": [
 	"Dasaradha Nandana Daanava Mardhana",
 	"Ra Rama Inti Daaka Raghu Veera Sukumara",
+	"GaaNamu Jesi SreeKrishNa Venu GaaNamuLa TriBhuvana",
 	"Samayamu Telisi PunyamuLaarJinChani",
         "Chandram Bhaja Maanasa Saadhu Hridaya Sadrisham",
 	"Sree Kanchi NaaYaKe SrithaJana Phala DaayaKe",
@@ -1008,6 +1012,7 @@ var obj = {
       "kritis": [
 	"EppOvaruAro Enthan Kali Theera",
 	"sA pashyat kausalyA viSNum sA pashyat kausalyA",
+	"MadhaVaa Lokanam Mamtho YadaNaaBhe Bhavanu",
       ],
       "notes": {
         "aarohana": "S R2 M1 P D1 N2 S",
@@ -1087,6 +1092,8 @@ var obj = {
         "RaamuDuDhbaVinchi Naadu Raghu Kulambuna",
 	"Sarvam Brahma Mayam Re Re",
 	"Hae Sakhi PranaSakhuDitlu CheseNe",
+	"RaaRaa ChinnaNna RaaRaa ChinnaVada",
+	"KalYe Sree KamaLa NayaNe".
       ],
       "notes": {
         "aarohana": "D2 S R2 G3 M1 P D2 N2",
@@ -1139,6 +1146,7 @@ var obj = {
 	"Venkata Chala Ramana Vaikhunta Pura Vasa",
 	"Chinnam Silu",
 	"Veeradi Vilayaati Pillai",
+	"Visweswaru Darisanu Karu",
       ],
       "notes": {
         "aarohana": "S R2 G2 M1 P D1 N2 S",
