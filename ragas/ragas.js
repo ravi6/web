@@ -644,11 +644,12 @@ var obj = {
     {
       "name": "dhanyasi",
       "kritis": [
-	"Yochana Meena Lochana Brova",
-	"DhyanaMe VaraMaiNa GanGaa SnaaNaMe Manasa",
 	"Hari Hari Rama Nannarama Choodaku",
-	"Samayamu Telisi Punyamaarjinchani",
 	"AbbaBbaa RamaNaaMaMoo AtyaDhBhuTaMu",
+	"Yochana Meena Lochana Brova",
+	"Sangadi Viduvumu Sarasa Mukhaa",
+	"DhyanaMe VaraMaiNa GanGaa SnaaNaMe Manasa",
+	"Samayamu Telisi Punyamaarjinchani",
 	"Mohamu VidaChuTe MokshaMadee",
       ],
       "notes": {
@@ -676,6 +677,7 @@ var obj = {
 	"Siddhi Vinayakam Anisham ChinyaMaaYaHam",
 	"Mari Vere DikkevaRayya Raama",
 	"Valli Naayaka Neeve Gathi Yani ManaSaaRaGa NammiNaaNu",
+	"Paarvathi NaayakaNe Saranam Parama Siva KaruNaaKara",
       ],
       "notes": {
         "aarohana": "S R2 G2 M2 P D1 N2 S",
@@ -1681,7 +1683,18 @@ var obj = {
       ],
       "notes": {
         "aarohana":  "S R1 M1 P N3 S",
-        "avarohana": "S N3 P D1 P M1 R1 S"
+        "avarohana": "S N3 P D1 P M1 R1 S",
+      }
+    },
+
+    {
+      "name": "nayaki",
+      "kritis": [
+	"KanuGonu Sowkhyamu Kamalju KaiNa",
+      ],
+      "notes": {
+        "aarohana":  "S R2 M1 P D2 N2 D2 P S",
+        "avarohana": "S N2 D2 P M1 R2 G2 R2 S",
       }
     },
   ]
