@@ -1245,6 +1245,7 @@ var obj = {
     {
       "name": "sahana",
       "kritis": [
+	"YeMaaNa ThinCheDaVo YeMenchi Naavo",
 	"MagaDochhi PiliChedu Poyi Vattura Saami",
 	"Eee Vasudha Nee Vanti DaiVamu Nendu GanaRaa",
       ],
