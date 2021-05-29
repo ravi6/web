@@ -775,6 +775,7 @@ var obj = {
 	"Kaddanu Vaariki Kaddu Kaddani",
 	"Raju Vedale Choodamu Raara",
 	"Thaye Yashoda Vandan",
+	"DayaLachuKoVale DaaSaraDhe",
 	"Kanulara Kanti Nipudu Kanchi Varada",
 	"Karunaa Nidhi Ilalo",
 	"Ninne Nammi Naanu Sadaa",
@@ -1059,6 +1060,7 @@ var obj = {
         "avarohana": "S N3 D1 M1 G3 R1 S"
       }
     },
+
     {
       "name": "sree",
       "kritis": [
@@ -1095,7 +1097,7 @@ var obj = {
 	"Sarvam Brahma Mayam Re Re",
 	"Hae Sakhi PranaSakhuDitlu CheseNe",
 	"RaaRaa ChinnaNna RaaRaa ChinnaVada",
-	"KalYe Sree KamaLa NayaNe".
+	"KalYe Sree KamaLa NayaNe",
       ],
       "notes": {
         "aarohana": "D2 S R2 G3 M1 P D2 N2",
@@ -1222,8 +1224,8 @@ var obj = {
     {
       "name": "kanada",
       "kritis": [
-	"NinnadaNela NeeraJaaKsha",
 	"Inta Kante Kaavalene",
+	"NinnadaNela NeeraJaaKsha",
       ],
       "notes": {
         "aarohana": "S R2 G3 M1 P M1 D2 N3 S",
