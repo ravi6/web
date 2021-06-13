@@ -177,6 +177,7 @@ var obj = {
 	"KaruNalaYa Nidhi Nilaye",
 	"PadmaNaabha Paahi DviPaapa SaraGuna Vaasana",
         "Neerada Sama Neela Krishnaa Yegi",
+	"Sakalam Tarupaval Sangeetha Daivam",
       ],
       "notes": {
         "aarohana": "S G2 M1 D1 N2 S",
@@ -433,7 +434,6 @@ var obj = {
     {
       "name": "yedukula kambhoji",
       "kritis": [
-        "Eteeruga Nanu Daya ChoocheDavo",
 	"Hecharikaga Rara Oh Rama Chandra",
 	"Kanrunaa Karane Daasaradhe",
 	"Paahi Rama Chandra Raghava Hare",
