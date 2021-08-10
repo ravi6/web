@@ -23,47 +23,47 @@
   <div class=container>
 <h1 class=title>Repurposing Brushless DC (BLDC)  motor in Air Conditioning unit</h1>
 <p></p>
-<div class=columns>
-<div class=column>
-      <h2 class=subtitle>The Beginings</h2>
+  <h2 class=subtitle>The Beginings</h2>
   <div class=block>
     This project started with me stripping apart a failed BLDC
-    <a href="https://www.integrasources.com/blog/bldc-motor-controller-design-principles/">(Brushless DC motor)</a> from 
-  my home air conditioner unit with a desire to repurpose it for other use. The r internal 
-  PCB inside the comapct motor was fried due to failed rectifier
+    <a href="https://www.integrasources.com/blog/bldc-motor-controller-design-principles/">
+      (Brushless DC motor)</a> 
+  from 
+  my home air conditioner unit with a desire to repurpose it for other use. The 
+  integral printed circuit board (PCB) inside this comapct motor was fried due to failed rectifier
   bridge output capacitort(450V, 120uF) on the external PCB. 
   This bridge circuit on the external PCB  provides 350VDC supply to the motor.
-  Also, it provides 15V DC and other control signals to drive the motor.
-
+  Also, it provides 15V DC and other control signals to internal PCB to drive the motor.
   </div>
   <div class=block>
   I have to track back to earlier events  that led me to this point. It all
-  started with my home indoor AC unit (Split System)  suddenly stopping
-  with a faint spluttering sound in the middle of winter morning. It happened, few days after
-  I have cleaned up the air filter grill on the unit and placed a fragant cotton swab
-  for a warm and sweet ambiance.  Now I get the blame for 
-  for cleaning up and was held responsible for its failure. So begins my journey into split AC units,
+  started with our indoor AC unit (Split System)  suddenly stopping
+  with a faint spluttering sound in the middle of a winter morning. This happened
+  just a day after  
+  I cleaned the air filter grill on the unit. I also placed a fragant cotton swab
+  for a warm and sweet ambiance.  
+  Not surprisingly, family attributes the failure to my cleaning act!!!
+  So begins my journey into split AC units,
  BLDC motors and their inner workings. Interested ... then read on.
   </div>
-  
   <h2 class=subtitle>First Dive</h2>
   <div class=block>
-      When I tried to start the unit with the remote the green LED on the unit did 
-      not respond.
-     The AC unit on the wall controls the blower fan and two small motors that move the
-     grill vanes that direct flow. The unit appeared to have lost power.
+      When I tried to start the unit with the remote  the unit did 
+      not respond and the usual green remote sensor light did not blink..
+     The AC unit on the wall controls the blower fan and two other small motors that move the
+     grill vanes to direct the air flow. The unit appeared to have lost power.
   </div>
 
   <div class=block>
-     Examining the control board, I noted that the 1.5Amp slow blowing ceramaic
+     Examining the control board, I noted that the 1.5Amp slow acting ceramaic
      fuse in the control board was blown. This 
      fuse was soldered to the board.  Now,
-     I know why it was not easily repalceable fuse. When it blows, it means there is
+     I know why it was not easily repalceable fuse. When it fails, it means there is
      something seriously wrong in either the PCB board or in the motors that it controls.
-     Trust me one can't just replace the fuse and hope for the best. I blew 200$ in a flash,
-     when I replaced a fried control board and the fuse without investigating when trying to
-     fix my Bosch washing machine. Post event
-     I located a short at motor supply terminals(with a Megger) at 240V.
+     Trust me, one can't just replace the fuse and hope for the best. I blew 200$AU in a flash,
+     when I replaced a failed control board and fuse trying fix our 
+     washing machine assuming the water leak was the cause and not investigating any further.
+     Post event I located a short at motor supply terminals(with a Megger) at 240V.
   </div>
 
   <div class=block>
@@ -72,53 +72,49 @@
      Further examination of the PCB showed the large output 
      filter capacitor
      on the bridge rectifier had a slight bulge.
-     I tried to measure its capacitance with multi-meter while in circuit, but it
+     I tried to measure its capacitance with a multi-meter while in circuit, but it
      did not give any meaningful results.
   </div>
-        
-      </div>      
-  <div class=column>
   <div class=block>
     <figure class="image">
       <img src="crapcap.png" >
     </figure>
   </div>
-      </div>
-   <div>
-   
+
   <div class=block>
-     And knowing that its failure has implications to BLDC motor supply, repalced it
+     Knowing that its failure has implications to BLDC motor power supply, repalced it
      with a new one. With the new capacitor and fuse the 
      PCB was alive and I
-     was able to operate the small louvers that deflect the air (they use tiny motors) with
-     the remote control. But the main blower won't run with unit displaying error code suggesting
-     that there is still a fault in the motor or PCB. Disconnected blower motor and 
-     checked the supply voltage pins on the PCB (350V DC voltage for BLDC motor, and 15V for
+     was able to operate the small louvers that deflect the air (driven by  tiny motors) with
+     the remote control. But the main blower won't run but displayed an error code
+     suggesting a possible fault in the blower motor or the PCB. I disconnected blower motor and 
+     checked the supply voltage pins on the external PCB (350V DC voltage for BLDC motor, and 15V for
      its inernal PCB) they all looked good. So it appears that
      the problem is likey to be in the motor. Perhaps, the fault in the filter capacitor
-     (failed open), would have introduced too much ripple to BLDC supply voltage and would
-     have damaged it..
+     (failed open), would have introduced too much ripple in  BLDC supply voltage that could
+     damage the motor.
 
   </div>
   <div class=block>
   <h2 class=subtitle>A Good Ending </h2>
      With winter in full swing the pressure was on
-     to get the unit going. So ordered replacement motor. But now the issue is to know the
-     way to remove the old motor from the unit and put the new one in. 
+     to get the unit going. So I ordered a replacement motor, which fortunately arrived
+     after a week despite the COVID mayhem. But now the issue is to figure out the
+     way to remove the old motor from the unit to replace it.
      Fortunately 
      <a href="https://www.daikinac.com/content/assets/DOC/ServiceManuals/SiUS091133-FTXS-LFDXS-L-Inverter-Pair-Service-Manual.pdf">
      Daikin service manual</a>
      is up for grabs on the internet. The task of
      removing the fan motor appeared very daunting with the requirement to disconnect the
-     AC coils from the unit. A big job indeed.
-     Thanks to excellent tips from a  <a href="https://www.youtube.com/watch?v=IQrudzq0tmM&t=28s">
+     Air Conditioner evaporator  coils from the unit. A big job indeed.
+     But thanks to excellent tips from a  <a href="https://www.youtube.com/watch?v=IQrudzq0tmM&t=28s">
        nice video</a>
-     by a Daikin service chap, I could get to the blower fan without havning to
-     dismantle the heat exchanger (as per the Daikin maintenance manual)
-     Replacing the motor truned out to be a breeze.
+     by a Daikin service guy, I could get to the blower fan without 
+     dismantling the heat exchanger.  Replacing the motor truned out to be a breeze.
      
-     With great trepidation I turned on the unit with the remote. It
-     started purring like a cat. The air warmed up with nods of approval from my missus.
+     After all this effort, with  great trepidation I turned on the unit in heating mode with
+     high fan speed setting and it worked  purring like a cat.
+     The air warmed up with nods of approval from my missus.
   </div>
 
 </div>
@@ -177,10 +173,10 @@
     </figure>
     <table class="table is-bordered is-striped" float='right'>
        <tr><td>1</td><td>red</td><td>Motor Supply 450VDc </td></tr>
-       <tr><td>2</td><td>blue</td><td> PCB Vcc 15V </td> </tr>
+       <tr><td>2</td><td>blue</td><td>gnd </tr>
        <tr><td>3</td><td>brown</td><td>Motor Coils Control Signal  </tr>
        <tr><td>4</td><td>orange</td><td>HAL sensor output </tr>
-       <tr><td>5</td><td>white</td><td>gnd </tr>
+       <tr><td>5</td><td>white</td><td> PCB Vcc 15V </td> </tr>
     </table>
 </div>
 
@@ -191,7 +187,7 @@
  <div class=block>
 Now that I had some win with the Air Conditioner, and had a whiff of what a BLDC motor is
 I was wanting to explore if I can use most of the usable part of the motor without the
-internal and external control boards. The idea was to use Raspberry PI like IOT devices,
+internal and external control boards. The idea was to use Raspberry PI like IOT (Internet Of Things)  devices,
 to provide the necessary control signals and drive the motor with an external motor drive circuit
 of my own making.
 It means I have to think of  providing control signals while sensing rotor position
@@ -201,21 +197,30 @@ Playing with MOSFETs to provide switching would be fun for I have never done suc
 
  <div class=block>
 To start off I wanted to work at lower voltage (12-24VDC)level rather than at high DC voltage the motor
-is designed for. I realise that I have to sacrifice on the motor torque output, becuase of
-current rating limitation of the stator windings designed for low currents and high voltages.
+is designed for. I realise that I have to sacrifice the motor torque since the motor stator
+windings are designed for high voltage and low currents (to achieve compactness). 
+
 For starters I wanted to get a measure of inductance of the motor windings, so that I can judge
-the switching frequencies I need to operate at.
+the switching frequencies I need to operate at without stressing stator windings.
  </div>
 
  <h3 class=subtitle>Inductance Measurement </h3>
 <div class=block>
-Now this has turned into another side alley I had to explore to achieve my goal. After viewing
-several youtube videos, decided to exploit my oscilloscop's square wave generator (reference)
-with an LC circuit consisting of known capcitance values. Measuring the ringing frequency of the
+This has turned into another side alley I had to explore to achieve my goal. After viewing
+several youtube videos, decided to exploit my oscilloscope square wave reference output
+with an LC circuit consisting of known capcitance values. Since the reference output can not source
+much current, I used an NPN transistor switch with its base driven by the 
+the reference square wave signal. This enabled a square wave signal source at 1kHz that can
+source  reasonable currents.
+<div class=block>
+
+<div class=block>
+Measuring the ringing frequency of the
 circuit on square wave edge transitions, the inductance can be estimated from simple theoretical
 expression for resonant frequency.  I learnt, while this looks straight forward, there are many other
 intricacies to consider if one is really interested in accurate inductance measurement. (eg. dependency
 of series resistance on the frequency level the inductor is operating at).
+</div>
 </div>
 
 <div class=block>
@@ -226,9 +231,9 @@ was something I cobbled up using a Ferrite core and some 28guage wire wound
 over it. The ferrite core was from TV power chord noise suppresor. Although,
 it is easy to get physical construct details such as number of turns, length and
 cross sectional area of the inductor coil, the magnetic permeability is not all
-that well defined for ferrite (it has broad range varying by one order of magnitude)
+that well defined for ferrite (it varies from 16 to 400 H/m)
 Anyway, I had a stab at estimating it and taking the lower end ferrite permiability for the
-coil. It turned out to be of the order of 14mH. 
+coil. The estimated value was of the order of 14mH. 
 </div>
 <div class=block>
     <figure class="image">
@@ -238,11 +243,13 @@ coil. It turned out to be of the order of 14mH.
 
 <div class=block>
 The following figure shows the simulation of the
-circuit that approximates my experimental setup. The
+circuit that approximates my experimental setup. I have omited my transitor based
+switching circuit for simplicity and clarity. The
 <a href="https://www.falstad.com/circuit/">
   fully featured circuit simulator</a> is 
 freely available and can be used interactively from your browser.
-A real example that shows many good things are for free. 
+A real example that shows many good things are for free. And I was quite impressed
+by what it can do.
 </div>
  <div class=block>
     <table class="table is-bordered is-striped" float='right'>
@@ -262,11 +269,15 @@ A real example that shows many good things are for free.
 <div class=block>
   Fitting the above data on a log-linear plot, the experimental data gave a
   slope of -0.52 which is very close to theoretically expected value. (inverse Square root 
-  reltion of capacitance with frequency). The simulator gave exactly -0.5 as one would expect.
+  reltion of capacitance with resonant frequency). The simulator gave exactly -0.5 as one would expect.
   Finally the estimated value of indutance from the above data is 2.35mH. (About 1/6th of
   my theoretical estimate based on inductor physical properties).
-
 </div>
+<div class=block>
+  I am now satisified that I can get an order of magnitude estimate  of 
+  the inductance of my motor coil with this LC circuit set up.
+</div>
+  <h2 class=subtitle>To be Continued ....</h2>
 </div>
 </div>
 </section>
