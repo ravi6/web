@@ -82,7 +82,7 @@
   </div>
   <div class=block>
     <figure class="image">
-      <img src="crapcap.png" >
+      <img src="figs/crapcap.png" >
     </figure>
   </div>
 
@@ -130,7 +130,7 @@
   assembly. Pretty bad ha :((
   </div>
     <figure class="image">
-      <img src="bldPCB.png">
+      <img src="figs/bldPCB.png">
     </figure>
 </div>
 
@@ -162,7 +162,7 @@
 </div>
 <p></p>
 <figure class="image">
-  <img src="bldRotor.png"> </img>
+  <img src="figs/bldRotor.png"> </img>
 </figure>
 </div>
 
@@ -176,7 +176,7 @@
  top cover metal plate of the motor.(removed here)
  </div>
     <figure class="image">
-      <img src="bldcMotor.png" > </img>
+      <img src="figs/bldcMotor.png" > </img>
     </figure>
     <table class="table is-bordered is-striped" float='right'>
        <tr><td>1</td><td>red</td><td>Motor Supply 450VDc </td></tr>
@@ -243,7 +243,7 @@ coil. The estimated value was of the order of 14mH.
 </div>
 <div class=block>
     <figure class="image">
-      <img src="inductor.png"  > </img>
+      <img src="figs/inductor.png"  > </img>
     </figure>
 </div>
 
@@ -269,7 +269,7 @@ by what it can do.
       <tr><td>6</td><td>346</td><td>4.8</td><td>5.5</tr>
     </table>
     <figure class="image">
-      <img src="sim.png" > </img>
+      <img src="figs/sim.png" > </img>
     </figure>
 </div>
 <div class=block>
@@ -283,8 +283,62 @@ by what it can do.
   I am now satisified that I can get an order of magnitude estimate  of 
   the inductance of my motor coil with this LC circuit set up.
 </div>
-  <h2 class=subtitle>To be Continued ....</h2>
+<div class=block>
+  With one winding of the BLDC motor hooked upto my resonant circuit
+  experimental setup, tried to see if I could see if I could observe
+  any resonance with 1kHz square wave source from the scope. Tried
+  50 to 100nF caps with no luck. Knowing that the motor coil inductance
+  is most likely to be much larger than my small home made coil (2.5mH),
+  I sort of guessed that I would  have to move to lower capacitance values
+  to raise resonant frequency and overcome the damping due to 40ohm coil
+  resistance of the motor. Also, I ditched the transitor switching, and
+  added 21k resitor before feeding the scope signal to the Resonant Circuit.
+  This should reduce the current load on the reference signal while
+  enabling resonance measurements.
+ </div>
+<div class=block>
+  The following figure shows the oscillations (damped) during edge transition
+  with 10.75nF, 5.435nF green caps and a 2.2nF ceramic cap. While the first
+  two gave reasonable osicalltions to enable me to pick the reonant frequency
+  the small ceramit cap failed to provide what I expected. I expected the resonant
+  frequency to go up and be able to see more peaks and troughs and finally
+  nail down the inductance. The anticipated frequency with the ceramic
+  cap is 8.5kHz (if the previous estimate of 160mH is good)
+  The first two readings have given inductance
+  value of he coild to be of the order of 160mH. As suspected its value is
+  almost 80 times the coil I made for fun. G
+ </div>
+<div class=block>
+    <figure class="image">
+      <img src="figs/exp1.png"  > </img>
+    </figure>
+    <figure class="image">
+      <img src="figs/exp2.png"  > </img>
+    </figure>
+    <figure class="image">
+      <img src="figs/exp3.png"  > </img>
+    </figure>
 </div>
+
+
+<div class=block>
+  Just to make sure my measurements are valid, I simulated the circuit
+  assuming 160mH inductance is good. The following simulation results with
+  2.2nF are shown below. Surprisingly, simulation showed resonant trace
+  that is different to what I got with experiment for this case. The frequency
+  output is of course close to the theoretical one. So the question is why
+  my experiment showed more damped oscillation making it hard to detect frequency
+  accurately. I tried different series resistances with the cap, to simulate
+  ESR but that did not change simulation result. I am intrigued.
+</div>
+</div class=block>
+    <figure class="image">
+      <img src="figs/sim2.png"  > </img>
+    </figure>
+</div>
+</div>
+
+  <h2 class=subtitle>To be Continued ....</h2>
 </div>
 </section>
 </body>
