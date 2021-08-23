@@ -841,6 +841,17 @@ var obj = {
     },
 
     {
+      "name": "valaji",
+      "kritis": [
+	"JalaDhara SuPeeThaSthe JaNaa Kusuma BhasuRe",
+      ],
+      "notes": {
+        "aarohana": "S G3 P D2 N2 S",
+        "avarohana": "S N2 D2 P G3 S"
+      }
+    },
+
+    {
       "name": "jayanta sena",
       "kritis": [
 	"Vinata Suta Vahana Ghana Sree Ramana"
