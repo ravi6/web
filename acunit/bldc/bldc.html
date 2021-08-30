@@ -16,6 +16,7 @@
 .lpic  {
  float: left;    
  margin: 0 0 0 15px;
+ 
 </style>
 
 <body>
@@ -337,9 +338,137 @@ by what it can do.
     </figure>
 </div>
 </div>
-
-  <h2 class=subtitle>To be Continued ....</h2>
+<div class=box>
+<div class=block>
+  So the next step is to get a proper signal generator to enable better
+  control on my inductance measurement method. I resurrected an IOT device I 
+  previously purchased for my Blood Pressure meter reverse engineering project.
+  The device "Onion Omega 2+" was purchased during its crowd funding phase six
+  years back. It is a tiny device well engineered and extremely cheap.
+  I spent sometime getting the device on to breadboard, without having to
+  purchase header pin adaptors to allow for pitch change from 2mm to 2.5mm.
+  It has two I/O pins that can be configured as Pulse Width Modulators.
+  Wrote a shell script that allows configuration of the pins and setting pulse
+  width and frequency. Also, developed a tiny web interface using javascript
+  and PHP to control the PWM pin from browser.
 </div>
+<div>
+<pre>
+PWM Setup Script (filename: pulse)
+<code>
+#!/bin/ash
+# Author: Ravi Saripalli
+# Date: 26th Aug. 2021
+
+# pwm pins GPIO18/GPIO19
+# omega2-ctrl gpiomux set pwm0/1 pwm
+# I am using GPIO19 with pwm channel 1
+# This is where all hardware control happens
+
+ PWMDIR=/sys/class/pwm/pwmchip0
+
+if [ "$#" -eq  0 ]; then
+   if [[ -d $PWMDIR/pwm1 ]]; then 
+     echo  PWM GPIO 19 is already set
+   else
+    # Configure pwm1 ... on GPIO19
+     omega2-ctrl gpiomux set pwm1 pwm
+    # This will be Channel 1
+     echo 1 > $PWMDIR/export
+     echo  PWM GPIO 19 is set
+    fi
+   exit
+fi
+
+# Sets PWM on GPIO18 given
+# Frequency (Hz) and %Duty
+
+Hz=$1
+duty=$2
+period=`echo $Hz | awk '{printf "%d\n", 1e9/$1}'`
+dutyTime=`echo $Hz $duty | awk '{printf "%d\n", $2 * 1e7 / $1}'`
+
+# We need to modify data in files under pwm1
+# to change the singal on the GPIO
+   echo 0 > $PWMDIR/pwm1/enable
+   echo $period > $PWMDIR/pwm1/period
+   echo $dutyTime > $PWMDIR/pwm1/duty_cycle
+   echo 1 > $PWMDIR/pwm1/enable
+#Finally send the confirmation response in JSON
+   echo {Hz: $1, Duty: $2}
+</code>
+</pre>
+</div>
+ 
+<div>
+  Here is a  mini <a href="pwm/pulse.html">
+    web based user interface </a> 
+ to control the PWM pin I developed. It uses AJAX call to
+ execute a PHP script that runs above shell script
+ on the onion.
+</div>
+<pre>PHP Script handling PWM Control on the Onion
+<code >
+&lt?php
+// Author: Ravi Saripalli (29th Aug. 2021)
+// Process the Json data from POST ajax call
+// which proivdes  Frequency, and Duty Cycle %
+// Run my shell script that sets up the
+// Hardware based Pulse Generator on the Onion
+//
+// Nb.  If the JSON data in POST message is null
+//     we assume that we are trying to setup PWM
+//     In this instance pulse script does not need
+//     any inputs
+// error_reporting(E_ALL); --> debugging
+
+// Both of these will be null when trying to setup PWM pin
+$Hz = $_POST['Hz'];
+$Duty = $_POST['Duty'];
+
+if ( is_null($Hz) ) { // just PWM  setup
+  $out =  shell_exec("/root/pwm/pulse 2>&1");
+  echo $out ;  // return status
+} else { // Setting signal pattern
+    $cmd = "/root/pwm/pulse " . $Hz . " " . $Duty . " 2>&1";
+    $out = shell_exec($cmd);
+    echo $out ;  // Confirmation of successful freq, duty setup
+}
+?&gt
+</code></pre>
+</div>
+</div>
+</div>
+
+<div class=box>
+  <div>
+    With the help PWM feature on the Onion, I now have a controllable square wave
+    in terms of frequency and duty. I repeated the experiment of measuring inductance
+    as before. But this time since I am able to vary the square wave frequency at will,
+    I looked for the resonant frequency by scanning several frequencies until the 
+    amplitude of the voltage signal at the coil is at its maximum.(see the animation below)
+    These results are with a capcitance value of 52.4nF. And the measured 
+    resonant frequency is 1.7kHz. This corresponds to inductance of 167mH. A result,
+    very similar to my earlier experiments that looked for ringing signal at 1kHz input
+    frequency. With the current setup, I could find resonant frequency at low capacitance
+    value of 2nF. The resonant frequeny was 9.8kHz which gave 131mH for the inductance
+    estimate. Overall, I am quite certain that the coil inductance is of the
+    order of 150mH. I think at too low capacitance value, I have a feeling
+    that we are getting close to parasitic capacitance of coil(presumably).
+    The resonant frequencies I measured with 2,11.4,52.4,97nf capacitors
+    indicate that corresponding inductances are (131,153,167,172mH). 
+    Despite the variability, I am happy to take the average value for motor
+    control circuit design.
+    <div>
+      <figure class=image>
+      <img src=figs/exp4.gif></img>
+      </figure>
+    </div>
+  </div>
+</div>
+
+
+
 </section>
 </body>
 </html>
