@@ -208,6 +208,7 @@ var obj = {
 	"Jagado dharana Adisidale Yesoda",
 	"MuhuRaaNanda Bharitam MuraleeDhara Charitam",
 	"Smara Vaaram Vaaram ChetaHa Smaranam",
+	"Rama RaghuKula VaarNidhi Somaa",
       ],
       "notes": {
         "aarohana": "S R2 M1 P N3 S",
@@ -612,6 +613,7 @@ var obj = {
     {
       "name": "aarabhi",
       "kritis": [
+	"MahaDeva Sutham Aham PraNaMaami",
         "Saadhinchene Oh Manasa",
 	"KoluVai UnnaDe SuLalita MaDuLai SaaRaGu SeeLuLai",
 	"Paahi Paarvatha Nandini MaaMayi Pavane",
@@ -651,6 +653,7 @@ var obj = {
 	"DhyanaMe VaraMaiNa GanGaa SnaaNaMe Manasa",
 	"Samayamu Telisi Punyamaarjinchani",
 	"Mohamu VidaChuTe MokshaMadee",
+	"TalaChina Vaaru DhanuLaYyeRu Talachi VeduKoni",
       ],
       "notes": {
         "aarohana": "S G2 M1 P N2 S",
@@ -678,6 +681,7 @@ var obj = {
 	"Mari Vere DikkevaRayya Raama",
 	"Valli Naayaka Neeve Gathi Yani ManaSaaRaGa NammiNaaNu",
 	"Paarvathi NaayakaNe Saranam Parama Siva KaruNaaKara",
+	"NammiThe CharaNa SaraSiJa YugaLe Tama RasoDhBhava",
       ],
       "notes": {
         "aarohana": "S R2 G2 M2 P D1 N2 S",
@@ -782,6 +786,8 @@ var obj = {
 	"HimaGiri Kumari Kanchi KaaMakshi",
 	"DhyanaMe VaraMaina Gangaa SnaNaMaina Manasaa",
 	"NinnaNodi Dhanya NaaDaNo He SreeNiVasaa",
+	"AnjaNeYa MuPaasMaHe Sri Rama DooTam SataTam",
+	"Sree SubhrahManYo Maam RakshaThu",
       ],
       "notes": {
         "aarohana": "S R1 G2 M1 P D1 N2 S",
@@ -981,6 +987,7 @@ var obj = {
         "Chandram Bhaja Maanasa Saadhu Hridaya Sadrisham",
 	"Sree Kanchi NaaYaKe SrithaJana Phala DaayaKe",
 	"Rama Bana Trana SourYa MeMani PogaDudu",
+	"Maa Pala Velasi ika Mamu Brovaga Raada Sri Rama",
       ],
       "notes": {
         "aarohana": "S R1 M1 P D1 S",
@@ -1721,6 +1728,17 @@ var obj = {
       "notes": {
         "aarohana":  "S G2 M1 P D1 N3 S",
         "avarohana": "S N3 D1 P M1 G3 R2 S"
+      }
+    },
+
+    {
+      "name": "jalarnavam",
+      "kritis": [
+	"Nada Hare Jagan Nadha Hare",
+      ],
+      "notes": {
+        "aarohana": "S R1 G1 M2 P D1 N2 S",
+        "avarohana": "S N2 D1 P M2 G1 R1 S"
       }
     },
   ]
