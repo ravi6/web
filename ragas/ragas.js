@@ -1111,6 +1111,8 @@ var obj = {
     {
       "name": "janjooti",
       "kritis": [
+	"Bruhi MuknDe RasaNe",
+	"GajaMBa NaaYaKo RakshaThu GuniJanaaDi",
         "RaamuDuDhbaVinchi Naadu Raghu Kulambuna",
 	"Sarvam Brahma Mayam Re Re",
 	"Hae Sakhi PranaSakhuDitlu CheseNe",
