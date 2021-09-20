@@ -191,7 +191,7 @@ var obj = {
         "AkhilaanDeswari RakshaMaam",
 	"Harini Vidichi Naadu Chittamu",
 	"Cheta Sree Bala KrishNam BhajaRe",
-
+	"Rama ChandruDiTadu Raghu VeeruDu",
       ],
       "notes": {
         "aarohana": "S R2 G3 M1 P D2 S",
