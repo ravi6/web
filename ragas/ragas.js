@@ -1743,5 +1743,16 @@ var obj = {
         "avarohana": "S N2 D1 P M2 G1 R1 S"
       }
     },
+
+    {
+      "name": "gavathi",
+      "kritis": [
+	"NahiRe Nahi Sanka Kaasa NahiRe",
+      ],
+      "notes": {
+        "aarohana": "S M1 P N3 S",
+        "avarohana": "S D2 M1 P G3 M1 R2 N3 S"
+      }
+    },
   ]
 };
