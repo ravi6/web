@@ -1069,6 +1069,8 @@ var obj = {
     {
       "name": "lalita",
       "kritis": [
+	"Nanu Brovu Lalita VegaMe",
+	"Natanala Brhamalaku Naa Manasaa",
 	"KannuLedutiDe Ghana VaiKhuntamu",
 	"KalaDinde Maata Kanduni Aata",
 	"ChaalaDaa Hari Naama PanchaaMrutamu",
