@@ -472,6 +472,7 @@ var obj = {
        "Sujana Jeevana Rama Suguna Bhushana",
        "Santaana Gopaala Krishnan MupaasmaHe",
        "SeeThaaPathi Naa Manasu SiddhanataMani YunnaNuRa",
+       "EntaNaa Nee DaNaa Entaa ... Devine",
       ],
       "notes": {
         "aarohana": "S M1 G3 M1 P D2 N2 S",
