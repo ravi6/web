@@ -1494,8 +1494,8 @@ var obj = {
 	"Kaliyuga VrdaNe",
       ],
       "notes": {
-        "aarohana":  "S R2 M1 P N2 S",
-        "avarohana": "S N2 P M1 R2 G2 R2 S"
+        "aarohana":  "S R2 M1 P N3 S",
+        "avarohana": "S N2 P M1 R2 G2 S"
       }
     },
 
@@ -1548,6 +1548,7 @@ var obj = {
       "kritis": [
         "Anna Poorne VisaaLakshi",
 	"Tera TeeyaGa RaaDa NaaLoNi",
+	"AyyaNe NaTaNam ADiya porppAda AnandaKKayilaYeNe",
       ],
       "notes": {
         "aarohana": "S R1 M2 P N3 S",
@@ -1559,6 +1560,7 @@ var obj = {
       "name": "saranga",
       "kritis": [
         "Gana NaadaNe Ghana BodhaNe",
+	"Aruna Chala Nadham SmaRaaMi",
       ],
       "notes": {
         "aarohana": "S P M2 D2 N3 S",
