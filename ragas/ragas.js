@@ -390,6 +390,17 @@ var obj = {
     },
 
     {
+      "name": "karnataka deva gaandhari",
+      "kritis": [
+	"EppaDi PaaDiNaRo AdiYar",
+	"Paluku TeneLa Talli PaVVaLinCheNu",
+      ],
+      "notes": {
+        "aarohana": "S G3 M1 P N2 S",
+        "avarohana": "S N2 D2 P M1 G3 N2 S"
+      }
+    },
+    {
       "name": "ananda bhairavi",
       "kritis": [
 	"Paluke Bangara Mayena",
