@@ -51,6 +51,17 @@ var obj = {
     },
 
     {
+      "name": "rudra priya",
+      "kritis": [
+	"Ati LaaVanya KanuLaaRa ChooDaVe",
+      ],
+      "notes": {
+        "aarohana": "S R2 G2 M1 N2 N2 S",
+        "avarohana": "S N2 P M1 G2 R2 S"
+      }
+    },
+
+    {
       "name": "rishaba priya",
       "kritis": [
 	"GhanaNaya DeshiKa GaaNa Rasika ShiKhaMani",
