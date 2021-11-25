@@ -583,6 +583,7 @@ var obj = {
         "Mani Moopura Dhaari Raja Gopala", 
         "LaaliLooGave MaaPaali",
 	"Brovva Vamma BangaRu Bomma Maa Yamma",
+	"SrinGaaRa LaHari SriTaJana SuKhaKaaRi",
       ],
       "notes": {
         "aarohana": "S G3 M1 P N3 S",
