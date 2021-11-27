@@ -35,7 +35,7 @@ var obj = {
     },
 
     {
-      "name": "karaha priya",
+      "name": "kharahara priya",
       "kritis": [
         "Okapari Kokaparia",
         "Prakkala Nilabadia",
@@ -43,6 +43,7 @@ var obj = {
 	"Bharathi Deviya Ne Ne",
 	"Chakkani Raja Marga mundaga",
 	"Rama NeeYeda Prema RahituLaKu",
+	"Chitra RatnaMaya Sesha Talpa Mandu",
       ],
       "notes": {
         "aarohana":  "S R2 G2 M1 P D2 N2 S",
@@ -263,6 +264,7 @@ var obj = {
       "kritis": [
         "Emayya Raama Brahmendradula Kaina",
 	"Govinda Ghataya Paramananda Miha",
+	"Jaya Jaya DurGe Jita VaiRi SarGe",
         "Mari Mari Ninne",
 	"Oh Ranga Sayee",
         "Evari Maata Vinnaavo Raavo",
@@ -583,7 +585,7 @@ var obj = {
         "Mani Moopura Dhaari Raja Gopala", 
         "LaaliLooGave MaaPaali",
 	"Brovva Vamma BangaRu Bomma Maa Yamma",
-	"SrinGaaRa LaHari SriTaJana SuKhaKaaRi",
+	"SrinGaaRa LaHare SriTaJana SuKhaKaaRi",
       ],
       "notes": {
         "aarohana": "S G3 M1 P N3 S",
@@ -759,7 +761,7 @@ var obj = {
       "name": "gambhiranata",
       "kritis": [
 	"Jaya JaanaKee Ramana Jaya VibheeShana SharaNa",
-        "Amma Ananda Daayini"
+        "Amma Ananda Daayini",
       ],
       "notes": {
         "aarohana": "S G3 M1 P N3 S",
@@ -814,6 +816,7 @@ var obj = {
 	"Raju Vedale Choodamu Raara",
 	"Thaye Yashoda Vandan",
 	"DayaLachuKoVale DaaSaraDhe",
+	"Koti Nadulu DhaNuShKotiLoNunDaGa",
 	"Kanulara Kanti Nipudu Kanchi Varada",
 	"Karunaa Nidhi Ilalo",
 	"Ninne Nammi Naanu Sadaa",
@@ -920,6 +923,7 @@ var obj = {
       "name": "sowrashtra",
       "kritis": [
 	"TakkuVemi Manakoo RamunDokkaDunDu Varaku",
+	"Hari Narayana GovinDaa Yani Smarana SeyaVe Manasa",
 	"Meluko Daya Nidhee Meluko DaaSaradhi",
 	"Sree Ganapathini Sevimpa Raare",
 	"Surya Murthe NamoSthuThe Sundara ChayaaDhi Pathe",
@@ -1392,6 +1396,16 @@ var obj = {
     },
 
     {
+      "name": "supradeepam",
+      "kritis": [
+	"Vara ShiKhi VaaHana VaaRiJa LoChaNa",
+      ],
+      "notes": {
+        "aarohana": "S R1 M1 P D2 N3 S",
+        "avarohana": "S N3 D2 P M1 G3 R1 S"
+      }
+    },
+    {
       "name": "kannadabangala",
       "kritis": [
 	"Renukaa Devi SamRakshiToham",
@@ -1663,6 +1677,7 @@ var obj = {
       "kritis": [
 	"SugunamuLe CheppuKonti",
 	"Etula BroThuVo TeliYa YeKaantha Ramayya",
+	"AaKati VeLaLa AlaPaiNa VelaLa VekuVa HariNamaMe",
       ],
       "notes": {
         "aarohana":  "S R1 G3 M1 P D2 N2 S",
