@@ -113,6 +113,7 @@ var obj = {
         "Viri Boni Chiru navvu",
         "Govinda Ghataya",
         "Alamelu Manga Nee Aluka",
+	"TanaYuni Brova JanaNi VachuNo Talli Vadda BaaluDu Bono",
 	"Ettanai Kaettalum",
 	"Mariyaada GaadaYya Mamu PaavaDeMayya",
 	"Ramaa RaghuKula Vaarnidhi Soma",
@@ -502,6 +503,7 @@ var obj = {
       "kritis": [
        "Broche Vaarevaru Raa",
        "Rama Jogi Mandoo",
+	"Ehi Mudam Dehi Sri Krishna",
        "Mathe MalayaDhwaja PaanDya SanJate",
        "Sujana Jeevana Rama Suguna Bhushana",
        "Santaana Gopaala Krishnan MupaasmaHe",
