@@ -473,6 +473,7 @@ var obj = {
 	"Hecharikaga Rara Oh Rama Chandra",
 	"Kanrunaa Karane Daasaradhe",
 	"Paahi Rama Chandra Raghava Hare",
+	"JalaJaaKshuNi ChinTimPani MaaNaVa JanMamu VyarDhaMu",
       ],
       "notes": {
         "aarohana": "S R2 M1 P D2 S",
@@ -557,6 +558,7 @@ var obj = {
         "JnaaNaMoSaGa LeDaa", 
 	"Amba Nee Daya Raadaa",
 	"Ninu VinaGaa Mari DikkeVvaRunnaRu",
+	"Sree Kashi ViShaaLaKshi BhaJeham",
       ],
       "notes": {
         "aarohana": "S R1 G3 M2 P D2 P S",
