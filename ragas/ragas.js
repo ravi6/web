@@ -376,6 +376,7 @@ var obj = {
     {
       "name": "pantu varaali",
       "kritis": [
+	"Hari Nama SmaRaNe SeYaKunTe Avatala Gati Yemi",
 	"Visalakshi Viswesi Bhajare Manasa",
 	"Raghu Vara nanu marava taguna",
         "Apa Raama Bhakti Yento",
