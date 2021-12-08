@@ -364,6 +364,7 @@ var obj = {
     {
       "name": "aabhogi",
       "kritis": [
+	"ManujuDai Putti ManuJuni Sevinchi",
         "SabhaaPathiKi Veru Daivam",
 	"Antaryami Alasiti SolaSiti",
       ],
