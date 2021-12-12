@@ -138,8 +138,8 @@ var obj = {
 	"Sree Maha GanaPathi RavaaTu Mam"
       ],
       "notes": {
-        "aarohana": "S G2 R2 G2 M1 N2 N2 S",
-        "avarohana": "S N2 D2 M1 G2 M1 P M1 G2 R2 S"
+        "aarohana": "S R1 G3 M1 P D1 N3 S",
+        "avarohana": "S N3 D1 P M1 G3 R1 S"
       }
      },
 
@@ -837,6 +837,29 @@ var obj = {
         "avarohana": "S N2 D1 P M1 G2 R1 S"
       }
     },
+
+    {
+      "name": "hanuma thodi",
+      "kritis": [
+	"Era NaPai Inta ChowKa SeYa MeRa KaaDuRa",
+      ],
+      "notes": {
+        "aarohana": "S R1 G1 M1 P D1 N1 S",
+        "avarohana": "S N1 D1 P M1 G1 R1 S"
+      }
+    },
+
+    {
+      "name": "kamala manohari",
+      "kritis": [
+	"Kancha DaLaYaTaaKshi KaMaKshi KamaLa Manohari",
+      ],
+      "notes": {
+        "aarohana": "S G3 M1 P N3 S",
+        "avarohana": "S N3 D1 P M1 G3 S"
+      }
+    },
+
     {
       "name": "kedara gowla",
       "kritis": [
