@@ -9,6 +9,7 @@ var obj = {
       "kritis": [
 	"Deva EeTagavu Teercha Vayya",
 	"Bhavayami Raghu Ramam",
+	"Balamu Kulamu Ela Rama Bhakti KaaraNaMu",
 	"Sree Raja Gopaala bala sringara",
 	"Saroja Dala Netri Himagiri Putri",
 	"AaloKaYe RukMini KalYana Gopalam",
