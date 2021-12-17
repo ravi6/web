@@ -145,6 +145,16 @@ var obj = {
      },
 
     {
+      "name": "paraju",
+      "kritis": [
+	"TriLoka Matha Nannu Brovu KaruNanu",
+      ],
+      "notes": {
+        "aarohana": "S G3 M1 P D1 N3 S",
+        "avarohana": "S N3 D1 P M1 G3 S"
+      }
+     },
+    {
       "name": "kedaaram",
       "kritis": [
         "Valachee Vachi yunna naapi",
