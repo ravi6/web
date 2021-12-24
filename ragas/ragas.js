@@ -643,7 +643,8 @@ var obj = {
       "name": "revathi",
       "kritis": [
 	"Raagi Thandeera  Bhikshake",
-	"Naanati Bratuku Natakamu"
+	"Naanati Bratuku Natakamu",
+	"Mahaa Deva SamBho MaaRaKoti Sundara PraBho",
       ],
       "notes": {
         "aarohana": "S R1 M1 P N2 S",
@@ -926,6 +927,7 @@ var obj = {
     {
       "name": "valaji",
       "kritis": [
+	"Karthikeya Kamalekshana Siva Sutha Varasiki Vahana",
 	"JalaDhara SuPeeThaSthe JaNaa Kusuma BhasuRe",
       ],
       "notes": {
@@ -1807,6 +1809,7 @@ var obj = {
       "name": "nayaki",
       "kritis": [
 	"KanuGonu Sowkhyamu Kamalju KaiNa",
+	"Ranga Nayakam BhaaVaYe Sri Ranga Nayaki Sametam",
       ],
       "notes": {
         "aarohana":  "S R2 M1 P D2 N2 D2 P S",
