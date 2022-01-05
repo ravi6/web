@@ -449,6 +449,10 @@ var obj = {
       "name": "shyama",
       "kritis": [
 	"Anna PoornE VisaLakshi",
+	"Oh Raghu VeeRa Yani Ne PilaChiTe Oho YanaRaaDa",
+	"MaravakaVe Oh ManaSaa Naa Ramuni NimishaMaiNa",
+	"Etulaina Bhakti VachuTake Yatnamu SeyaVe ManaSaa",
+	"Santamu Leka SowKhyamu Ledu Sarasa Dala Nayana",
         "NimishaMaiNa Sree RaamaaYanaRaaDa",
       ],
       "notes": {
@@ -1268,6 +1272,7 @@ var obj = {
 	"Shiva Ganagaa Nagara Nivaasini",
 	"Gandhamu Puyyarugua",
 	"Maamava MeeNakshee RajaMarthanda",
+	"Ayye MettaKadiNam UmaKkaDiMaii Ayye", 
       ],
       "notes": {
         "aarohana": "N2 S R1 G2 M1 P D1 N2",
