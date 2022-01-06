@@ -452,6 +452,7 @@ var obj = {
 	"Oh Raghu VeeRa Yani Ne PilaChiTe Oho YanaRaaDa",
 	"MaravakaVe Oh ManaSaa Naa Ramuni NimishaMaiNa",
 	"Etulaina Bhakti VachuTake Yatnamu SeyaVe ManaSaa",
+	"Manasa SanchaRaRe Brhmani MaaNasa SancharaRe",
 	"Santamu Leka SowKhyamu Ledu Sarasa Dala Nayana",
         "NimishaMaiNa Sree RaamaaYanaRaaDa",
       ],
@@ -1725,6 +1726,7 @@ var obj = {
 	"SugunamuLe CheppuKonti",
 	"Etula BroThuVo TeliYa YeKaantha Ramayya",
 	"AaKati VeLaLa AlaPaiNa VelaLa VekuVa HariNamaMe",
+	"Etula BrothuVo TeliYa Ekantha Ramayyaa",
       ],
       "notes": {
         "aarohana":  "S R1 G3 M1 P D2 N2 S",
