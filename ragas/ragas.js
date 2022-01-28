@@ -319,7 +319,6 @@ var obj = {
     {
       "name": "poorna chandrika",
       "kritis": [
-	"NeChesina Paapa Mettidanina",
 	"Palukavemi Naa Daivama Rama",
         "Telisi Raama Chintana"
       ],
@@ -751,6 +750,7 @@ var obj = {
     {
       "name": "janaranjani",
       "kritis": [
+	"NaaDaaDina Mata Nedu Taapu Valadu",
         "VidaJaaLanuRaa NaaManaSu VinaRaa",
 	"PaahiMaam Sree Raja Rajeswari",
       ],
