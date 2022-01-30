@@ -207,6 +207,7 @@ var obj = {
       "kritis": [
         "Saamja VaraGamana",
         "Bhajere Gopalam",
+	"Antayu NeeVe Hari PundareeKaksha",
 	"Maamavathu Sree Sarsvathi",
 	"KaruNalaYa Nidhi Nilaye",
 	"PadmaNaabha Paahi DviPaapa SaraGuna Vaasana",
