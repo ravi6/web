@@ -1095,7 +1095,8 @@ var obj = {
     {
       "name": "maand",
       "kritis": [
-	"Baaro Krishnayya Ninne Bhakta Ramana Geega"
+	"Baaro Krishnayya Ninne Bhakta Ramana Geega",
+	"KandeNa GovindaNa",
       ],
       "notes": {
         "aarohana": "S G3 M1 D2 N3 S",
