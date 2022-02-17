@@ -1200,7 +1200,6 @@ var obj = {
     {
       "name": "janjooti",
       "kritis": [
-	"Bruhi MuknDe RasaNe",
 	"GajaMBa NaaYaKo RakshaThu GuniJanaaDi",
         "RaamuDuDhbaVinchi Naadu Raghu Kulambuna",
 	"Sarvam Brahma Mayam Re Re",
@@ -1286,6 +1285,7 @@ var obj = {
     {
       "name": "kurunji",
       "kritis": [
+	"Bruhi MuknDe RasaNe",
 	"Muddu Gaare Yahsoda",
       ],
       "notes": {
