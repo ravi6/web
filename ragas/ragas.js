@@ -1456,6 +1456,18 @@ var obj = {
       }
     },
     {
+      "name": "kalavathi",
+      "kritis": [
+	"Kandarpa JanaKa GaruDa GamaNa",
+	"Nahi Nahi Sankaa",
+	"BhaliRaa Vairagya Mentho BaaGai Unnadi",
+      ],
+      "notes": {
+        "aarohana": "S R1 M1 P D2 S",
+        "avarohana": "S D2 P M1 G3 R1 S"
+      }
+    },
+    {
       "name": "kannadabangala",
       "kritis": [
 	"Renukaa Devi SamRakshiToham",
