@@ -1871,5 +1871,18 @@ var obj = {
         "avarohana": "S D2 M1 P G3 M1 R2 N3 S"
       }
     },
+
+    {
+      "name": "balahamsa",
+      "kritis": [
+	"Rama Eva Daivatam RaghuKula Tilakaa",
+	"Dandamu PetteNuRaa KoDanda PaaNi ChooDara",
+
+      ],
+      "notes": {
+        "aarohana": "S R2 M1 P D2 S",
+        "avarohana": "S N2 D2 P R2 M1 G3 S"
+      }
+    },
   ]
 };
