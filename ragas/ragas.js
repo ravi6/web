@@ -338,7 +338,8 @@ var obj = {
         "Chaaru Seele Priye (jampa)",
 	"Talachi Nantane Naadamu Brahmanu",
 	"MuriPemu Kalige Kadaa Rama",
-	"Chaaru Seele Priye"
+	"Chaaru Seele Priye",
+	"TalaChiNantaNe Naa Tanuvu Jallu JallaNe",
       ],
       "notes": {
         "aarohana": "S R2 M1 P N2 D2 S",
@@ -552,7 +553,7 @@ var obj = {
     },
 
     {
-      "name": "varaali",
+      "name": "varali",
       "kritis": [
 	"Kanaka Saila Viharini",
         "Ille Vaikhuntamu",
