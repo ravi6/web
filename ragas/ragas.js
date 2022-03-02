@@ -850,6 +850,7 @@ var obj = {
 	"NinnaNodi Dhanya NaaDaNo He SreeNiVasaa",
 	"AnjaNeYa MuPaasMaHe Sri Rama DooTam SataTam",
 	"Sree SubhrahManYo Maam RakshaThu",
+	"Re Manasa ChintaYe Sree Ramam",
       ],
       "notes": {
         "aarohana": "S R1 G2 M1 P D1 N2 S",
