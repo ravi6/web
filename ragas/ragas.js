@@ -205,6 +205,7 @@ var obj = {
     {
       "name": "hindolam",
       "kritis": [
+	"Hari Rasama Vihaari",
         "Saamja VaraGamana",
         "Bhajere Gopalam",
 	"Antayu NeeVe Hari PundareeKaksha",
@@ -320,8 +321,9 @@ var obj = {
     {
       "name": "poorna chandrika",
       "kritis": [
+	"Ne Jesina Nera Mitti Dani Naato Telupumu",
+        "Telisi Raama Chintana",
 	"Palukavemi Naa Daivama Rama",
-        "Telisi Raama Chintana"
       ],
       "notes": {
         "aarohana": "S R2 G3 M1 P D2 P S",
@@ -432,13 +434,14 @@ var obj = {
       "name": "ananda bhairavi",
       "kritis": [
 	"Paluke Bangara Mayena",
-        "KheeraSagara Vihara",
         "MariVere Gati EvvaRamma",
-        "Sama Gaana Priye Tamil",
+        "KheeraSagara Vihara",
+	"Itti MudduLadi BaluDedaVaado",
 	"MaaYamma AniNe PilaChiThe",
 	"SadBhaktiYu Chesi SantaSillu",
 	"Saami NeePai Marulu Konnadi Raa",
 	"O Jagadamba Nanu Neevu Javamuna Brovu",
+        "Sama Gaana Priye Tamil",
       ],
       "notes": {
         "aarohana": "S G2 R2 G2 M1 P D2 P S",
