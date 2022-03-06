@@ -774,6 +774,7 @@ var obj = {
 	"Pooraya Mama Kaamam Gopalam",
         "Rara Venu Gopa Bala",
 	"KanuGontiNi Sree Ramuni Nenu",
+	"Evarani Vedanu Evrani Pogadanu Bhuvana RakshaKaa Rama",
 	"Sree Bala AaGachhaGraNya Sri ChidaaNanda",
 	"NaraSimha Nannu BrovaVe Sree Laxshmi",
         "Sree MadhuRaapuri Viharini",
@@ -888,6 +889,7 @@ var obj = {
       "kritis": [
 	"Koluvudee Bhakti Kondala Neleti",
 	"Paraakela Namma Paripaalimpa Muraari Sodari",
+	"Rama Oh Rama Oh Seetha Rama Oh",
 	"Chaalu Chaalu",
 	"Venu Gaana Lola"
       ],
