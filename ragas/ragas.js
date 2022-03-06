@@ -336,12 +336,12 @@ var obj = {
       "kritis": [
         "Kaaroo Baaru",
         "Ksheenamai Tiruga",
-        "Sivaguru Naadanai",
-        "Chaaru Seele Priye (jampa)",
-	"Talachi Nantane Naadamu Brahmanu",
 	"MuriPemu Kalige Kadaa Rama",
-	"Chaaru Seele Priye",
+        "Chaaru Seele Priye (jampa)",
+	"Ososi Naa Madi Nunna Yatti Needu", 
+	"Talachi Nantane Naadamu Brahmanu",
 	"TalaChiNantaNe Naa Tanuvu Jallu JallaNe",
+        "Sivaguru Naadanai",
       ],
       "notes": {
         "aarohana": "S R2 M1 P N2 D2 S",
