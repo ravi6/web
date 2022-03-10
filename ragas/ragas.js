@@ -381,7 +381,9 @@ var obj = {
 	"ManujuDai Putti ManuJuni Sevinchi",
         "SabhaaPathiKi Veru Daivam",
 	"Antaryami Alasiti SolaSiti",
-	"NenaRunchaRa NaPaiNi Sami",
+	"NenaRunchaRa NaPaiNi Chala",
+	"Vegame GaaVa Ravyya Bhogi Sayana Rangayya",
+	"Bratu Kantaa ChinTe JeeviKi Manasa",
       ],
       "notes": {
         "aarohana": "S R2 G2 M1 D2 S",
