@@ -381,6 +381,7 @@ var obj = {
 	"ManujuDai Putti ManuJuni Sevinchi",
         "SabhaaPathiKi Veru Daivam",
 	"Antaryami Alasiti SolaSiti",
+	"NenaRunchaRa NaPaiNi Sami",
       ],
       "notes": {
         "aarohana": "S R2 G2 M1 D2 S",
@@ -526,7 +527,7 @@ var obj = {
       "kritis": [
        "Broche Vaarevaru Raa",
        "Rama Jogi Mandoo",
-	"Ehi Mudam Dehi Sri Krishna",
+       "Ehi Mudam Dehi Sri Krishna",
        "Mathe MalayaDhwaja PaanDya SanJate",
        "Sujana Jeevana Rama Suguna Bhushana",
        "Santaana Gopaala Krishnan MupaasmaHe",
