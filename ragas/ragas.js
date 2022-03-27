@@ -966,9 +966,12 @@ var obj = {
     {
       "name": "huseni",
       "kritis": [
+	"Emani Vegintune Sree Rama",
+	"Bhaja Ramam Baja Ramam BhajaRe Manasa",
+	"Anta Ranga Mella Sree HariKi Oppincha KunTe", 
 	"Sarva Loka Dayanidhe Saarwa bhowma Dasaradhe",
 	"Taliro Boni",
-	"Emani Vegintune Sree Rama",
+	"AliGiThe BhaGyaMaaYe VaaDaliGiThe BhagYaMaYe",
 	"Kanaka Maya Maheedum Kamla vaahana Mathim"
       ],
       "notes": {
