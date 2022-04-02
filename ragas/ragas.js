@@ -53,6 +53,17 @@ var obj = {
     },
 
     {
+      "name": "chitta ranjani",
+      "kritis": [
+        "Nada TanuManiSam SankaRam",
+      ],
+      "notes": {
+        "aarohana":  "S R2 G2 M1 P D2 N2 S",
+        "avarohana": "N2 D2 P M1 G2 R2 S N2"
+      }
+    },
+
+    {
       "name": "rudra priya",
       "kritis": [
 	"Ati LaaVanya KanuLaaRa ChooDaVe",
@@ -245,6 +256,7 @@ var obj = {
 	"MuhuRaaNanda Bharitam MuraleeDhara Charitam",
 	"Smara Vaaram Vaaram ChetaHa Smaranam",
 	"Rama RaghuKula VaarNidhi Somaa",
+	"Anyamu SeyakuRa Rama",
       ],
       "notes": {
         "aarohana": "S R2 M1 P N3 S",
