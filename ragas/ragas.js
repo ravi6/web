@@ -1225,11 +1225,12 @@ var obj = {
     {
       "name": "janjooti",
       "kritis": [
+	"RaaRaa ChinnaNna RaaRaa ChinnaVada",
 	"GajaMBa NaaYaKo RakshaThu GuniJanaaDi",
         "RaamuDuDhbaVinchi Naadu Raghu Kulambuna",
+	"IdiYe VedaaNtamu Inta KanTe Ledu",
 	"Sarvam Brahma Mayam Re Re",
 	"Hae Sakhi PranaSakhuDitlu CheseNe",
-	"RaaRaa ChinnaNna RaaRaa ChinnaVada",
 	"KalYe Sree KamaLa NayaNe",
       ],
       "notes": {
