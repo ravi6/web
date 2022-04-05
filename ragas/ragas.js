@@ -666,9 +666,11 @@ var obj = {
     {
       "name": "revathi",
       "kritis": [
-	"Raagi Thandeera  Bhikshake",
+	"Aakati Velala AlaPaiNa Velala",
 	"Naanati Bratuku Natakamu",
 	"Mahaa Deva SamBho MaaRaKoti Sundara PraBho",
+	"Raagi Thandeera  Bhikshake",
+	"Eyi Gaathu Maya Baapu PandaReeCha Raya",
       ],
       "notes": {
         "aarohana": "S R1 M1 P N2 S",
