@@ -1913,5 +1913,17 @@ var obj = {
         "avarohana": "S N2 D2 P R2 M1 G3 S"
       }
     },
+
+    {
+      "name": "salaka bhairavi",
+      "kritis": [
+        "Tunga Theera Virajam Bhajamana RaghaVendra",
+        "Padavi ni sadBhaktiyu KalguTe"
+      ],
+      "notes": {
+        "aarohana": "S R2 M1 P D2 S", 
+        "avarohana": "S N2 D2 P M1 G2 R2 S"
+      }
+    },
   ]
 };
