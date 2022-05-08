@@ -1135,6 +1135,7 @@ var obj = {
     {
       "name": "ravi chandrika",
       "kritis": [
+	"Nannu Brochu Bharamu NeeDammaa",
 	"MaaKela Raa VichaaRamu"
       ],
       "notes": {
