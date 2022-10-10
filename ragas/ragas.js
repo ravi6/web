@@ -103,6 +103,7 @@ var obj = {
         "Chera Rava Demira",
         "Enna punniyam Seyadu",
 	"Dwaitamu SukhaMaa Adwaitamu Sukhama",
+	"JanaNi NinuVina DikkeVaRamma JagamuLoNa Gana",
         "Brindaavana Nilayer",
         "Aadi Vinaayakam",
         "SathguruSwaamikai"
@@ -609,6 +610,7 @@ var obj = {
         "Nee Bhakthi Bhagya Sudhaa",
 	"Yjnaadulu Sukhamanu Variki",
 	"Sree Rama Chandro RakshaTuMaam",
+	"NaaDa TanuMani Shankam SadyoTaji TanuManu",
       ],
       "notes": {
         "aarohana": "S R2 G2 M1 D2 S",
@@ -908,7 +910,9 @@ var obj = {
 	"Paraakela Namma Paripaalimpa Muraari Sodari",
 	"Rama Oh Rama Oh Seetha Rama Oh",
 	"Chaalu Chaalu",
-	"Venu Gaana Lola"
+	"KaruNa Nidhim GaDaDhaRa SaraNaGaTa VatsaLa",
+	"Venu Gaana Lola",
+	"Entani VeduDuRa MroKkenuRa KonTaiNa Manavini",
       ],
       "notes": {
         "aarohana": "S R2 M1 P N2 S ",
@@ -943,6 +947,17 @@ var obj = {
     },
 
     {
+      "name": "gana sammodini",
+      "kritis": [
+	"Govinda NamaVe Chanda",
+      ],
+      "notes": {
+        "aarohana":  "S R2 G3 P D1 S",
+        "avarohana": "S D1 P G3 R2 S"
+      }
+    },
+
+    {
       "name": "malaya marutham",
       "kritis": [
 	"Dhanyu Devvado Daasaradhe",
@@ -955,10 +970,23 @@ var obj = {
     },
 
     {
+      "name": "rama priya",
+      "kritis": [
+	"Korina VaraMosaGu NeeVu KodanDa Pani",
+      ],
+      "notes": {
+        "aarohana": "S R1 G3 P D2 N2 S",
+        "avarohana": "S N2 D2 P M2 G3 R1 S"
+      }
+    },
+
+    {
       "name": "valaji",
       "kritis": [
 	"Karthikeya Kamalekshana Siva Sutha Varasiki Vahana",
 	"JalaDhara SuPeeThaSthe JaNaa Kusuma BhasuRe",
+	"NahiRe Nahi Shankaa",
+	"Namam Nalla Namam",
       ],
       "notes": {
         "aarohana": "S G3 P D2 N2 S",
@@ -1457,6 +1485,8 @@ var obj = {
       "name": "bhoopalam",
       "kritis": [
 	"Gopalaka Paahimam Anisham",
+	"Deena JanaaBhana Sree Rama",
+	"Intaa Vedina Neramu NenChaKa
       ],
       "notes": {
         "aarohana": "S R1 G2 P D1 S",
@@ -1526,6 +1556,7 @@ var obj = {
       "name": "dharmavati",
       "kritis": [
 	"Bhajana Seya Rada Oh Manasa",
+	"Harini Vidachi Naadu ChittaMu",
       ],
       "notes": {
         "aarohana": "S R2 G2 M2 P D2 N3 S",
@@ -1665,6 +1696,10 @@ var obj = {
       "name": "sama",
       "kritis": [
         "Anna Poorne VisaaLakshi",
+	"Bhajana Seya RaaMuni Seeta Ramuni",
+	"EtuLaiNa Bhakti VachuTaKe YatNaMu SeyaVe ManaSa",
+	"Manasa SanCharaRe BrahMani",
+	"MaravaKaVe Oh ManaSa Naa RaaMuNi",
       ],
       "notes": {
         "aarohana": "S R2 M1 P D2 S",
@@ -1690,6 +1725,7 @@ var obj = {
       "kritis": [
         "Gana NaadaNe Ghana BodhaNe",
 	"Aruna Chala Nadham SmaRaaMi",
+	"MaaMaVa RaghuRamaa MaraKatha Syama",
       ],
       "notes": {
         "aarohana": "S P M2 D2 N3 S",
@@ -1746,6 +1782,7 @@ var obj = {
       "name": "gurjari",
       "kritis": [
 	"Guni JanaDi Nuta Guru GuhoDaYe",
+	"VaraLanDu KommaNi NaaYanDu VanchaNa Seya NyaMa",
       ],
       "notes": {
         "aarohana":  "S R1 G3 M1 P D1 N3 S",
@@ -1924,6 +1961,17 @@ var obj = {
       "notes": {
         "aarohana": "S R2 M1 P D2 S", 
         "avarohana": "S N2 D2 P M1 G2 R2 S"
+      }
+    },
+
+    {
+      "name": "madhuvanti",
+      "kritis": [
+        "GuruVara DeeJo CharaNa TuMaaRe",
+      ],
+      "notes": {
+        "aarohana": "S G2 M2 P N3 S", 
+        "avarohana": "S N3 D2 P M2 G2 R2 S"
       }
     },
   ]
