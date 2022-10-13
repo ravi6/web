@@ -1486,7 +1486,7 @@ var obj = {
       "kritis": [
 	"Gopalaka Paahimam Anisham",
 	"Deena JanaaBhana Sree Rama",
-	"Intaa Vedina Neramu NenChaKa
+	"Intaa Vedina Neramu NenChaKa",
       ],
       "notes": {
         "aarohana": "S R1 G2 P D1 S",
@@ -1944,7 +1944,6 @@ var obj = {
       "kritis": [
 	"Rama Eva Daivatam RaghuKula Tilakaa",
 	"Dandamu PetteNuRaa KoDanda PaaNi ChooDara",
-
       ],
       "notes": {
         "aarohana": "S R2 M1 P D2 S",
