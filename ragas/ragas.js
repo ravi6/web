@@ -298,7 +298,8 @@ var obj = {
 	"Elaraa Krishna Nato Chalmu Krishna Neeku",
         "Sri Subhranyaya Namaste",
         "Sri Raghava",
-	"Maa Janaki Jata Pattaka"
+	"Maa Janaki Jata Pattaka",
+	"Sri RaghuVara ApramMeYa MaaMava",
       ],
       "notes": {
         "aarohana": "S R2 G3 M1 P D2 S",
@@ -1218,6 +1219,7 @@ var obj = {
 	"KannuLedutiDe Ghana VaiKhuntamu",
 	"KalaDinde Maata Kanduni Aata",
 	"ChaalaDaa Hari Naama PanchaaMrutamu",
+	"HiranMayeem LaxhmeeM SaDaa BhajaaMe",
       ],
       "notes": {
         "aarohana": "S R1 G3 M1 D1 N3 S",
@@ -1303,6 +1305,7 @@ var obj = {
 	"BroChe VaaRevare Sri Raghu Pathe",
         "Sari Evvare Sri Janakee Rama",
 	"SogasuGaa MruDanGa TaalaMu",
+	"Nee Sati DaiVa Mendu Ledani Marulu KontiRaa",
 	"Sree Laxshmi KaanTham BhajeHam",
       ],
       "notes": {
