@@ -276,7 +276,7 @@ var obj = {
 	"Bhajana Seyave Manasa Parama PreetiTho",
         "Etaavuna Nilakada",
         "Patita Paavana Amboruha SharaNe",
-	"Raamuni Bhajimpu Manasaa TaaMaSamu Tyajimpu Manasa"",
+	"Raamuni Bhajimpu Manasaa TaaMaSamu Tyajimpu Manasa",
 	"Talli Ninu Nenu Nera NammiNaanu",
 	"Sri Venkata Ramana PankaJaa CharaNaa",
 	"Saraswathee NannePudu Challaga ChoodaVamma",
@@ -1976,6 +1976,17 @@ var obj = {
       "notes": {
         "aarohana": "S G2 M2 P N3 S", 
         "avarohana": "S N3 D2 P M2 G2 R2 S"
+      }
+    },
+
+    {
+      "name": "kanthamani",
+      "kritis": [
+        "PalintuVo PaliMPaVo",
+      ],
+      "notes": {
+        "aarohana": "S R2 G3 M2 P D1 N1 S",
+        "avarohana": "S N1 D1 P M2 G3 R2 S"
       }
     },
   ]
