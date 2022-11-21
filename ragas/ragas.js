@@ -1346,14 +1346,15 @@ var obj = {
     },
 
     {
-      "name": "kurunji",
+      "name": "kurinji",
       "kritis": [
+	"KsheeRaaBdhi KanyaKaKu Sree MahaLaxshmiKi",
 	"Bruhi MuknDe RasaNe",
 	"Muddu Gaare Yahsoda",
       ],
       "notes": {
-        "aarohana": "S N3 S R2 G3 M1 P D2",
-        "avarohana": "D2 P M1 G3 R2 S N3 S"
+        "aarohana": "S1 N3 S2 R2 G3 M1 P D2",
+        "avarohana": "D2 P M1 G3 R2 S2 N3 S1"
       }
     },
 
