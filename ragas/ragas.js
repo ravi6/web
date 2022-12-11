@@ -100,6 +100,7 @@ var obj = {
       "name": "reeti gowla",
       "kritis": [
         "Nannoo Vidachi Kadalakura",
+	"IdiYe SaaDhaNamu IhaParaMulaKuNu",
         "Chera Rava Demira",
         "Enna punniyam Seyadu",
 	"Dwaitamu SukhaMaa Adwaitamu Sukhama",
@@ -561,12 +562,12 @@ var obj = {
     {
       "name": "yamuna kalyani",
       "kritis": [
+	"Krishna Bega Nee Baaro",
 	"Oh Rama Nee Nama Menta Ruchira",
         "Marakata Mani",
-        "Lambodaraaya Namaste",
 	"Narayana Hari Narayana Hari",
 	"Seshaa Chala Nayakam BhajaamYaham",
-	"Krishna Bega Nee Baaro",
+        "Lambodaraaya Namaste",
       ],
       "notes": {
         "aarohana": "S R2 G3 P M2 P D2 N3 S",
@@ -1143,6 +1144,7 @@ var obj = {
       "name": "bowli",
       "kritis": [
 	"Meluko Vayya Mammeluko Sree Rama",
+	"Elu Narayana Elu Lakshmi Ramana",
 	"Sreeman Narayana ..  Sree paadame Saranu",
       ],
       "notes": {
@@ -1586,6 +1588,8 @@ var obj = {
       "name": "reva gupthi",
       "kritis": [
 	"Puru ShaaRdhaMuda Neevu PuruShaaDhaMuda Nenu",
+	"Ekkadi Manusha JanmamBEttiNa PhalaMemunnadi",
+	"GopaaLaKa PahiMaam AnisHam",
       ],
       "notes": {
         "aarohana": "S R1 G3 P D1 S",
