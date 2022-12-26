@@ -850,7 +850,6 @@ var obj = {
 	"EvarooRa Ninu Vina",
 	"Mohana Rama Modati Daivama",
 	"Narasimhaa Gaccha Vara Puccha",
-	"Evari Maata VinnaVo Ravo",
 	"Yekkadi Narakamu Yekkadi Mrutyuvu",
 	"Ade ChoodaRe Mohana Roopam",
 	"KanaRo KanaRo Meeru",
@@ -1353,6 +1352,7 @@ var obj = {
 	"KsheeRaaBdhi KanyaKaKu Sree MahaLaxshmiKi",
 	"Bruhi MuknDe RasaNe",
 	"Muddu Gaare Yahsoda",
+	"SeeTha Kalyana VaiBhogaMe Rama KalyaNa VaibhoGaMe",
       ],
       "notes": {
         "aarohana": "S1 N3 S2 R2 G3 M1 P D2",
