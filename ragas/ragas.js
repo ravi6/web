@@ -141,10 +141,20 @@ var obj = {
     },
 
     {
+      "name": "gowla",
+      "kritis": [
+        "DuduKooGala Ninne DoraKoduKu",
+      ],
+      "notes": {
+        "aarohana": "S R1 M1 P N3 S",
+        "avarohana": "S N3 P M1 R1 G3 M1 R1 S"
+      }
+     },
+
+    {
       "name": "mayaa malawa gowla",
       "kritis": [
         "Meru SamaaNa",
-        "DuduKooGala Ninne DoraKoduKu",
 	"Sree Naathaadi Guru Guho Jayate",
         "Mayaa Teeta SwaroopiNi",
 	"Inta Parakaa NeeVeduta Palukutaku",
