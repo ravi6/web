@@ -4,12 +4,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+      rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+      crossorigin="anonymous">
     <title>OBOGS Calculations</title>
-  <head>
+  </head>
+    
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
@@ -29,11 +29,11 @@
          var pO2 = [96.2, 77.0, 64.5, 55.1, 46.2, 38.6, 34.0, 31.9, 30.1, 28.9];
         
        var rows = [] ;
-        var rejF = document.getElementById("rejF").value ;
-        var toxinAdsorbF = document.getElementById("toxinAdsorbF").value ;
+        var rejF = parseFloat(document.getElementById("rejF").value) ;
+        var toxinAdsorbF = parseFloat(document.getElementById("toxinAdsorbF").value) ;
 
         for (i=0; i < pO2.length ; i++){
-          ob.run(pflow[i], pO2[i], rejF, toxinAdsorbF); // try rejectionF 0.8
+          ob.run(pflow[i], pO2[i], rejF, toxinAdsorbF, false); // try rejectionF 0.8
           rows.push([ob.prod, ob.prodO2, ob.wasteO2])
        }
       
@@ -43,6 +43,7 @@
       var options = {title: 'OBOGS Performance @50psig (measured)',
                      width:400,
                      height: 500,
+ 
                      curveType: 'function',
                         legend: { position: 'top' },
                      pointSize: 10,
@@ -64,18 +65,20 @@
         data.addColumn('number', 'Product Flow');
         data.addColumn('number', 'Product');
         data.addColumn('number', 'Waste');
+
         ob = new obogs();
        // 50psi pressure data
          var pflow = [20.0, 30.0, 40.4, 50.0, 70.0, 89.5, 110.0, 129.5, 158.5, 188.5] ;
          var pO2 = [96.2, 77.0, 64.5, 55.1, 46.2, 38.6, 34.0, 31.9, 30.1, 28.9];
         
-       var rows = [] ;
-        var rejF = document.getElementById("rejF").value ;
-        var toxinAdsorbF = document.getElementById("toxinAdsorbF").value ;
+        var rows = [] ;
+        var rejF = parseFloat(document.getElementById("rejF").value) ;
+        var toxinAdsorbF = parseFloat(document.getElementById("toxinAdsorbF").value) ;
  
         for (i=0; i < pO2.length ; i++){
-          ob.run(pflow[i], pO2[i], rejF, toxinAdsorbF); // try rejectionF 0.8
+          ob.run(pflow[i], pO2[i], rejF, toxinAdsorbF); // try rejectionF 0.8;         
           rows.push([ob.prod, ob.toxinProd, ob.toxinWaste]) ;
+          
        }
       
       data.addRows(rows);
@@ -84,6 +87,7 @@
       var options = {title: 'OBOGS Estimated Performance (Contaminant)',
                      width: 400,
                      height: 500,
+                     
                     curveType: 'function',
                         legend: { position: 'top' },
                      pointSize: 10,
@@ -102,11 +106,10 @@
        
     } // end plot2
       
- 
     </script>   
-  </head>
 
-<script type="text/javascript">      
+
+<script type="text/javascript"> 
    class obogs {
     constructor () {
       this.inletO2 = 21 ;      
@@ -122,29 +125,26 @@
       this.waste =  this.inlet - this.prod  ;
       this.wasteO2 = (this.inlet * this.inletO2 - this.prod * this.prodO2) / this.waste ;
        
-      // fraction of N2 in Product
+      // fraction of N2 in Product and waste
       this.fN2inProd = this.prod * (100 - this.prodO2) / (this.inlet * (100 - this.inletO2)) ;
       this.fN2inWaste = this.waste * (100 - this.wasteO2) / (this.inlet * (100 - this.inletO2)) ;
        
+         /* N2/O2 waste stream concentrations are inferred from the asumption
+            that the bed does not accumulate either of these gases over the entire cycle
+           And we are distributing the toxin similar to N2, while allowing for permanent retention
+           of toxins in the  bed through "toxinAdsobF"
+         */    
+        this.toxinProd = (1-this.toxinAdsorbF) * this.toxinInlet * this.inlet * this.fN2inProd / this.prod  ; 
+        this.toxinWaste = (1-this.toxinAdsorbF) * this.toxinInlet * this.inlet * this.fN2inWaste / this.waste ;
        
-      // Calculate Toxin concentration given extent of adsorption in bdd
-     // var unAdsorbed = this.toxinInlet  * this.inlet *  (1 - this.toxinAdsorbF);
-     // this.toxinProd =  unAdsorbed * (1 - this.rejF) / this.prod ;                                      
-     // this.toxinWaste = unAdsorbed   * this.rejF / this.waste ;  
-    
-      this.toxinProd = this.toxinInlet * this.inlet * this.fN2inProd / this.prod  ; // assuming it is similar to N2
-      this.toxinWaste = this.toxinInlet * this.inlet * this.fN2inWaste / this.waste ; 
-                                         
-     }
-
+     } // end of run method
    } // end of Obogs class
- 
-  </script>
+</script>
 
     <div class="container">
  <h2> Quick assessment of contaminant concentration in OBOGS product </h2>
       <h5>Author: Ravi Saripalli</h5>
-      <h6>4th March 2023   (version: 1.0) </h6>
+      <h6>4th March 2023   (version: 1.2) </h6>
     <div class="row align-items-start">
         <div class="col">
           <div id="plot1" style="border: 1px solid #ccc"></div>
@@ -165,10 +165,10 @@
         </input>   
       <output>0.7</output>
       
-    <div style="display:none">
-       Toxin Adsorption Factor  <input type="range" id=toxinAdsorbF 
-                                    min=0 max=0.95 value=0.7 step=0.01 
-                                  onChange="plot2();"
+    <div >
+       Contaminant Retention Factor  <input type="range" id=toxinAdsorbF 
+                                    min=0 max=0.95 value=0 step=0.01 
+                                  onChange="plot1(); plot2() ;"
                                   oninput="this.nextElementSibling.value = this.value">
        </input>
        <output>0.7</output>
