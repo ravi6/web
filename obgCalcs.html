@@ -43,7 +43,6 @@
       var options = {title: 'OBOGS Performance @50psig (measured)',
                      width:400,
                      height: 500,
- 
                      curveType: 'function',
                         legend: { position: 'top' },
                      pointSize: 10,
@@ -77,8 +76,7 @@
  
         for (i=0; i < pO2.length ; i++){
           ob.run(pflow[i], pO2[i], rejF, toxinAdsorbF); // try rejectionF 0.8;         
-          rows.push([ob.prod, ob.toxinProd, ob.toxinWaste]) ;
-          
+          rows.push([ob.prod, ob.toxinProd, ob.toxinWaste]) ;          
        }
       
       data.addRows(rows);
@@ -86,26 +84,30 @@
       // Set chart options
       var options = {title: 'OBOGS Estimated Performance (Contaminant)',
                      width: 400,
-                     height: 500,
-                     
+                     height: 500,                    
                     curveType: 'function',
                         legend: { position: 'top' },
                      pointSize: 10,
                      hAxis: {title: 'Product Flow Rate (lpm)',
                              ticks: [20, 40, 60, 80, 100, 120, 140, 160]},
                      vAxis: {title: 'Contaminant (ppm)',
-                             viewWindowMode:'explicit',
-                            viewWindow: {min: 0, max: 120},}
+                            }
                     }
-
-
+  
       // Instantiate and draw our chart, passing in some options.
       var chart = new google.visualization.LineChart(document.getElementById('plot2'));
       console.log(data);
       chart.draw(data, options);
        
     } // end plot2
-      
+
+    function getOption() {  
+         var getValue = document.getElementById('like').selectedOptions[0].value;
+        // console.log(getValue);
+         return(getValue);
+         alert (getValue); // This will output the value selected.
+    }
+       
     </script>   
 
 
@@ -124,8 +126,11 @@
       this.inlet = this.prod/(1 - this.rejF) ;
       this.waste =  this.inlet - this.prod  ;
       this.wasteO2 = (this.inlet * this.inletO2 - this.prod * this.prodO2) / this.waste ;
-       
-      // fraction of N2 in Product and waste
+
+
+      if (getOption() === "N2") { // Adsorbs like N2
+        
+      // fraction of N2 in Product and waste    
       this.fN2inProd = this.prod * (100 - this.prodO2) / (this.inlet * (100 - this.inletO2)) ;
       this.fN2inWaste = this.waste * (100 - this.wasteO2) / (this.inlet * (100 - this.inletO2)) ;
        
@@ -136,6 +141,20 @@
          */    
         this.toxinProd = (1-this.toxinAdsorbF) * this.toxinInlet * this.inlet * this.fN2inProd / this.prod  ; 
         this.toxinWaste = (1-this.toxinAdsorbF) * this.toxinInlet * this.inlet * this.fN2inWaste / this.waste ;
+      } 
+      else {// Adsorbs Like Oxygen
+        
+         this.fO2inProd = this.prod * this.prodO2 / (this.inlet * this.inletO2) ;
+         this.fO2inWaste = this.waste * this.wasteO2 / (this.inlet * this.inletO2) ;      
+         /*
+           And we are distributing the toxin similar to O2, while allowing for permanent retention
+           of toxins in the  bed through "toxinAdsobF"
+         */    
+        this.toxinProd = (1-this.toxinAdsorbF) * this.toxinInlet * this.inlet * this.fO2inProd / this.prod  ; 
+        this.toxinWaste = (1-this.toxinAdsorbF) * this.toxinInlet * this.inlet * this.fO2inWaste / this.waste ;
+        //console.log(this.toxinProd, this.toxinWaste);
+      }
+
        
      } // end of run method
    } // end of Obogs class
@@ -160,10 +179,9 @@
                             width=100,
                              min=0.8 max=0.98 value=0.85 step=0.01 
                             onChange="plot1(); plot2() ;"
-        oninput="this.nextElementSibling.value = this.value">
-                  
+        oninput="this.nextElementSibling.value = this.value">                
         </input>   
-      <output>0.7</output>
+         <output>0.7</output>
       
     <div >
        Contaminant Retention Factor  <input type="range" id=toxinAdsorbF 
@@ -174,6 +192,13 @@
        <output>0.7</output>
     </div>
 
+      <label for="like">Contaminant Adsorption is similar to </label>
+      <select class="selectpicker" id=like onMouseOut="plot1(); plot2();">
+          <option>N2</option>
+          <option>O2</option>
+      </select>
+
+ 
   </div>
  <p class="text-primary">
    The purpose of this note is to communicate results of analysis, that
@@ -237,8 +262,29 @@
 
 </p>
 
-    </div>
+
+  <p class="text-primary">
+    If one assumes that contaminant behaves similar to Oxygen adsorption 
+    characteristics, then it can be observed that the contaminant concentration
+    in product stream is larger at low demand (about 4.5 times of input concentration),
+    but gradually decreases as the output flow rate increases. 
+  </p>
+
+    <p class="text-primary">
+      In essence completely different behaviour of contaminant concentration changes
+      can be expected depending on its adsorption characteristics. If contaminant is 
+      irreversible adsorbed to certain extent, the contaminant concentration profiles
+      do not alter but overall concetration magnitudes in either stream attenuate.
+        </p>
+
+  <p class=text-primary">
+      Finally it is to be stressed contaminant concentrations and their adsorption characteristics
+    can widely vary and it is not the intent of this analysis is to accurately predict concentrations of the
+    same, but rather gleen overall bheaviours if one assumes their  strong or weak adsorption 
+    propensities of primary air constituents.
 
     
+  </p>
+    </div>    
     <div>
 </html>
