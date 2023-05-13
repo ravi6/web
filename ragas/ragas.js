@@ -2004,5 +2004,16 @@ var obj = {
         "avarohana": "S N1 D1 P M2 G3 R2 S"
       }
     },
+    {
+      "name": "saindhavi",
+      "kritis": [
+        "IndukuGaa KoPinchaNela Naaku MunduGala KopaMella MugiSenu Poraa",
+	"Itu SaahaSamuLu ElaNaaPai ChakkNi SaaMi, Iggu Vagalu Tala NaaTaraMa",
+      ],
+      "notes": {
+        "aarohana": "N2 D2 N2 S2 R2 G2 M2 P D2 N2",
+        "avarohana": "D2 P M1 G2 R2 S2 R2 S2 N2 D2 N2 S"
+      }
+    },
   ]
 };
