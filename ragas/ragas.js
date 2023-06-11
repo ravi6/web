@@ -270,6 +270,7 @@ var obj = {
 	"Smara Vaaram Vaaram ChetaHa Smaranam",
 	"Rama RaghuKula VaarNidhi Somaa",
 	"Anyamu SeyakuRa Rama",
+	"Eme O Chitti EdaVaKe Eee Rotti Mukkaa Virichi",
       ],
       "notes": {
         "aarohana": "S R2 M1 P N3 S",
@@ -2013,6 +2014,16 @@ var obj = {
       "notes": {
         "aarohana": "N2 D2 N2 S2 R2 G2 M2 P D2 N2",
         "avarohana": "D2 P M1 G2 R2 S2 R2 S2 N2 D2 N2 S"
+      }
+    },
+    {
+      "name": "chintamani",
+      "kritis": [
+        "Devi Brova SamaYaMiDe Athi VegaMe Vachi",
+      ],
+      "notes": {
+	"aarohana": "S1 G2 R2 G2 M2 G2 R2 G2 PA M2 PA D2 N2 S2",
+        "avarohana": "S2 N2 D2 P M2 G2 R22 S1"
       }
     },
   ]
