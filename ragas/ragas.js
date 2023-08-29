@@ -1832,7 +1832,7 @@ var obj = {
 	"SugunamuLe CheppuKonti",
 	"Etula BroThuVo TeliYa YeKaantha Ramayya",
 	"AaKati VeLaLa AlaPaiNa VelaLa VekuVa HariNamaMe",
-	"Etula BrothuVo TeliYa Ekantha Ramayyaa",
+	"ChallaGa NaaTho PalukuMu RaaMaa",
       ],
       "notes": {
         "aarohana":  "S R1 G3 M1 P D2 N2 S",
