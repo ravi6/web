@@ -359,6 +359,16 @@ var obj = {
     },
 
     {
+      "name": "bangala",
+      "kritis": [
+	"Giri Raja Suta Tanaya Sadaya",
+      ],
+      "notes": {
+        "aarohana": "S R2 G3 M1 P M1 R2 S",
+        "avarohana": "S N3 P M1 R2 G3 R2 S"
+      }
+    },
+    {
       "name": "mukhari",
       "kritis": [
         "Kaaroo Baaru",
