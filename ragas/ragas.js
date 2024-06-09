@@ -482,6 +482,7 @@ var obj = {
 	"Saami NeePai Marulu Konnadi Raa",
 	"O Jagadamba Nanu Neevu Javamuna Brovu",
         "Sama Gaana Priye Tamil",
+	"Aa DinaMu Ninchi Pogadi Pogadi Nee Mahimalanu",
       ],
       "notes": {
         "aarohana": "S G2 R2 G2 M1 P D2 P S",
@@ -1229,6 +1230,7 @@ var obj = {
 	"Eteeruga Nanu Daya Choochedavo",
 	"Paahi Paahi Maam Parama Krupano",
 	"BhajaSwa Sree Tripura Sundaree",
+	"Dasana MaadiKo Yenna Swami"
       ],
       "notes": {
         "aarohana": "S R1 G3 M1 P D1 N3",
@@ -1398,8 +1400,9 @@ var obj = {
       "name": "ahiri",
       "kritis": [
 	"MaaYamma Yanine Pilichite",
-	"Challere Rama Chandruni",
+	"SomPaina ManaSutho Impaina BangaaRu",
 	"Sree Kamalambaa Jayathi",
+	"AbhayaMosaGaVe"
       ],
       "notes": {
         "aarohana": "S R1 M1 G3 M1 P D1 N2 S",
