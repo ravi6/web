@@ -523,6 +523,7 @@ var obj = {
       "kritis": [
         "MaamaVa Sadaa Janani",
 	"Bhaja Ramam Bhaja Ramam BhajaRe Manasa",
+	"Alai pAyudE kaNNA en manam migha alai pAyudE",
       ],
       "notes": {
         "aarohana": "S R2 P G2 M1 D2 N2 S",
