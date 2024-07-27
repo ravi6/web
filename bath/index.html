@@ -1,0 +1,88 @@
+<html>
+<style>
+
+h1 {
+ text-align: center;
+ font-size: 30px;
+}
+
+.container {
+  width: 600px ;
+  height: 100px ;
+  postions:relative;
+}
+
+img {
+ top: 180px ;
+ width: 100%;
+ border: 2px solid ;
+ opacity: 0.8;
+}
+
+
+.stickyText{
+ position:sticky;
+ top: 100px;
+ left: 100px;
+ font-size: 24px ;
+ color: black ;
+  z-index:9;
+}
+
+</style>
+<body>
+<h1>My Bathroom Rennovation Saga</h1>
+ <div id=container>
+
+   <img src=imgs/img01.jpg id=change1></img>
+   <p class=stickyText id=par1> 
+        Hello There 
+   </p>
+
+   <img src=imgs/img02.jpg id=change2></img>
+   <p class=stickyText id=par2> 
+     How are you
+   </p>
+
+   <img  src=imgs/img03.jpg id=change3</img>
+   <p class=stickyText id=par3> 
+   I am fine thank you
+   </p>
+
+ </div>
+ <script>
+   var container = document.getElementById("container");
+var stickyText = document.getElementById("stickyText");
+var tempY;
+window.addEventListener("scroll", (e) => {
+//watch how image moves with scrolleing
+    if(window.pageYOffset >= container.offsetTop && window.pageYOffset <= container.offsetTop+container.offsetHeight  - window.innerHeight ){
+        console.log("slinding");
+        stickyText.style.position = "fixed";
+        stickyText.style.top = "0vh";
+        stickyText.style.marginTop = "";
+        tempY = window.pageYOffset;
+    }else if(window.pageYOffset <= container.offsetTop){
+        console.log("top sxcreen");
+        stickyText.style.position = "absolute";
+        stickyText.style.top = "";
+        stickyText.style.marginTop = "";
+    }else{
+        console.log("stop");
+        stickyText.style.position = "absolute";
+        stickyText.style.marginTop = tempY + "px";
+    }
+//change images while scroll
+    if(window.pageYOffset < document.getElementById("change1").offsetTop){
+        stickyText.textContent = "🍓🍓🍓";
+    }
+    if(window.pageYOffset > document.getElementById("change1").offsetTop){
+        stickyText.textContent = "🍌🍌🍌";
+    }
+    if(window.pageYOffset > document.getElementById("change2").offsetTop){
+        stickyText.textContent = "🍏🍏🍏";
+    }
+})
+ </script>
+</body>
+</html>

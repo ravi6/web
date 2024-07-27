@@ -825,6 +825,7 @@ var obj = {
 	"NaraSimha Nannu BrovaVe Sree Laxshmi",
         "Sree MadhuRaapuri Viharini",
 	"Sree ChaMunDesWari PalayaMaam KriPaaKari SanKari",
+	"DorakuNaa ItuVanti Seva Nee Pada RaaJeevaMul Cheru",
       ],
       "notes": {
         "aarohana":  "S R2 G3 P D2 S",
@@ -1231,7 +1232,7 @@ var obj = {
 	"Eteeruga Nanu Daya Choochedavo",
 	"Paahi Paahi Maam Parama Krupano",
 	"BhajaSwa Sree Tripura Sundaree",
-	"Dasana MaadiKo Yenna Swami"
+	"Dasana MaadiKo Yenna Swami Sasira Maadiga""
       ],
       "notes": {
         "aarohana": "S R1 G3 M1 P D1 N3",
