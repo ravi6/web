@@ -20,7 +20,7 @@ body, html {
   color: #000;
 }
 
-.caption span.border {
+.caption span.bCap {
   background-color: #111;
   color: #fff;
   padding: 18px;
@@ -28,12 +28,26 @@ body, html {
   letter-spacing: 10px;
 }
 
-.whitePara {
+.caption span.wCap {
+  background-color:transparent;
+  font-size:25px;
+  color: #f7f7f7;
+}
+
+.wPara {
     color: #777;
     background-color:white;
     text-align:center;
     padding:50px 80px;
     text-align: justify;
+}
+
+.bPara {
+  color:#ddd;
+  background-color:#282E34;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
 }
 
 h3 {
@@ -50,47 +64,57 @@ h3 {
   }
 }
 </style>
+
 </head>
 <body>
 
-<div class="bgPic" id=img01>
+<div class="bgPic" id="img01">
   <div class="caption">
-  <span class="border">SCROLL DOWN</span>
+  <span class="bCap">SCROLL DOWN</span>
   </div>
 </div>
 
-<div class=whitePara>
+<div class=wPara>
   <h3 style="text-align:center;">Parallax Demo</h3>
-  <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.</p>
+  <p>Parallax scrolling is a web site trend where the background
+  content is moved at a different speed than the foreground 
+  content while scrolling. Nascetur per nec posuere turpis,
+  lectus nec libero turpis nunc at, sed posuere mollis ullamcorper
+  libero ante lectus, blandit pellentesque a,
+  magna turpis est sapien duis blandit dignissim. 
+  Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.
+  </p >
 </div>
 
-<div class="bgPic" id=img02>
+<div class="bgPic" id="img02">
   <div class="caption">
-  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">LESS HEIGHT</span>
+     <span class=wCap>LESS HEIGHT</span>
   </div>
 </div>
 
 <div style="position:relative;">
-  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-  <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+  <div calss=wPara>
+  <p> The fat cat sat on a mat . The fat cat sat on a meat Scroll up and 
+  down to really get the feeling of how Parallax Scrolling works.
+  </p>
   </div>
 </div>
 
-<div class="bgPic" id=img03>
+<div class="bgPic" id="img03">
   <div class="caption">
-  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
+     <span class=wCap>  SCROLL UP</span>
   </div>
 </div>
 
 <div style="position:relative;">
-  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <div class=bPara>
   <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
   </div>
 </div>
 
-<div class="bgPic" id=img01>
+<div class="bgPic" id="img01">
   <div class="caption">
-  <span class="border">FOOL!</span>
+  <span class="bCap">FOOL!</span>
   </div>
 </div>
 
@@ -101,17 +125,18 @@ h3 {
   // use respective id to set the  background pic
   let elms = document.getElementsByClassName ("bgPic") ;
   for (var i = 0 ; i < elms.length ; i++) {
-      let elm = elms.item (i) ;
+      let elm ;
+      elm = elms.item (i) ;
       elm.style.position = "relative";
       elm.style.opacity = 0.85;
       elm.style.backgroundAttachment =  "fixed";
       elm.style.backgroundPosition  =  "center";
       elm.style.backgroundRepeat =  "no-repeat";
       elm.style.backgroundSize =  "cover";
-      let str = "url(" + "'imgs/" + elm.id + ".jpg')" ;
-      console.log (str) ;
-      elm.style.backgroundImage = str ; 
-    //  elm.style.min-height = 400px ;
+      // backslash is a must before single quote
+      let str = "url(" + "\'imgs/" + elm.id + ".jpg\')" ;
+      elm.style.backgroundImage = str ;
+      elm.style.minHeight = "400px" ;
       };
    
 </script>
