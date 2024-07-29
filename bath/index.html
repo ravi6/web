@@ -3,6 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 <link  rel="stylesheet" type="text/css"  href="bath.css">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">  
 </head>
 
 <body>
@@ -443,17 +444,17 @@
      <h3> Lessons Learnt </h3>
      <ul>
           <li> Avoid using large format tiles that are
-	       hard to handle and cut and align </li>
+	       hard to handle, cut and align </li>
 	  <li> Stay away from walk-in showers. Too much
-	       work and cost to implement, hard to maintain
+	       work and cost to implement. Hard to maintain
 	       grout and tiles. </li>
-	  <li> Avoid using premix tile glue and save money.
-	       Buy powder mix that is of good quality. 
-	       Not difficult to use (you can use hands to 
-	       mix with gloves in small batches)
-	  <li> You can lose weight renovating. But it costs </li>
+	  <li> Mix your own tile adhesive instead of using
+	       expensive pre-mix. It is possible to just
+	       hand mix with small batches. It sets slightly
+	       faster than pre-mix.
+	  <li> You can lose weight renovating but it costs :( </li>
 	  <li> To learn you must do it :) </li>
-	  <li> While you get brownies 🍪 from your wife they won't
+	  <li> While you get few brownies 🍪 from your wife they won't
 	       last long :,) </li>
      </ul>
 </div>
@@ -462,6 +463,21 @@
 <script>
   //Set style for bgPic class objs
   // use respective id to set the  background pic
+
+ var mobile;
+         if (navigator.userAgent.match(/Android/i)
+         || navigator.userAgent.match(/webOS/i)
+         || navigator.userAgent.match(/iPhone/i)
+         || navigator.userAgent.match(/iPad/i)
+         || navigator.userAgent.match(/iPod/i)
+         || navigator.userAgent.match(/BlackBerry/i)
+         || navigator.userAgent.match(/Windows Phone/i)) {
+            mobile = true ;
+         } else {
+            mobile  = false ;
+         }
+  console.log ({mobile: mobile});
+  if ( ! mobile ) {
   let elms = document.getElementsByClassName ("bgPic") ;
   for (var i = 0 ; i < elms.length ; i++) {
       let elm ;
@@ -477,6 +493,6 @@
       elm.style.backgroundImage = str ;
       elm.style.height = "100vh" ;
       };
-   
+  } // not Mobile done 
 </script>
 </html>
