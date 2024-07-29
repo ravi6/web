@@ -7,20 +7,24 @@
 </head>
 
 <body>
-  <div style="height:100%" id=start>
-    <h1> Please use Laptop or PC to view this site </h3>
-    <h4> <i>not readable on Tablets or Mobile Phones </i> </h4>
+  <div id=start>
+  </div>
     <script>
-      function startup() {
-             document.getElementById("blog").removeAttribute("hidden");
-	     document.getElementById("start").remove() ;
-      }
+      function Mobile ()  {
+        let mobile = (navigator.userAgent.indexOf("Mobi") > -1) ;
+	console.log(mobile, navigator.userAgent) ;
+	if ( mobile) { 
+	  let elm = document.getElementById("start") ;
+	  elm.innerHTML = String.raw `
+	    <h2> Please use Laptop or PC to see this site </h2>
+	    <i> Not readable on iphone or tablet </i> `;
+	  document.write("<!--");
+	}
+      } // end Mobile
+    Mobile () ;
     </script>
-	<button onclick="{startup();}">proceed</button>
-    </div>
 
 
-  <div id=blog hidden>
   <div class="bgPic" id="img01">
     <div class="caption "> My Bathroom Renovation Saga </div>
   </div>
@@ -470,7 +474,6 @@
 	    <li> While you get few brownies 🍪 from your wife they won't
 		 last long :,) </li>
        </ul>
-  </div>
   </div>
   </body>
 
