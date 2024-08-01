@@ -511,6 +511,7 @@ var obj = {
       "name": "latangi",
       "kritis": [
         "Kanta JooduMi Oka Pariki",
+	"AparaaDhaMuLanni yu ManninChi Aadarinchu Mayya",
       ],
       "notes": {
         "aarohana": "S R2 G3 M2 P D1 N3 S",
