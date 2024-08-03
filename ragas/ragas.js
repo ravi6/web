@@ -226,6 +226,15 @@ var obj = {
       }
     },
 
+      "name": "urmila",
+      "kritis": [
+        "Entani Vinna Vintura",
+      ],
+      "notes": {
+        "aarohana": "S R2 G2 M2 P N3 S",
+        "avarohana": "S N3 P M2 G2 R2 S"
+      }
+    },
     {
       "name": "hindolam",
       "kritis": [
