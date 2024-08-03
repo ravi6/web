@@ -226,7 +226,7 @@ var obj = {
       }
     },
 
-      "name": "urmila",
+      "name": "urmika",
       "kritis": [
         "Entani Vinna Vintura",
       ],
