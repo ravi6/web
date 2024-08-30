@@ -1245,7 +1245,7 @@ var obj = {
 	"Eteeruga Nanu Daya Choochedavo",
 	"Paahi Paahi Maam Parama Krupano",
 	"BhajaSwa Sree Tripura Sundaree",
-	"Dasana MaadiKo Yenna Swami Sasira Maadiga""
+	"Dasana MaadiKo Yenna Swami Sasira Maadiga",
       ],
       "notes": {
         "aarohana": "S R1 G3 M1 P D1 N3",
