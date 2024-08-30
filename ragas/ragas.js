@@ -226,6 +226,7 @@ var obj = {
       }
     },
 
+    {
       "name": "urmika",
       "kritis": [
         "Entani Vinna Vintura",
@@ -235,6 +236,7 @@ var obj = {
         "avarohana": "S N3 P M2 G2 R2 S"
       }
     },
+
     {
       "name": "hindolam",
       "kritis": [
@@ -934,6 +936,7 @@ var obj = {
       "name": "kamala manohari",
       "kritis": [
 	"Kancha DaLaYaTaaKshi KaMaKshi KamaLa Manohari",
+	"Dhana Sutha DharuNi PariJana SowKhyamu Darbara RaaRama",
       ],
       "notes": {
         "aarohana": "S G3 M1 P N3 S",
