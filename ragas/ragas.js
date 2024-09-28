@@ -1246,6 +1246,7 @@ var obj = {
 	"Paahi Paahi Maam Parama Krupano",
 	"BhajaSwa Sree Tripura Sundaree",
 	"Dasana MaadiKo Yenna Swami Sasira Maadiga",
+	"Paahi paahi jagan mohana krishna",
       ],
       "notes": {
         "aarohana": "S R1 G3 M1 P D1 N3",
@@ -1416,7 +1417,7 @@ var obj = {
 	"MaaYamma Yanine Pilichite",
 	"SomPaina ManaSutho Impaina BangaaRu",
 	"Sree Kamalambaa Jayathi",
-	"AbhayaMosaGaVe"
+	"AbhayaMoseKaVe Kanaka PuraaLaYe"
       ],
       "notes": {
         "aarohana": "S R1 M1 G3 M1 P D1 N2 S",
