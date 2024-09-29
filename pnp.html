@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Pose Estimation Related Matters
+  (Ravi Saripalli) 25th Sep 2024 
+    -->
+
+<head> 
+      <meta charset="utf-8">
+      <link rel="shortcut icon" href="favicon.png">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+      <link href="html/stat.css" rel="stylesheet">
+      <title>Pose Estimation</title>
+      <!--meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" -->  
+</head>
+
+<body>
+
+<div class=container-fluid>
+<div id=macros> 
+  $\newcommand{\half}{\frac{1}{2}}$
+  $\newcommand{\Xm}{\mathbf{X}}$
+  $\newcommand{\Am}{\mathbf{A}}$
+  $\newcommand{\Fm}{\mathbf{F}}$
+  $\newcommand{\Im}{\mathbf{I}}$
+  $\newcommand{\Um}{\mathbf{U}}$
+  $\newcommand{\Lm}{\mathbf{\Lambda}}$
+  $\newcommand{\Vm}{\mathbf{V}}$
+  $\newcommand{\Ym}{\mathbf{Y}}$
+  $\newcommand{\Rm}{\mathbf{R}}$
+  $\newcommand{\ntt}{{n \times 3}}$
+  $\newcommand{\nt}{3 \times n}$
+  $\newcommand{\nn}{n \times n}$
+  $\newcommand{\xm}{\overline\Xm}$  
+  $\newcommand{\ym}{\overline\Ym}$  
+  $\newcommand{\tr}{\text{tr}}$
+  $\newcommand{\lbc}[1]{\left\{#1\right\}}$
+
+</div>
+
+<div>
+  <h1 class="text-center text-primary">3D Object Alignment </h1>
+  <h6 class="text-center text-success">Ravi Saripalli</h6>
+</div>
+
+<!-- ******************************************************** -->
+<div class="card" id=item1> </div> <script src=html/item1.js></script>
+
+  <div class=card-header ><h5>
+    The Problem </h5>
+  </div>
+<div class="card-body">
+<p class="card-text">
+  Imagine two arbitrary three dimensional objects that are
+  are identical but are translated and rotated with respect
+  to each other. The task is to find the translation and 
+  rotational transformation of one of the pair with respect 
+  to the other.
+
+  Such a requirement arises in object pose estimation 
+  with rigid body registraton with known corresponding 
+  surface points on both surfaces.
+ 
+  To start with we will consider the reference surface points 
+  matrix $X_\nt$ and  target surface points matrix
+  $Y_\nt$. It is relatively simple to find the translational matrix
+  of these sets of points as follows
+</p>
+<i style="color:sienna">
+Point to ponder: </br>
+     Both reference and target points should cover the object
+     of interest evenly. If not, we will find the matched rotation
+     matrix does not yield proper determination of object pose.
+</i>
+	  
+</p>
+<div class="border border-info rounded bg-light bg-gradient">
+\[
+\begin{align*}
+	  \Xm^{i,j}_{new} = \Xm^{i,j} - (\xm{i} - \ym{i}) 
+\end{align*}
+\]
+</div>
+<p class="card-text">
+Now the task is to find the rotational transformation matrix
+$\Rm$ that will yield the target data points  $\Ym$. For convenince we will
+drop the "new" suffix from now on. We have to find $\Rm$ such that 
+$\Ym = \Rm \Xm$. Assuming that the number of data points are more than the
+unkown parameters (three Euler angles) in the rotational transformation
+matrix we seek to find these parameters based on minimisation of the error
+between the predicted data with applied transformation and the target data.
+Now the problem to be solved can be stated as follows.
+</p>
+</div>
+
+<div class="border border-info rounded bg-light bg-gradient">
+\[
+\begin{align*}
+min	\Vert \Ym - \Rm \Xm \Vert  \ \ \text{w.r.t $\Rm$}     \\
+\text{Defining} \   \Fm  :=  (\Ym - \Rm \Xm)^T (\Ym - \Rm \Xm)  \\
+\end{align*}
+\]
+Its norm can be expressed in terms
+of its trace based on the
+following formula for square matrix
+\[
+\begin{align*}
+\Vert \Am \Vert = \sum_{i=1}^n \sum_{j=1}^n a_{ij}^2 = \sqrt{\text{trace} \ (\Am \Am^T)}
+\end{align*}
+\]
+
+Now the problem is transformed to minimising the trace of symmetric square matrix
+$\Fm $.
+Noting the following general properties of a trace
+\[
+\begin{align*}
+ \tr (A + B) &= \tr (A) + \tr (B) \\
+ \tr (AB) &= \tr(BA) \ \ \text{ and } \ \  \tr (A) = \tr(A^T) \\  \\
+\end{align*}
+\]
+
+\[
+\begin{align*}
+\tr (\Fm) &= \tr \left\{ (\Ym - \Rm \Xm)^T (\Ym - \Rm \Xm) \right\} \\
+ &= \tr \left\{ 
+ (\Ym^T - \Xm^T \Rm^T) 
+ (\Ym - \Rm \Xm) 
+		\right\} \\
+ &= \tr \left\{ (\Ym^T \Ym - \Ym^T \Rm \Xm 
+                 - \Xm^T \Rm^T \Ym +  \Xm^T \Rm^T \Rm \Xm) \right\} \\ \\
+
+\tr (\Fm) &= \tr (\Ym^T \Ym)  - \tr (\Ym^T \Rm \Xm)
+   - \tr (\Xm^T \Rm^T \Ym) + \tr( \Xm^T \Rm^T \Rm \Xm)  \\
+   &\text{$\because$} \  
+   (\Xm^T \Rm^T \Ym)^T = \Ym^T \Rm \Xm  \  
+   \text{and} \ \  tr (\Am)= tr (\Am^T)  \\ 
+ \tr (\Fm) &= \tr (\Ym^T \Ym)  
+   - 2 \tr (\Ym^T \Rm \Xm ) + \tr( \Xm^T \Rm \Rm^T \Xm ) \\ 
+ &= \tr (\Ym^T \Ym)  
+   - 2 \tr (\Ym^T \Rm \Xm ) + \tr( \Xm \Xm^T \Rm \Rm^T ) \\ 
+ &= \tr (\Ym^T \Ym)  
+   - 2 \tr (\Xm \Ym^T \Rm) + \tr( \Xm \Xm^T \Rm \Rm^T ) \\ 
+\end{align*}
+\]
+
+The first term in the above expression does not contain $\Rm$. And 
+can be dropped from maximisation expression. And the trace of
+the third term is always positive, because it contains products of type
+($\Am\Am^T$). Consequently, the problem reduces to maximization problem as
+follows. (noting that  we dropped the negative sign on the second term)
+\[
+\begin{align*}
+\text{max}\ \  \tr (\Xm \Ym^T \Rm )
+\end{align*}
+\]
+Decomposing the  $(\Xm \Ym^T)\ \nn$ matrix as $\Um \Lm  \Vm^T$ 
+$\Um, \Vm$  correspond to unitary Vectors and $\Lm$ is diagonal
+matrix $. The maximization expression can
+now be recast as follows.
+\[
+\begin{align*}
+\text{max}\ \  \tr (\Um \Lm \Vm^T \Rm ) \\
+\text{alternately} \ \  \text{max} \ \ \tr (\Rm \Um \Lm \Vm^T)
+\end{align*}
+\]
+
+Noting the following properties of the above SVD decomposition
+<ul>
+  <li> $\Vert \Um \Vert =  \Vert \Vm \Vert = \Im$ </li>
+  <li> $\Um = \Um^T = \Um^{-1}$  </li>
+  <li> $\Vm = \Vm^T = \Vm^{-1}$  </li>
+  <li> $\Lm_{ii} >= 0$  </li>
+</ul>
+
+Consequently trace of $\Rm\Um\Lm\Vm^T$ is maximised if 
+$\Rm\Um = \Vm^T$. It is to be noted that roational matrix
+$\Vert\Rm\Vert=1$. With this constraint, the above assertion
+can be made.
+
+<p>
+<i style="color: sienna">
+It follows then optimal $\Rm$ that minimises
+$\Vert \Ym - \Rm \Xm \Vert$ is given by $\Vm\Um$ where $\Vm, \Um$
+are unitary vectors of SVD decomposition of $\Xm\Ym^T$.
+</i>
+</p>
+</div>
+
+<h2>Acknowledgement</h2>
+The derivation is due to the explanation provided 
+<a href = https://www.youtube.com/watch?v=sBclh-6-B_M>
+Robo Code Channel </a>. Added few additional details that
+help understand the derivation better.
+
+</div>
+<!-- ******************************************************** -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"> </script>
+<script src="https://cdn.jsdelivr.net/npm/jstat@latest/dist/jstat.min.js"> </script>
+<script src="https://cdn.plot.ly/plotly-2.4.2.min.js"></script>
+<script> 
+    MathJax = { tex: {
+    tags: 'all',  // should be 'ams', 'none', or 'all'
+    inlineMath: [['$', '$'], ['\\(', '\\)']] , }, };
+</script>
+<script id="MathJax-script" src= "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+
+<script>
+  document.addEventListe\ner ("DOMContentLoaded", 
+  ()=> {
+//     Util.doall();
+  });
+</script>
+</body>
+</html>
