@@ -172,16 +172,31 @@ Noting the following properties of the above SVD decomposition
   <li> $\Lm_{ii} >= 0$  </li>
 </ul>
 
-Consequently trace of $\Rm\Um\Lm\Vm^T$ is maximised if 
-$\Rm\Um = \Vm^T$. It is to be noted that roational matrix
-$\Vert\Rm\Vert=1$. With this constraint, the above assertion
-can be made.
+<p>
+Given that $\Um, \Vm and \Rm$  norms are 1, 
+the trace of $\Rm\Um\Lm\Vm^T$ is maximised if 
+$\Rm\Um = \Vm$.   <br>
+<i style="color:grey" > todo: I have to reason out the above in a more convincing manner </i>
+</br>
+The corresponding maximum value of the
+trace is as follows.
+</p>
+
+\[
+\begin{align*}
+\tr (\Vm \Um^{-1} \Um  \Lm \Vm^T) 
+      &= \tr (\Vm \Lm \Vm^T) = \tr (\Vm^T \Vm \Lm) \\ 
+                          & = \tr (\Lm)
+                          = \sum_i \Lm_{ii} 
+\end{align*}
+\]
 
 <p>
 <i style="color: sienna">
 It follows then optimal $\Rm$ that minimises
-$\Vert \Ym - \Rm \Xm \Vert$ is given by $\Vm\Um$ where $\Vm, \Um$
+$\Vert \Ym - \Rm \Xm \Vert$ is given by $\Vm\Um^T$ where $\Vm, \Um$
 are unitary vectors of SVD decomposition of $\Xm\Ym^T$.
+</i
 </i>
 </p>
 </div>
