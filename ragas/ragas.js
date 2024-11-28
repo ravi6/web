@@ -2061,5 +2061,17 @@ var obj = {
         "avarohana": "S2 N2 D2 P M2 G2 R22 S1"
       }
     },
+
+    {
+      "name": "bihag",
+      "kritis": [
+	"Saaram Maina Maatalandu Chalu Chalu Ra",
+        "Dikku Teriyada Kaattil",
+      ],
+      "notes": {
+        "aarohana": "S G3 M1 P D2 N3 S",
+        "avarohana": "S N3 D2 P M1 G3 R2 S"
+      }
+    },
   ]
 };
