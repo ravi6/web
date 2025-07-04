@@ -1337,6 +1337,7 @@ var obj = {
 	"Paalinchu Kaamakshi",
 	"Deva Devam Kvetitam MrugaYaama VayaMiha",
 	"Rama Naamam Nalla Naamam",
+        "Dharma SamVardhani DanuJa SamMarDhani",
       ],
       "notes": {
         "aarohana": "S R2 M1 P N2 S",
@@ -1419,7 +1420,7 @@ var obj = {
 	"MaaYamma Yanine Pilichite",
 	"SomPaina ManaSutho Impaina BangaaRu",
 	"Sree Kamalambaa Jayathi",
-	"AbhayaMoseKaVe Kanaka PuraaLaYe"
+	"AbhayaMosaGaVe Kanaka PuraaLaYe"
       ],
       "notes": {
         "aarohana": "S R1 M1 G3 M1 P D1 N2 S",
