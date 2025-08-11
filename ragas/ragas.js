@@ -120,15 +120,16 @@ var obj = {
       "name": "bhairavi",
       "kritis": [
         "Baala Gopala",
+        "Govinda Ghataya",
 	"Mundatee Vale Naapai Nelavunna Naa Sami",
 	"Enaati Nomu Phalamo",
 	"Etulaina Bhakti Vachutake Yatnamu Seyave",
-	"UpakaraMuLanoo Che Konavayyaa",
         "Neela Neerada Sareera",
+        "Lalite Pravardhe, Sri Lalite subha Vadane,
         "Viri Boni Chiru navvu",
-        "Govinda Ghataya",
         "Alamelu Manga Nee Aluka",
 	"TanaYuni Brova JanaNi VachuNo Talli Vadda BaaluDu Bono",
+	"UpakaraMuLanoo Che Konavayyaa",
 	"Ettanai Kaettalum",
 	"Mariyaada GaadaYya Mamu PaavaDeMayya",
 	"Ramaa RaghuKula Vaarnidhi Soma",
@@ -1100,7 +1101,7 @@ var obj = {
       "kritis": [
 	"Maama Mama Sadaa Varade MahishaaSura Sundari",
 	"Nannu Brova Neeku Bharama",
-	"Chalamela Jesevayya Chakkani Ma Rangayya"
+	"Chalamela Jesevayya Chakkani Ma Rangayya",
       ],
       "notes": {
         "aarohana": "S R2 G3 M1 N2 D2 N2 P D2 N2 S",
@@ -1197,6 +1198,7 @@ var obj = {
 	"Baaro Krishnayya Ninne Bhakta Ramana Geega",
 	"KandeNa GovindaNa Pundaree Kaakshna Pandava Pakshana",
 	"Bega Baro Bega Baro Nila Megha Varna",
+        "Bhaja Govindam Bhaja Govindam Moodha Mathe",
       ],
       "notes": {
         "aarohana": "S G3 M1 D2 N3 S",
@@ -1396,6 +1398,7 @@ var obj = {
 	"Bruhi MuknDe RasaNe",
 	"Muddu Gaare Yahsoda",
 	"SeeTha Kalyana VaiBhogaMe Rama KalyaNa VaibhoGaMe",
+        "Sree VenuGopaaLa Sri Rukmini Lola",
       ],
       "notes": {
         "aarohana": "S1 N3 S2 R2 G3 M1 P D2",
@@ -1432,6 +1435,7 @@ var obj = {
       "name": "deva manohari",
       "kritis": [
 	"Kula Birudulu Brochu Kondammu",
+        "Vinaayukuni Valenu BrovaVe",
 	"Yaarakki Taan Teriyum",
       ],
       "notes": {
