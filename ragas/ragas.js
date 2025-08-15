@@ -1578,7 +1578,6 @@ var obj = {
 	"BhaliRaa Vairagya Mentho BaaGai Unnadi",
 	"Ennadu JoothuNo InaKula Tilaka",
 	"Govinda Ninna NamaVe Kanda",
-	
       ],
       "notes": {
         "aarohana": "S R1 M1 P D2 S",
@@ -1630,7 +1629,6 @@ var obj = {
       "notes": {
         "aarohana": "S G2 M1 D1 N2 S",
         "avarohana": "S N2 D1 M1 P M1 G2 S"
-
       }
     },
 
