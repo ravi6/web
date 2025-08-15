@@ -125,7 +125,7 @@ var obj = {
 	"Enaati Nomu Phalamo",
 	"Etulaina Bhakti Vachutake Yatnamu Seyave",
         "Neela Neerada Sareera",
-        "Lalite Pravardhe, Sri Lalite subha Vadane,
+        "Lalite Pravardhe, Sri Lalite subha Vadane",
         "Viri Boni Chiru navvu",
         "Alamelu Manga Nee Aluka",
 	"TanaYuni Brova JanaNi VachuNo Talli Vadda BaaluDu Bono",
