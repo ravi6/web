@@ -653,6 +653,7 @@ var obj = {
 	"Yjnaadulu Sukhamanu Variki",
 	"Sree Rama Chandro RakshaTuMaam",
 	"NaaDa TanuMani Shankam SadyoTaji TanuManu",
+        "PaaliSamma Muddu SaaraDe",
       ],
       "notes": {
         "aarohana": "S R2 G2 M1 D2 S",
