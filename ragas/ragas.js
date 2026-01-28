@@ -499,6 +499,7 @@ var obj = {
 	"O Jagadamba Nanu Neevu Javamuna Brovu",
         "Sama Gaana Priye Tamil",
 	"Aa DinaMu Ninchi Pogadi Pogadi Nee Mahimalanu",
+        "Rama Bhadra Raa Raa TaamaRasa Lochana",
       ],
       "notes": {
         "aarohana": "S G2 R2 G2 M1 P D2 P S",
@@ -1342,6 +1343,7 @@ var obj = {
 	"Paalinchu Kaamakshi",
 	"Deva Devam Kvetitam MrugaYaama VayaMiha",
 	"Rama Naamam Nalla Naamam",
+        "Mella MellaNe BandaNe Gopamma Kele",
         "Dharma SamVardhani DanuJa SamMarDhani",
       ],
       "notes": {
