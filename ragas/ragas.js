@@ -15,6 +15,7 @@ var obj = {
 	"AaloKaYe RukMini KalYana Gopalam",
 	"PaaDa BhajaNa SadaaNandaMe ParaMeswari",
         "Murugaa Murugaa enDraal",
+        "Shankari Shankuru ChandraMuhi",
       ],
       "notes": {
         "aarohana": "S R1 M1 P D1 S",
@@ -134,6 +135,7 @@ var obj = {
 	"Mariyaada GaadaYya Mamu PaavaDeMayya",
 	"Ramaa RaghuKula Vaarnidhi Soma",
 	"Sumirina Karu Ramu Bina",
+        "Janani Maamava Maye Bharathi Jaya SarasiJasana Jaaye",
       ],
       "notes": {
         "aarohana": "S R2 G2 M1 P D2 N2 S", 
@@ -1474,6 +1476,7 @@ var obj = {
 	"YeMaaNa ThinCheDaVo YeMenchi Naavo",
 	"MagaDochhi PiliChedu Poyi Vattura Saami",
 	"Eee Vasudha Nee Vanti DaiVamu Nendu GanaRaa",
+        "Rama Ika Nannu Brova Raada Daya Leda",
       ],
       "notes": {
         "aarohana": "S R2 G3 M1 P M1 D2 N2 S",
