@@ -691,6 +691,7 @@ var obj = {
 	"BhavamuLona Bahyamu Nandunu Govinda",
 	"Narayanaa Ninna Naamada SmaraNeya",
 	"Sree Paartha SaaraDhi Naa PaaliTho SmaYamHam Sadaa",
+        "Tana MataMe Tana Hitavu",
       ],
       "notes": {
         "aarohana": "S G2 M1 P N2 S",
@@ -961,6 +962,7 @@ var obj = {
 	"KaruNa Nidhim GaDaDhaRa SaraNaGaTa VatsaLa",
 	"Venu Gaana Lola",
 	"Entani VeduDuRa MroKkenuRa KonTaiNa Manavini",
+        "Taavaka Namaani Subhadani PrajaPaani",
       ],
       "notes": {
         "aarohana": "S R2 M1 P N2 S ",
@@ -1150,7 +1152,7 @@ var obj = {
 	"Cheli Nenetlu Sahintune",
       ],
       "notes": {
-        "aarohana": "S G3 P D1 N3 S",
+        "aarohana": "S G3 M1 P D1 N3 S",
         "avarohana": "S N3 D1 P M1 G3 R1 S"
       }
     },
@@ -1428,7 +1430,8 @@ var obj = {
 	"MaaYamma Yanine Pilichite",
 	"SomPaina ManaSutho Impaina BangaaRu",
 	"Sree Kamalambaa Jayathi",
-	"AbhayaMosaGaVe Kanaka PuraaLaYe"
+	"AbhayaMosaGaVe Kanaka PuraaLaYe",
+        "PannaGaenDraShaYa NirupaMa GunaVasuDhaa",
       ],
       "notes": {
         "aarohana": "S R1 M1 G3 M1 P D1 N2 S",
