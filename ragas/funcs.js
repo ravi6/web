@@ -106,19 +106,10 @@ function selRaga (sel) { //Process Raga Drop Down List
 
     } // end listKirtanas
 
-function fillDataList() {
-    const list = document.getElementById('ragaList');
-    getRagas().forEach(name => {
-        let opt = document.createElement('option');
-        opt.value = name;
-        list.appendChild(opt);
-    });
-}
 
 function toggleComp() {
     const p = document.getElementById('compPanel');
     p.style.display = p.style.display === 'none' ? 'block' : 'none';
-    if(p.style.display === 'block') fillDataList();
 }
 
 function doComp() {
