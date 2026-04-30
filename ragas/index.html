@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" translate="no">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,7 +43,7 @@
 <body>
 
 <header>
-    <div><h1>Carnatic Exploration</h1><p>Ravi Saripalli — Ver.6</p></div>
+    <div><h1>Carnatic Exploration</h1><p>Ravi Saripalli</p></div>
     <img src="ravi.jpg" class="pic">
 </header>
 
@@ -90,6 +90,7 @@
     window.onload = () => {
         if (typeof dropListRagas === 'function') dropListRagas();
         if (typeof showStats === 'function') showStats();
+        showRagaKritis (getRagas()[0]); 
     };
 
     const btn = document.getElementById('btn');
@@ -118,12 +119,6 @@
     menu.addEventListener('click', () => menu.classList.remove('open'));
     window.onclick = () => menu.classList.remove('open');
 
-    // 5. Helper to show the output box only when it has content
-    const observer = new MutationObserver(() => {
-        const out = document.getElementById('output');
-        out.style.display = out.innerHTML.trim() ? "block" : "none";
-    });
-    observer.observe(document.getElementById('output'), { childList: true });
 </script>
 
 </body>
