@@ -3,7 +3,7 @@ Author: Ravi Saripalli
 Date:   31st Dec. 2019
 */
 // Yukky Globals
-var rag1="aabhogi", rag2="aarabhi" , count=-1;
+ count=-1;
 
 function capFirst(str) {
     str = str.split(" ");
@@ -106,39 +106,154 @@ function selRaga (sel) { //Process Raga Drop Down List
 
     } // end listKirtanas
 
-    function compRagas() {
-      let i1, i2 ;
-      let buf = [] ;
-      let ragas = getRagas() ;
-        for (let i=0 ; i < ragas.length ; i++) {
-	    if (obj.ragas[i].name == rag1)
-	       i1 = i;
-	    else if (obj.ragas[i].name == rag2)
-	       i2 = i;
-	}
-      buf.push("<table class='table table-striped table-condensed'><tbody>")
-      buf.push("<tr>"); buf.push("<td>Ragam</td>");
-      buf.push("<td>Aarohana</td>");
-      buf.push("<td>Avarohana</td>");
-      buf.push("<tr>");
-      buf.push("<tr>"); buf.push("<td>"); 
-      let cmd = "\"showRagaKritis('" + rag1 + "');\"" ;
-      buf.push ("<a href='#' onclick=" +  cmd + '\>' + rag1 + "</a>");
-      buf.push("</td>");
-      buf.push("<td>" + obj.ragas[i1].notes.aarohana + "</td>");
-      buf.push("<td>" + obj.ragas[i1].notes.avarohana + "</td>");
-      buf.push("<tr>");
-      buf.push("<tr>"); buf.push("<td>"); 
-      cmd = "\"showRagaKritis('" + rag2 + "');\"" ;
-      buf.push ("<a href='#' onclick=" +  cmd + '\>' + rag2 + "</a>");
-      buf.push("</td>");
-      buf.push("<td>" + obj.ragas[i2].notes.aarohana + "</td>");
-      buf.push("<td>" + obj.ragas[i2].notes.avarohana + "</td>");
-      buf.push("<tr>");
-      buf.push("</tbody></table>");
-      document.getElementById("output").innerHTML = buf.join("") ;
-      document.getElementById("outputTitle").innerHTML = "Comparison" ;
+function fillDataList() {
+    const list = document.getElementById('ragaList');
+    getRagas().forEach(name => {
+        let opt = document.createElement('option');
+        opt.value = name;
+        list.appendChild(opt);
+    });
+}
+
+function toggleComp() {
+    const p = document.getElementById('compPanel');
+    p.style.display = p.style.display === 'none' ? 'block' : 'none';
+    if(p.style.display === 'block') fillDataList();
+}
+
+function doComp() {
+    // 1. Get the names directly from the input boxes
+    const n1 = document.getElementById('r1').value.trim();
+    const n2 = document.getElementById('r2').value.trim();
+    
+    if (n1 && n2) {
+        // 2. Pass the names to the function
+        compRagas(n1, n2); 
+    }
+}
+
+function compRagas(name1, name2) {
+    // 3. Use your existing findRaga helper to get the objects
+    const r1 = findRaga(name1);
+    const r2 = findRaga(name2);
+
+    // If for some reason raga isn't found, stop
+    if (!r1.name || !r2.name) return;
+
+    let buf = ["<table class='table'><tr><th>Ragam</th><th>Aarohana</th><th>Avarohana</th></tr>"];
+
+    // Use Template Literals for clean, readable HTML strings
+    [r1, r2].forEach(r => {
+        buf.push(`<tr>
+            <td><a onclick="showRagaKritis('${r.name}')">${r.name}</a></td>
+            <td>${r.notes.aarohana}</td>
+            <td>${r.notes.avarohana}</td>
+        </tr>`);
+    });
+
+    buf.push("</table>");
+
+    // 4. CRITICAL: Show the box and set the text
+    const out = document.getElementById("output");
+    out.style.display = "block"; // Make it visible
+    out.innerHTML = buf.join("");
+    document.getElementById("outputTitle").innerHTML = "Comparison";
+    
+    // Scroll to the result on iPhone
+    out.scrollIntoView({ behavior: 'smooth' });
+}
+
+function filterRagas(input, menuId) {
+    const val = input.value.toLowerCase();
+    const menu = document.getElementById(menuId);
+    
+    // Clear and show menu if typing
+    menu.innerHTML = '';
+    if (val.length === 0) {
+        menu.classList.remove('open');
+        return;
     }
 
-     $(document).ready (function (){dropListRagas(); 
-                                    showStats();}) ;
+    const matches = getRagas().filter(r => r.toLowerCase().startsWith(val));
+    
+    if (matches.length > 0) {
+        menu.classList.add('open');
+        matches.forEach(name => {
+            const a = document.createElement('a');
+            a.className = 'dropdown-item';
+            a.textContent = name;
+            a.onclick = () => {
+                input.value = name;
+                menu.classList.remove('open');
+            };
+            menu.appendChild(a);
+        });
+    } else {
+        menu.classList.remove('open');
+    }
+}
+
+function showSims() {
+    let buf = ["<table><thead><tr><th>Target</th><th>Similar</th><th>Details</th></tr></thead><tbody>"];
+    
+    simData.forEach(row => {
+        buf.push(`<tr><td>${row[0]}</td><td>${row[1]}</td><td>${row[2]}</td></tr>`);
+    });
+    
+    buf.push("</tbody></table>");
+    
+    let out = document.getElementById("output");
+    out.style.display = "block";
+    out.innerHTML = buf.join("");
+    document.getElementById("outputTitle").innerHTML = "Raga Similarities";
+    
+    // Smooth scroll to results
+    out.scrollIntoView({ behavior: 'smooth' });
+}
+
+
+function init() {
+    // 1. Load the Data
+    if (typeof dropListRagas === 'function') dropListRagas();
+    if (typeof showStats === 'function') showStats();
+    
+    // 2. Select the first Raga by default
+    let allRagas = getRagas();
+    if (allRagas.length > 0) showRagaKritis(allRagas[0]);
+
+    // 3. Setup UI elements
+    const btn = document.getElementById('btn');
+    const menu = document.getElementById('menuRaga');
+
+    if (!btn || !menu) return; // Safety check
+
+    // 4. Open/Close Logic
+    btn.onclick = (e) => {
+        e.stopPropagation();
+        menu.classList.toggle('open');
+    };
+
+    // 5. Jump to Match Logic (Keyboard)
+    document.onkeydown = (e) => {
+        if (!menu.classList.contains('open') || e.key.length !== 1) return;
+        
+        const char = e.key.toLowerCase();
+        const items = menu.querySelectorAll('.dropdown-item');
+        const match = Array.from(items).find(el => 
+            el.textContent.trim().toLowerCase().startsWith(char)
+        );
+
+        if (match) {
+            e.preventDefault();
+            match.focus();
+            const menu = match.parentElement;
+            menu.scrollTop = match.offsetTop - menu.offsetTop;
+        }
+    };
+
+    // 6. Global Click Closers
+    menu.addEventListener('click', () => menu.classList.remove('open'));
+    window.addEventListener('click', () => menu.classList.remove('open'));
+}
+
+window.onload = init;

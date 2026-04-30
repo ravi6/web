@@ -17,12 +17,13 @@
         .wrap { position: relative; }
         .list { 
             display: none; position: absolute; background: white; 
-            min-width: 200px; max-height: 400px; overflow-y: auto; 
-            box-shadow: 0 4px 12px rgba(0,0,0,0.5); z-index: 100; border-radius: 4px;
+            min-width: 200px; max-height: 200px; overflow-y: auto; 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5); z-index: 100;
+             border-radius: 4px;
         }
         .list.open { display: block; }
         
-        /* Your funcs.js generates 'dropdown-item' classes */
+        /* funcs.js generates 'dropdown-item' classes */
         .dropdown-item { color: black !important; padding: 8px 15px; display: block; border-bottom: 1px solid #eee; font-size: 14px; }
         .dropdown-item:hover, .dropdown-item:focus { background: #ffeb3b; outline: none; }
 
@@ -52,13 +53,26 @@
         <a id="btn">Ragam ▼</a>
         <div class="list" id="menuRaga"></div>
     </div>
-    <a onclick="compRagas()">Compare</a>
-    <a href="similar.html">Similarities</a>
+    <a onclick="toggleComp()">Compare</a>
+    <a onclick="showSims()">Similarities</a>
     <div class="search-area">
         <input id="ss" type="search" placeholder="Search Kriti...">
         <button onclick="listKritis()">Search</button>
     </div>
 </nav>
+
+<div id="compPanel" style="display:none; background:#eee; padding:15px; border-bottom:2px solid yellow; text-align:center;">
+    <div class="wrap" style="display:inline-block;">
+        <input type="text" id="r1" placeholder="Raga 1..." oninput="filterRagas(this, 'menu1')" autocomplete="off">
+        <div class="list" id="menu1"></div>
+    </div>
+    <span style="padding:0 10px;">vs</span>
+    <div class="wrap" style="display:inline-block;">
+        <input type="text" id="r2" placeholder="Raga 2..." oninput="filterRagas(this, 'menu2')" autocomplete="off">
+        <div class="list" id="menu2"></div>
+    </div>
+    <button id="goBtn" onclick="doComp()">Go</button>
+</div>
 
 <div class="grid">
     <div class="box">
@@ -81,44 +95,11 @@
     <div id="nkritis"></div>
 </footer>
 
-<!-- IMPORTANT: Since you are ditching jQuery, we replace $(document).ready -->
 <script src="./ragas.js"></script>
 <script src="./funcs.js"></script>
+<script src="./sims.js"></script>
 
 <script>
-    // 1. Initialization (Replaces jQuery $(document).ready)
-    window.onload = () => {
-        if (typeof dropListRagas === 'function') dropListRagas();
-        if (typeof showStats === 'function') showStats();
-        showRagaKritis (getRagas()[0]); 
-    };
-
-    const btn = document.getElementById('btn');
-    const menu = document.getElementById('menuRaga');
-
-    // 2. Open/Close Logic
-    btn.onclick = (e) => {
-        e.stopPropagation();
-        menu.classList.toggle('open');
-    };
-
-    // 3. Jump to Match Logic
-    document.onkeydown = (e) => {
-        if (!menu.classList.contains('open') || e.key.length !== 1) return;
-        const char = e.key.toLowerCase();
-        const items = menu.querySelectorAll('.dropdown-item');
-        const match = Array.from(items).find(el => el.textContent.trim().toLowerCase().startsWith(char));
-        if (match) {
-            e.preventDefault();
-            match.focus();
-            match.scrollIntoView({ block: 'nearest' });
-        }
-    };
-
-    // 4. Ensure clicking a raga closes the menu
-    menu.addEventListener('click', () => menu.classList.remove('open'));
-    window.onclick = () => menu.classList.remove('open');
-
 </script>
 
 </body>
