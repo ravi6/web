@@ -1,0 +1,19 @@
+v 20201216 2
+T 2000 2400 5 10 0 0 0 0 1
+device=LOOP_ANTENNA
+C 2400 4400 1 270 0 connector7-2.sym
+{
+T 4000 3400 5 10 1 1 270 6 1
+refdes=T301
+T 5650 4100 5 10 0 0 270 0 1
+device=CONNECTOR_7
+T 5850 4100 5 10 0 0 270 0 1
+footprint=SIP7N
+}
+C 5800 2900 1 90 0 connector8-2.sym
+{
+T 2150 3200 5 10 0 0 90 0 1
+device=CONNECTOR_8
+T 1950 3200 5 10 0 0 90 0 1
+footprint=SIP8N
+}

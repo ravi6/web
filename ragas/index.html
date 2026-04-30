@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carnatic Music Ragams</title>
+    <style>
+        /* Base & Colors */
+        body { font-family: sans-serif; margin: 0; background: #f4f4f4; line-height: 1.5; }
+        header { background: #444 url("bg.jpg") center/cover; color: white; padding: 20px; display: flex; justify-content: space-between; align-items: center; }
+        .pic { width: 80px; height: 80px; border-radius: 50%; border: 2px solid yellow; }
+
+        /* Nav & Menu */
+        nav { background: #333; padding: 10px; display: flex; gap: 20px; align-items: center; flex-wrap: wrap; }
+        nav a { color: yellow; text-decoration: none; cursor: pointer; font-weight: bold; }
+        
+        .wrap { position: relative; }
+        .list { 
+            display: none; position: absolute; background: white; 
+            min-width: 200px; max-height: 400px; overflow-y: auto; 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5); z-index: 100; border-radius: 4px;
+        }
+        .list.open { display: block; }
+        
+        /* Your funcs.js generates 'dropdown-item' classes */
+        .dropdown-item { color: black !important; padding: 8px 15px; display: block; border-bottom: 1px solid #eee; font-size: 14px; }
+        .dropdown-item:hover, .dropdown-item:focus { background: #ffeb3b; outline: none; }
+
+        /* Layout Grid */
+        .grid { display: flex; flex-wrap: wrap; padding: 20px; gap: 20px; }
+        .box { flex: 1; min-width: 300px; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        
+        /* Table styling for Comparison */
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { text-align: left; padding: 8px; border-bottom: 1px solid #ddd; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+
+        .search-area { margin-left: auto; display: flex; gap: 8px; }
+        input { padding: 5px; border-radius: 4px; border: 1px solid #ccc; }
+        button { cursor: pointer; padding: 5px 10px; background: #555; color: white; border: none; border-radius: 4px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div><h1>Carnatic Exploration</h1><p>Ravi Saripalli — Ver.6</p></div>
+    <img src="ravi.jpg" class="pic">
+</header>
+
+<nav>
+    <div class="wrap">
+        <a id="btn">Ragam ▼</a>
+        <div class="list" id="menuRaga"></div>
+    </div>
+    <a onclick="compRagas()">Compare</a>
+    <a href="similar.html">Similarities</a>
+    <div class="search-area">
+        <input id="ss" type="search" placeholder="Search Kriti...">
+        <button onclick="listKritis()">Search</button>
+    </div>
+</nav>
+
+<div class="grid">
+    <div class="box">
+        <h3 id="ragam" style="color:#444; border-bottom: 2px solid yellow;"></h3>
+        <ul id="klist"></ul>
+    </div>
+    <div class="box">
+        <h4>Scale</h4>
+        <div id="notes"></div>
+    </div>
+</div>
+
+<div style="padding: 0 20px;">
+    <h4 id="outputTitle"></h4>
+    <div id="output" class="box" style="display:none;"></div>
+</div>
+
+<footer style="padding: 20px; display: flex; gap: 50px; font-size: 14px;">
+    <div id="nragas"></div>
+    <div id="nkritis"></div>
+</footer>
+
+<!-- IMPORTANT: Since you are ditching jQuery, we replace $(document).ready -->
+<script src="./ragas.js"></script>
+<script src="./funcs.js"></script>
+
+<script>
+    // 1. Initialization (Replaces jQuery $(document).ready)
+    window.onload = () => {
+        if (typeof dropListRagas === 'function') dropListRagas();
+        if (typeof showStats === 'function') showStats();
+    };
+
+    const btn = document.getElementById('btn');
+    const menu = document.getElementById('menuRaga');
+
+    // 2. Open/Close Logic
+    btn.onclick = (e) => {
+        e.stopPropagation();
+        menu.classList.toggle('open');
+    };
+
+    // 3. Jump to Match Logic
+    document.onkeydown = (e) => {
+        if (!menu.classList.contains('open') || e.key.length !== 1) return;
+        const char = e.key.toLowerCase();
+        const items = menu.querySelectorAll('.dropdown-item');
+        const match = Array.from(items).find(el => el.textContent.trim().toLowerCase().startsWith(char));
+        if (match) {
+            e.preventDefault();
+            match.focus();
+            match.scrollIntoView({ block: 'nearest' });
+        }
+    };
+
+    // 4. Ensure clicking a raga closes the menu
+    menu.addEventListener('click', () => menu.classList.remove('open'));
+    window.onclick = () => menu.classList.remove('open');
+
+    // 5. Helper to show the output box only when it has content
+    const observer = new MutationObserver(() => {
+        const out = document.getElementById('output');
+        out.style.display = out.innerHTML.trim() ? "block" : "none";
+    });
+    observer.observe(document.getElementById('output'), { childList: true });
+</script>
+
+</body>
+</html>

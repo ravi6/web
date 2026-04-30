@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base target="_top">
+    <title>Manasa's Musings</title>
+    <style>
+        DIV.mms {
+            font-size: 15px;
+            font-weight: bold;
+            color: navy;
+            position: absolute;
+        }
+
+        DIV.poem {
+            font-size: 12pt;
+            font-family: Verdana, sans-serif;
+            position: absolute;
+            left: 400px;
+            top: 167px;
+            height: 450px;
+            width: 750px;
+            padding: 10px;
+            visibility: hidden;
+            text-align: left;
+            border: 1px solid skyblue;
+            overflow: scroll;
+        }
+
+        #Intro { visibility: visible; }
+
+        #BFrame {
+            font-size: 8pt;
+            z-index: 106;
+            left: 31px;
+            width: 129px;
+            font-style: italic;
+            position: absolute;
+            top: 600px;
+            height: 30px;
+            text-align: center;
+        }
+    </style>
+
+    <script>
+        function hideAll() {
+            const poems = ["MarchSong", "Intro", "AnzacSong", "ThomasSong"];
+            poems.forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.style.visibility = "hidden";
+            });
+        }
+
+        function playSound(file) {
+            const audio = document.getElementById("sound");
+            audio.src = file;
+            audio.play().catch(() => console.log("Interaction required for audio."));
+        }
+
+        window.onload = function() {
+            // The March Button
+            document.getElementById("topM").onmouseover = function() {
+                this.src = "gifs/btnRoundYellow.jpg";
+                document.getElementById("Picture").src = "gifs/AnzacDay.jpg";
+                hideAll();
+                document.getElementById("MarchSong").style.visibility = "visible";
+                playSound("TheMarch.mp3");
+            };
+            document.getElementById("topM").onmouseout = function() {
+                this.src = "gifs/btnRoundBlue.jpg";
+            };
+
+            // Anzac Day Button
+            document.getElementById("midM").onmouseover = function() {
+                this.src = "gifs/btnRoundYellow.jpg";
+                document.getElementById("Picture").src = "gifs/FlowerBed.jpg";
+                hideAll();
+                document.getElementById("AnzacSong").style.visibility = "visible";
+                playSound("AnzacDay.mp3");
+            };
+            document.getElementById("midM").onmouseout = function() {
+                this.src = "gifs/btnRoundBlue.jpg";
+            };
+
+            // Thomas Button
+            document.getElementById("botM").onmouseover = function() {
+                this.src = "gifs/btnRoundYellow.jpg";
+                document.getElementById("Picture").src = "gifs/Thomas.jpg";
+                hideAll();
+                document.getElementById("ThomasSong").style.visibility = "visible";
+                playSound("Thomas.mp3");
+            };
+            document.getElementById("botM").onmouseout = function() {
+                this.src = "gifs/btnRoundBlue.jpg";
+            };
+
+            // Good Bye Button
+            document.getElementById("beginM").onmouseover = function() {
+                this.src = "gifs/btnRoundYellow.jpg";
+                document.getElementById("Picture").src = "gifs/Manasa1.jpg";
+                hideAll();
+                document.getElementById("Intro").style.visibility = "visible";
+                playSound("ByeBye.mp3");
+            };
+            document.getElementById("beginM").onmouseout = function() {
+                this.src = "gifs/btnRoundBlue.jpg";
+            };
+        };
+    </script>
+</head>
+
+<body bgcolor="ivory">
+    <audio id="sound" src="ByeBye.mp3" style="display:none"></audio>
+
+    <hr style="z-index: 102; left: 106px; position: absolute; top: 111px; height: 4px" id="HR1" size="4">
+
+    <img id="Title" style="left: 217px; position: absolute; top: 30px" src="gifs/musing.gif" alt="Title">
+
+    <div id="MenuFrame" style="font-size: 20pt; z-index: 100; left: 20px; width: 97px; color: blue; position: absolute; top: 152px; height: 295px; background-color: ivory">
+        <img id="topM" style="z-index: -1; left: 8px; width: 79px; position: absolute; top: 10px; height: 80px" src="gifs/btnRoundBlue.jpg" alt="">
+        <div class="mms" style="z-index: 100; left: 30px; width: 30px; top: 40px; text-align: center;">The<br>March</div>
+
+        <img id="midM" style="z-index: -1; left: 8px; width: 79px; position: absolute; top: 107px; height: 80px" src="gifs/btnRoundBlue.jpg" alt="">
+        <div class="mms" style="z-index: 101; left: 30px; top: 135px; text-align: center;">Anzac<br>Day</div>
+
+        <img id="botM" style="z-index: -1; left: 8px; width: 79px; position: absolute; top: 204px; height: 80px" src="gifs/btnRoundBlue.jpg" alt="">
+        <div class="mms" style="z-index: 102; left: 25px; top: 228px; text-align: center;">Thomas<br>Tank</div>
+
+        <img id="beginM" style="z-index: -1; left: 8px; width: 79px; position: absolute; top: 301px; height: 80px" src="gifs/btnRoundBlue.jpg" alt="">
+        <div class="mms" style="z-index: 102; left: 30px; top: 328px; text-align: center;">Good<br>Bye</div>
+    </div>
+
+    <img id="Picture" style="z-index: 103; left: 147px; width: 238px; position: absolute; top: 161px" src="gifs/Manasa1.jpg" alt="Manasa">
+
+    <div id="Intro" class="poem">
+        <pre><strong>
+Hi,
+   I am Manasa (<i><font color="brown">named after the Goddess of Snakes</font></i>).
+   I was born in Melbourne, Australia 
+            10th Nov. 1995
+   I like
+        Making up songs
+        Being with lots of friends
+        Giving flowers to my teacher
+        Doing jig saw puzzles on computer
+
+    This is my going away present
+    to my friends "Aravind" and "Aarathi"
+    from Edmonoton in Canada.
+        </strong></pre>
+    </div>
+
+    <div id="AnzacSong" class="poem">
+        <pre><strong>
+I like Anzac day Do you...?
+ The funnest day, I know it is sad
+ But you should celebrate that
+
+I know it is a bit funny that people die
+ And go up to heaven but that's how its like
+
+God can do that it at any time he likes
+ I know it is pretty dangerous and I know they
+ like some people like mothers fathers
+ and dads and moms and girls.
+
+I know they can get very poor. Their mom
+ goes to war instead of dad. Every one gets
+ sad, sad. Why don't you know they get sad.
+
+That is why we can celebrate Anzac Day
+ for the people who die.
+        </strong></pre>
+    </div>
+
+    <div id="MarchSong" class="poem">
+        <pre><strong>
+The one two march.
+ One two one two march little soldiers
+ One two one two one two march little soldiers
+ We like Anzac day, We like Anzac day
+ One two one two march
+
+We say hai hai, we say good bye, we march
+ One two One two look straight, at the captain
+ One two one two go, Anzac day is fun to march
+ One two one two two
+
+Once a soldier went up to me and said
+ I don't want to march
+ If you don't march you wont get your wish
+ said the Sire
+ Hai Hai I do it,.. do it, said the soldier
+ you march One two, One two
+        </strong></pre>
+    </div>
+
+    <div id="ThomasSong" class="poem">
+        <pre><strong>
+When we see some Thomas Tank Engine
+ We love him because he is little.
+ He is the bestest train we know.
+ He goes "chuk chuk chuk"
+
+And the tunnels end he go slows on
+ Joseph some how. He says oopsy when he
+ misses his carriages
+
+Henry the truck never mind
+ He goes bumpidy bum bumpidy bum.
+ So Thomas is a special train.
+ I know he is a bit little, little.
+
+But he is sort of clever. He likes being cheeky
+ He likes being friendly,
+ He likes being helping and also different.
+
+Edward and Thomas does have difference
+ and they help each other.
+ Edward is the incorporative
+ Thomas is everything but ! and
+ Gordon is not every thing he is just dumb ..
+
+He is boring,
+ he doesn't do anything and is lazy.
+ His bones are broken but what shall we do.
+
+It is silly that a trains has bones but
+ I am not that meaning of bones.
+ It does not have enough gas and
+ enough petrol to go.
+
+That's what I mean of enough of coal
+ to put it in the fire.
+ So he goes "chook" "chook boom peep..".
+
+He does not do that all the time.
+ He just lies down going lazy pope
+ What shall we do ?
+ We don't know Gordon so we better
+ say Gordon oooohhaaa!!
+        </strong></pre>
+    </div>
+
+    <div id="BFrame">Editor/Producer<br>My dad</div>
+
+</body>
+</html>
+
