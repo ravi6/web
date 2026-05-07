@@ -94,16 +94,20 @@ function selRaga (sel) { //Process Raga Drop Down List
 	let raga = obj.ragas[k].name ;
 	for (let j=0; j < obj.ragas[k].kritis.length ; j++) {
 	  let kriti = obj.ragas[k].kritis[j];
-	  if (kriti.includes(astr)) { // if match
+          let Ukriti = kriti.toUpperCase() ;
+	  if (Ukriti.includes(astr)) { // if match
 	    buf.push ("<li>" + kriti + " -> " + "<a href='#' onclick='" 
 	      +  "selRaga(this);" + "'>" + raga + "</a></li>");
 	  }
 	}
       }
      buf.push("</ul></div>");
-      document.getElementById("output").innerHTML = buf.join("") ;
+    
+      let output = document.getElementById("output");
+      output.innerHTML = buf.join("") ;
       document.getElementById("outputTitle").innerHTML = "Kirtana Search Result" ;
-
+      if (buf.length > 2) output.style.display = "block";
+      else output.style.display = "none";
     } // end listKirtanas
 
 
