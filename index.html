@@ -4,18 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Web Projects</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        :root {
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text: #1e293b;
+            --text-muted: #64748b;
+            --accent: #2563eb;
+            --border: #e2e8f0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        p.intro {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+        h2 {
+            font-size: 1.4rem;
+            margin: 2.5rem 0 1rem;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 0.5rem;
+            color: var(--text);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 1rem;
+        }
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 1rem;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+        }
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        .card-header svg {
+            width: 20px;
+            height: 20px;
+            color: var(--accent);
+            flex-shrink: 0;
+        }
+        .card h3 {
+            margin: 0;
+            font-size: 1rem;
+            font-weight: 600;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        /* Hover Effect: Reveal hidden paragraph mechanics */
+        .card p {
+            margin: 0;
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            line-height: 1.4;
+            max-height: 0;
+            opacity: 0;
+            transform: translateY(4px);
+            transition: max-height 0.3s ease, opacity 0.2s ease, transform 0.2s ease, margin-top 0.2s ease;
+        }
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+            border-color: var(--accent);
+        }
+        .card:hover p {
+            max-height: 100px; /* Ample space for descriptions */
+            opacity: 1;
+            transform: translateY(0);
+            margin-top: 0.5rem;
+        }
+    </style>
 </head>
 <body>
     <div class="container" id="app">
-        <p>A collection of my web pages and experiments hosted on GitHub</p>
+        <p class="intro">A collection of my web pages and experiments hosted on GitHub</p>
     </div>
 
     <script>
         const GH = "https://github.com/ravi6";
         const GHP = "https://ravi6.github.io";
 
-        function addSection(title, cards) {
+        // Inline SVG paths map mapped by keyword keys
+        const ICONS = {
+            potpourri: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>`,
+            electronics: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 15h3M1 9h3M1 15h3"/></svg>`,
+            mathematics: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>`,
+            engineering: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 0-7.94-7.94L7 9.58l3.42 3.42V13a1 1 0 0 0 1 1h.58l6.15-6.15a1 1 0 0 0 0-1.4l-1.6-1.6a1 1 0 0 0-1.4 0z"/><path d="m15 11-4 4v6h6l4-4z"/></svg>`
+        };
+
+        // Redesigned dynamic DOM builder function accepting icon mapping key
+        function addSection(title, iconKey, cards) {
             const container = document.getElementById('app');
             const h2 = document.createElement('h2');
             h2.textContent = title;
@@ -28,8 +128,14 @@
                 const a = document.createElement('a');
                 a.className = 'card';
                 a.target = '_blank';
-                a.href = url.startsWith('http') ? url : url;
-                a.innerHTML = `<h3>${heading}</h3><p>${desc}</p>`;
+                a.href = url;
+                a.innerHTML = `
+                    <div class="card-header">
+                        ${ICONS[iconKey] || ''}
+                        <h3>${heading}</h3>
+                    </div>
+                    <p>${desc}</p>
+                `;
                 grid.appendChild(a);
             });
 
@@ -37,7 +143,7 @@
         }
 
         // Potpourri
-        addSection("Potpourri", [
+        addSection("Potpourri", "potpourri", [
             ["MMs/index.htm", "MMs", "Manas's creations at the age of 5"],
             ["ragas/index.html", "Carnatic Music", "A compilation of Kritis and Ragas I enjoyed"],
             ["bath/index.html", "Bath Room Reno", "My bathroom rennovation saga"],
@@ -46,7 +152,7 @@
         ]);
 
         // Electronics
-        addSection("Electronics", [
+        addSection("Electronics", "electronics", [
             ["acunit/bldc/bldc.html", "BLDC Motor", "BrushLess DC Motor Rip. Describes my journey into BLDC motors trying to fix failed air conditioner"],
             [`${GH}/TurnTable`, "Retro Turntable Fix", "Digging into the electronics of Retro Turntable to make it sing again"],
             [`${GH}/BloodPressure`, "Blood Pressure Meter", "Reverse Engineering Blood Pressure Meteter"],
@@ -54,7 +160,7 @@
         ]);
 
         // Mathematics
-        addSection("Mathematics", [
+        addSection("Mathematics", "mathematics", [
             ["pnp.html", "3D Object Alignment", "An exploration of 3D Object alignment algorithm, in my early stages of pose estimation tasks"],
             [`${GHP}/learn/stat/delta/randvar.pdf`, "Random Variable", "Getting to know random variable behaviours"],
             [`${GHP}/learn/stat/bay/src/index.html`, "Bayesian Statistics", "Exploring foundational statstical methods"],
@@ -63,7 +169,7 @@
         ]);
 
         // Engineering
-        addSection("Engineering", [
+        addSection("Engineering", "engineering", [
             [`${GH}/ThermoS`, "Process Simulation Models", "A custom library of OpenModelica based Unit Operation models for Chemical Engineers."],
             [`${GH}/PhaseCalcs`, "Phase Equillibria", "Here is web based tool to enable multi-component flash calculation"],
             [`${GH}/PSA`, "Pressure Swing Adsorption Model", "A detailed twin bed based pressure swing adsorber dynamic model using OpenModelica fluid library and ThermoS library"],
