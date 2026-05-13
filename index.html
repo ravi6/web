@@ -7,126 +7,70 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <p>A collection of my web pages and experiments hosted on 
-           GitHub </p>
-<!-------------------------------------------------->
-        <h2>Potpourri</h2>
-        <div class="grid">
-            <a href="MMs/index.htm" class="card" target=_blank>
-                <h3>MMs</h3>
-                <p>Manas's creations at the age of 5</p>
-            </a>
-            <a href="ragas/index.html" class="card" target=_blank>
-                <h3>Carnatic Music</h3>
-                <p>A compilation of Kritis and Ragas I enjoyed</p>
-            </a>
-
-            <a href="bath/index.html" class="card" target=_blank>
-                <h3>Bath Room Reno</h3>
-                <p>My bathroom rennovation saga</p>
-            </a>
-            <a href="shower/index.html" class="card" target=_blank>
-                <h3>Cold Showers</h3>
-                <p>Why you should take a cold shower</p>
-            </a>
-            <a href= https://github.com/ravi6/puzzle class="card"  target=_blank>
-                <h3>Cross Words Puzzle</h3>
-                <p>Generating Puzzle Grid from just Clues section. A collaborative
-                   project with AI assistance </p>
-            </a>
-        </div> <!-- End of a Grid -->
-
-<!-------------------------------------------------->
-        <h2>Electronics</h2>
-        <div class="grid">
-            <a href="acunit/bldc/bldc.html" class="card" target=_blank>
-                <h3>BLDC Motor</h3>
-                <p>BrushLess DC Motor Rip. Describes my journey into BLDC motors
-                   trying to fix failed air conditioner</p>
-            </a>
-            <a href= https://github.com/ravi6/TurnTable class="card"  target=_blank>
-                <h3>Retro Turntable Fix</h3>
-                <p> Digging into the electronics of Retro Turntable to make it
-                   sing again </p>
-            </a>
-            <a href= https://github.com/ravi6/BloodPressure class="card"  target=_blank>
-                <h3>Blood Pressure Meter</h3>
-                <p> Reverse Engineering Blood Pressure Meteter </p>
-            </a>
-            <a href= https://github.com/ravi6/pi class="card"  target=_blank>
-                <h3>I2C with Raspberry Pi </h3>
-                <p> DAC with interfacing I2C devices with RPi </p>
-            </a>
-        </div> <!-- End of a Grid -->
-<!-------------------------------------------------->
-        <h2>Mathematics</h2>
-        <div class="grid">
-            <a href="pnp.html" class="card" target=_blank>
-                <h3>3D Object Alignment</h3>
-                <p>An exploration of 3D Object alignment algorithm, 
-                   in my early stages of pose estimation tasks</p>
-            </a>
-            <a href= https://ravi6.github.io/learn/stat/delta/randvar.pdf class="card" target=_blank>
-                <h3>Random Variable</h3>
-                <p> Getting to know random variable behaviours</p>
-            </a>
-            <a href= https://ravi6.github.io/learn/stat/bay/src/index.html class="card" target=_blank>
-                <h3>Bayesian Statistics</h3>
-                <p> Exploring foundational statstical methods</p>
-            </a>
-
-            <a href= https://ravi6.github.io/MaxEnt/maxent.pdf class="card" target=_blank>
-                <h3>MaxEnt based Optimization</h3>
-                <p>A probabilistic optimization with maximization of Entropy
-                   used in coordination of multi agent environments </p>
-            </a>
-
-            <a href= https://github.com/ravi6/MTS class="card" target=_blank>
-                <h3>Montecarlo Tree Search Algorithm</h3>
-                <p>Exploration of MTS with TicToc game. A work that
-                   came to stand still with open ended quesitons. The
-                   idea is to apply this in multi-agent scenarios </p>
-            </a>
-
-        </div> <!-- End of a Grid -->
-<!-------------------------------------------------->
-        <h2>Engineering</h2>
-        <div class="grid">
-            <a href= https://github.com/ravi6/ThermoS class="card" target=_blank>
-                <h3>Process Simulation Models</h3>
-                <p> A custom library of OpenModelica based Unit Operation models
-                    for Chemical Engineers.  
-                </p>
-            </a>
-            <a href= https://github.com/ravi6/PhaseCalcs/README.md class="card" target=_blank>
-                <h3>Phase Equillibria</h3>
-                <p>Here is web based tool to enable multi-component flash calculation 
-                </p>
-            </a>
-            <a href= https://github.com/ravi6//PSA class="card" target=_blank>
-                <h3>Pressure Swing Adsorption Model</h3>
-                <p>A detailed twin bed based pressure swing adsorber dynamic model 
-                   using OpenModelica fluid library and ThermoS library
-                </p>
-            </a>
-            <a href="obogs.html" class="card" target=_blank>
-                <h3>OBOGS Analysis</h3>
-                <p> A simple analysis of contaminants in 
-                    pressure swing adsorption based
-                   oxygen generator</p>
-            </a>
-
-            <a href= https://github.com/ravi6/Sim class="card" target=_blank>
-                <h3>Axial Compressor Rig Simulation</h3>
-                <p> Comrepssor scaling laws revisited. Developed a GUI to place unit operations interactively
-                    and show simulation results dynamically
-                 </p>
-            </a>
-        </div> <!-- End of a Grid -->
-
-<!-------------------------------------------------->
+    <div class="container" id="app">
+        <p>A collection of my web pages and experiments hosted on GitHub</p>
     </div>
+
+    <script>
+        const GH = "https://github.com/ravi6";
+        const GHP = "https://ravi6.github.io";
+
+        function addSection(title, cards) {
+            const container = document.getElementById('app');
+            const h2 = document.createElement('h2');
+            h2.textContent = title;
+            container.appendChild(h2);
+
+            const grid = document.createElement('div');
+            grid.className = 'grid';
+
+            cards.forEach(([url, heading, desc]) => {
+                const a = document.createElement('a');
+                a.className = 'card';
+                a.target = '_blank';
+                a.href = url.startsWith('http') ? url : url;
+                a.innerHTML = `<h3>${heading}</h3><p>${desc}</p>`;
+                grid.appendChild(a);
+            });
+
+            container.appendChild(grid);
+        }
+
+        // Potpourri
+        addSection("Potpourri", [
+            ["MMs/index.htm", "MMs", "Manas's creations at the age of 5"],
+            ["ragas/index.html", "Carnatic Music", "A compilation of Kritis and Ragas I enjoyed"],
+            ["bath/index.html", "Bath Room Reno", "My bathroom rennovation saga"],
+            ["shower/index.html", "Cold Showers", "Why you should take a cold shower"],
+            [`${GH}/puzzle`, "Cross Words Puzzle", "Generating Puzzle Grid from just Clues section. A collaborative project with AI assistance"]
+        ]);
+
+        // Electronics
+        addSection("Electronics", [
+            ["acunit/bldc/bldc.html", "BLDC Motor", "BrushLess DC Motor Rip. Describes my journey into BLDC motors trying to fix failed air conditioner"],
+            [`${GH}/TurnTable`, "Retro Turntable Fix", "Digging into the electronics of Retro Turntable to make it sing again"],
+            [`${GH}/BloodPressure`, "Blood Pressure Meter", "Reverse Engineering Blood Pressure Meteter"],
+            [`${GH}/pi", "I2C with Raspberry Pi`, "DAC with interfacing I2C devices with RPi"]
+        ]);
+
+        // Mathematics
+        addSection("Mathematics", [
+            ["pnp.html", "3D Object Alignment", "An exploration of 3D Object alignment algorithm, in my early stages of pose estimation tasks"],
+            [`${GHP}/learn/stat/delta/randvar.pdf`, "Random Variable", "Getting to know random variable behaviours"],
+            [`${GHP}/learn/stat/bay/src/index.html`, "Bayesian Statistics", "Exploring foundational statstical methods"],
+            [`${GHP}/MaxEnt/maxent.pdf`, "MaxEnt based Optimization", "A probabilistic optimization with maximization of Entropy used in coordination of multi agent environments"],
+            [`${GH}/MTS`, "Montecarlo Tree Search Algorithm", "Exploration of MTS with TicToc game. A work that came to stand still with open ended quesitons. The idea is to apply this in multi-agent scenarios"]
+        ]);
+
+        // Engineering
+        addSection("Engineering", [
+            [`${GH}/ThermoS`, "Process Simulation Models", "A custom library of OpenModelica based Unit Operation models for Chemical Engineers."],
+            [`${GH}/PhaseCalcs/README.md`, "Phase Equillibria", "Here is web based tool to enable multi-component flash calculation"],
+            [`${GH}/PSA`, "Pressure Swing Adsorption Model", "A detailed twin bed based pressure swing adsorber dynamic model using OpenModelica fluid library and ThermoS library"],
+            ["obogs.html", "OBOGS Analysis", "A simple analysis of contaminants in pressure swing adsorption based oxygen generator"],
+            [`${GH}/Sim`, "Axial Compressor Rig Simulation", "Comrepssor scaling laws revisited. Developed a GUI to place unit operations interactively and show simulation results dynamically"]
+        ]);
+    </script>
 </body>
 </html>
 
