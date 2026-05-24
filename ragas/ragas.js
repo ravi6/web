@@ -747,6 +747,7 @@ var obj = {
         "Saadhinchene Oh Manasa",
 	"KoluVai UnnaDe SuLalita MaDuLai SaaRaGu SeeLuLai",
 	"Paahi Paarvatha Nandini MaaMayi Pavane",
+        "Ambaa JagaDamBaa SouramBhaa",
       ],
       "notes": {
         "aarohana": "S R2 M1 P D2 S",
