@@ -643,6 +643,7 @@ var obj = {
 	"Amba Nee Daya Raadaa",
 	"Ninu VinaGaa Mari DikkeVvaRunnaRu",
 	"Sree Kashi ViShaaLaKshi BhaJeham",
+        "Ninne NammiNaaNu Nee SaaTi EvaRaYya",
       ],
       "notes": {
         "aarohana": "S R1 G3 M2 P D2 P S",
@@ -981,6 +982,7 @@ var obj = {
 	"Neeveraa Kula Dhanamu",
 	"Bhaktunee ChareeTramu VinaVe Manasa",
 	"AbhimanaMennadu Kalgu Rama",
+        "Deva MaanaVudu TyagaRaaju EVaraMadaGaKa Raamuni",
       ],
       "notes": {
         "aarohana": "S G3 R2 G3 M1 P D2 P S",
@@ -1680,17 +1682,6 @@ var obj = {
       "notes": {
         "aarohana": "N2 S R2 G2 R2 S M1 P D1 N2 S",
         "avarohana": "S D1 N2 P M1 P G2 M1 R2 S",
-      }
-    },
-
-    {
-      "name": "keeranavali",
-      "kritis": [
-        "Yetti Yochanalu Chesevuraa",
-      ],
-      "notes": {
-        "aarohana": "S R2 G2 M2 P D1 N3 S",
-        "avarohana": "S D1 P M2 G2 R2 S"
       }
     },
 
