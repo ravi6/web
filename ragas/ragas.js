@@ -223,6 +223,7 @@ var obj = {
       "name": "simhendra madhyamam",
       "kritis": [
         "Ninne Nammithi Nayyaa Sree Rama",
+        "Paamara Jana Paalini Paahi BruhannaYaki",
       ],
       "notes": {
         "aarohana": "S R2 G2 M2 P D1 N3 S",
@@ -339,7 +340,8 @@ var obj = {
       "name": "kuntala varaali",
       "kritis": [
 	"Bhogeendra SaiNam Guru Kusala Daayinam",
-        "Devi PaavaNi Shive Sharane"
+        "Devi PaavaNi Shive Sharane",
+        "Kanda Varku Kana Villum KaalaBhayam Elayya",
       ],
       "notes": {
         "aarohana": "S M1 P D2 N2 D2 S",
@@ -786,6 +788,7 @@ var obj = {
 	"Samayamu Telisi Punyamaarjinchani",
 	"Mohamu VidaChuTe MokshaMadee",
 	"TalaChina Vaaru DhanuLaYyeRu Talachi VeduKoni",
+        "RamAbhirama Manasu Ranjilla Balka Rada",
       ],
       "notes": {
         "aarohana": "S G2 M1 P N2 S",
@@ -900,6 +903,7 @@ var obj = {
 	"Yekkadi Narakamu Yekkadi Mrutyuvu",
 	"Ade ChoodaRe Mohana Roopam",
 	"KanaRo KanaRo Meeru",
+        "RaRaa RaaJeeva Lochana Raama",
       ],
       "notes": {
         "aarohana": "S R2 G3 P D2 S",
