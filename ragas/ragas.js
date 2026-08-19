@@ -498,6 +498,7 @@ var obj = {
 	"Itti MudduLadi BaluDedaVaado",
 	"MaaYamma AniNe PilaChiThe",
 	"SadBhaktiYu Chesi SantaSillu",
+        "Ehi Mudam Dehi Sri Krishna",
 	"Saami NeePai Marulu Konnadi Raa",
 	"O Jagadamba Nanu Neevu Javamuna Brovu",
         "Sama Gaana Priye Tamil",
@@ -589,7 +590,6 @@ var obj = {
       "kritis": [
        "Broche Vaarevaru Raa",
        "Rama Jogi Mandoo",
-       "Ehi Mudam Dehi Sri Krishna",
        "Mathe MalayaDhwaja PaanDya SanJate",
        "Sujana Jeevana Rama Suguna Bhushana",
        "Sarada Sadaa VasTu MuDaRaSa Naya MaaMaDhya",
@@ -1425,6 +1425,7 @@ var obj = {
       "name": "nalina kanthi",
       "kritis": [
 	"ManaviNaalaKincha RaaDate",
+        "Nee Paadame Gathi Nalina Kanthee Mathi",
       ],
       "notes": {
         "aarohana": "S G3 R2 M1 P N3 S",
@@ -1619,6 +1620,7 @@ var obj = {
 	"Intakante Ghana MikaLedoo Santata",
 	"Mangalam Mastu RamaaDhaVaTe",
 	"Bhajana ParuLaKeLa DanDaPaaNi BhaYaMu ManaSaa", 
+        "Sree Venkata GireeSa MaaLoKaYe",
       ],
       "notes": {
         "aarohana": "S R2 M1 P N2 D2 N2 S",
