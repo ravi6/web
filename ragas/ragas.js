@@ -1671,6 +1671,7 @@ var obj = {
 	"NaaraYanaThe Namo Namo Bhava",
 	"SaraMaina MaataLento ChaaLu ChaaLu Raa",
         "Hari Hari Rama Rama NannaRaMara ChoodaKu",
+        "Aadu Chidambaramo AyyaPpaa",
       ],
       "notes": {
         "aarohana": "S G3 M1 P N3 D2 N3 S",
