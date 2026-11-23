@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RotiMaker Teardown & Blank-Slate Hijack</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+      --accent: #f59e0b;
+      --border: #334155;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+      color: var(--accent);
+    }
+    header p {
+      color: var(--muted);
+      font-size: 1.1rem;
+      max-width: 680px;
+      margin: 0 auto 1.5rem;
+    }
+    .safety-banner {
+      background: rgba(239, 68, 68, 0.15);
+      border: 1px solid #ef4444;
+      color: #fca5a5;
+      padding: 0.85rem 1.2rem;
+      border-radius: 10px;
+      font-size: 0.9rem;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem 4rem;
+      display: grid;
+      gap: 2rem;
+    }
+    .entry {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    }
+    .entry-media {
+      width: 100%;
+      background: #020617;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .entry-media img,
+    .entry-media video {
+      width: 100%;
+      max-height: 540px;
+      object-fit: contain;
+      display: block;
+    }
+    .entry-body {
+      padding: 1.25rem 1.5rem;
+    }
+    .step-badge {
+      display: inline-block;
+      background: rgba(245, 158, 11, 0.15);
+      color: var(--accent);
+      font-weight: 700;
+      font-size: 0.8rem;
+      padding: 0.2rem 0.65rem;
+      border-radius: 999px;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .entry-body h2 {
+      margin: 0 0 0.4rem;
+      font-size: 1.3rem;
+    }
+    .entry-body p {
+      margin: 0;
+      color: var(--muted);
+    }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      padding: 2rem 1rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🫓 Inside the RotiMaker: Teardown &amp; Blank-Slate Hijack</h1>
+    <p>
+      Zero hardware modifications. One erased factory microcontroller. 
+      Here is what happens when you crack open an automated roti maker, reverse-engineer its circuit board, and teach it to cook from scratch with custom firmware.
+    </p>
+    <div class="safety-banner">
+      ⚠️ <strong>High Voltage &amp; Thermal Notice:</strong> This appliance operates on lethal mains AC voltage and high-wattage heating plates. All testing shown below was performed on the bench with safety isolation and dummy loads.
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ITEM 0: Unit Arrives-->
+    <article class="entry">
+      <div class="entry-media">
+        <img src="assets/begin.png" alt="Roti Maker on Operating Table">
+      </div>
+      <div class="entry-body">
+        <span class="step-badge">01 · Cracking the Shell</span>
+        <h2>A deceptively clean Machine</h2>
+        <p>But does not function, just makes a beep with no display</p>
+      </div>
+    </article>
+
+    <!-- ITEM 1: Main PCB & Harnesses -->
+    <article class="entry">
+      <div class="entry-media">
+        <img src="assets/pcb.png" alt="Exposed green control PCB and wiring harnesses">
+      </div>
+      <div class="entry-body">
+        <span class="step-badge">01 · Cracking the Shell</span>
+        <h2>Meeting the Nervous System</h2>
+        <p>Popping off the outer housing reveals a surprisingly dense green control board connected to a rainbow of labeled wire harnesses (<code>PM4</code>, <code>PM5</code>, and friends). Not a single wire cut—just pure snooping.</p>
+      </div>
+    </article>
+
+    <!-- ITEM 2: The Brain (PIC32) -->
+    <article class="entry">
+      <div class="entry-media">
+        <img src="assets/brain.png" alt="Macro shot of PIC32MX470F512L microcontroller">
+      </div>
+      <div class="entry-body">
+        <span class="step-badge">02 · The Brain</span>
+        <h2>A PIC32 Waiting for a Blank Slate</h2>
+        <p>At the heart of the board sits a 32-bit Microchip <strong>PIC32MX470F512L</strong> microcontroller. Step one of the hijack: wiping the factory firmware completely clean so we can write our own from line zero.</p>
+      </div>
+    </article>
+
+    <!-- ITEM 3: Precision Sensor ADC -->
+    <article class="entry">
+      <div class="entry-media">
+        <img src="assets/adc.png" alt="Macro shot of Texas Instruments ADS1148 ADC">
+      </div>
+      <div class="entry-body">
+        <span class="step-badge">03 · Precision Sensing</span>
+        <h2>How It Weighs Flour &amp; Reads Heat</h2>
+        <p>Right next to the main processor is a Texas Instruments <strong>ADS1148</strong> 16-bit precision ADC—the chip responsible for turning tiny thermocouple and load-cell signals into actual temperatures
+            and dough weights. This image you see is soon after I drag soldered
+            replacement chip when I accidentally cooked it with 12V.</p>
+      </div>
+    </article>
+
+    <!-- ITEM 4: Underneath the Mixer & Load Cell -->
+    <article class="entry">
+      <div class="entry-media">
+        <img src="assets/underFeederjpg" alt="Load cell, DC motors, and silicone tubing underneath the mixer">
+      </div>
+      <div class="entry-body">
+        <span class="step-badge">04 · Underneath the Hood</span>
+        <h2>Load Cells, Gear Trains &amp; Plumbing</h2>
+        <p>Peeking beneath the upper deck reveals the aluminum strain-gauge load cell (which weighs the flour and water), gear drives, and silicone tubes that meter out water and oil.</p>
+      </div>
+    </article>
+
+    <!-- ITEM 5: Heavy-Duty Press Gearmotor -->
+    <article class="entry">
+      <div class="entry-media">
+        <img src="assets/rpmotor.png" alt="Heavy duty DC gearmotor module lifted off press screw ">
+        <img src="assets/rpmotor2.png" alt="Heavy duty DC gearmotorremoved from cast aluminum frame">
+      </div>
+      <div class="entry-body">
+        <span class="step-badge">05 · The Muscle</span>
+        <h2>Serious Torque for Squashing Dough</h2>
+        <p>Pulling the main DC gearmotor off the cast-aluminum press frame.
+           Flattening a dough ball into a thin roti takes a serious 
+           gearbox—definitely not a toy motor. Had to dismantle the motorgear
+           train to release jammed press screw when learning to drive the
+           motor in a controlled manner</p>
+      </div>
+    </article>
+
+    <!-- ITEM 6: VIDEO 1 - Mixing Cup Up & Down -->
+    <article class="entry">
+      <div class="entry-media">
+        <video controls muted loop playsinline>
+          <source src="assets/cup.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="entry-body">
+        <span class="step-badge">06 · First Motion Test (Video)</span>
+        <h2>Elevator Going Up: Mixing Cup Actuator</h2>
+        <p>First mechanical victory under custom code—commanding
+           the mixing cup lift mechanism to travel smoothly up and down on cue.
+           the cup stays up but the round bottom moves up and once the flour
+           with water tuns to a ball, it descends and the dough ball is pushed
+           over the platten with swinging arm. </p>
+      </div>
+    </article>
+
+    <!-- ITEM 7: VIDEO 2 - Flour Mixer & Ball Roller -->
+    <article class="entry">
+      <div class="entry-media">
+        <video controls muted loop playsinline>
+          <source src="assets/roller.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="entry-body">
+        <span class="step-badge">07 · Dough Choreography (Video)</span>
+        <h2>Spinning the Flour Mixer &amp; Ball Roller</h2>
+        <p>The center hub drives the paddle (removed here) which meters the
+           flour into bottom bowl (removed here) and kneadng arm is driven
+           by another motor off center to the hub. The spinning ribbed roller
+           job is still not clear. The kneader arm is attached to top cup.
+           Getting the timing right between the kneading blade 
+           and the dough-ball roller—all driven directly by 
+           our clean-slate PIC32 firmware is tricky.</p>
+      </div>
+    </article>
+
+    <!-- ITEM 8: Heating Plates & Platen -->
+    <article class="entry">
+      <div class="entry-media">
+        <img src="assets/sandwitch.png" alt="Underside of cast aluminum heating platen with tubular heater">
+        <img src="assets/coils.png" alt="Underside of cast aluminum heating platen with tubular heater">
+      </div>
+      <div class="entry-body">
+        <span class="step-badge">08 · Where the Heat Lives</span>
+        <h2>Cast-Aluminum Platens &amp; High-Temp Sleeves</h2>
+        <p>Top and bottom heating platens view. The top section rear half
+           is driven down by the press to roll the roti flat, the front half
+           just rides on the edge of rear half. This allows for the roti to 
+           be heated from above in the final stage to puff it up, before the
+           pusher pushes it out of roti machine.  Notice the black stip at
+           the rear of the platens is the roti pushing boom in final stages</p>
+         <p> Embedded tubular heating element and fiberglass-sleeved sensor wires. 
+           This is the part you really don't want a software bug leaving stuck ON.
+           This picture is from web trawls</p>
+      <div class="entry-media">
+        <img src="assets/rearHeater.png" alt="Underside of cast aluminum heating platen with tubular heater">
+      </div>
+        <p> A rear view of the roti press platen with heater element casing,
+          and the bottom sliding frame (roti pusher)pushes the roti towards the exit.
+          The encoder wheel is for the roti pusher position control.
+        </p>
+      <div class="entry-media">
+        <img src="assets/pusherEncoder.png" alt="Underside of cast aluminum heating platen with tubular heater">
+      </div>
+      </div>
+    </article>
+
+    <!-- ITEM 9: VIDEO 3 - Heater  with Light Globe -->
+    <article class="entry">
+      <div class="entry-media">
+        <video controls muted loop playsinline>
+          <source src="assets/heater.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="entry-body">
+        <span class="step-badge">09 · Safe Heater Testing (Video)</span>
+        <h2>Dummy-Load Testing with a Light Globe</h2>
+        <p>Before letting our custom code energize real 240V 
+          heating plates, we wired up an incandescent light
+           globe as a visual dummy load while verifying live 
+         temperature sensor feedback. </p>
+        <p>The open machine hooked up to the Mac over serial (<code>picocom</code>),
+            streaming real-time temperature readings across all 
+             four heater zones from our custom firmware.</p>
+      </div>
+    </article>
+
+    <!-- ITEM 10: Titbits  -->
+    <article class="entry">
+      <div class="entry-body">
+        <span class="step-badge">10 · Miscellaneous</span>
+
+        <div class="entry-media"> <img src="assets/armature.png" alt="Roti Press Motor Armature"></div>
+        <h3>Roti Press Motor Armature, carbon brush housing </h3>
+        <p> Notice the screw driving the roti press next to motor housing </p>
+
+        <div class="entry-media"> <img src="assets/pumps.png" alt="Oil and Water Pumps"> </div>
+        <h3> Oil and Water pumps</h3>
+        <p> Peristaltic pumps driven by small DC motors </p>
+
+        <div class="entry-media"> <img src="assets/encoder.png" alt="Optical Encoder"> </div>
+        <h3>Optical Encoder Sensor </h3>
+        <p> Optical Encoder sensor. It is an IR emitter and receiver package. When the
+            slotted wheel interrupts the IR ray the encoder sends a pulse   </p>
+      </div>
+    </article>
+
+
+  </main>
+
+  <footer>
+    Built from scratch on stock hardware · Unofficial reverse-engineering &amp; firmware project
+    The CSS for this web page along with interesting heading is due to Google AI
+  </footer>
+
+</body>
+</html>
+
