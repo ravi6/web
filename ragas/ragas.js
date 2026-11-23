@@ -970,6 +970,7 @@ var obj = {
 	"Venu Gaana Lola",
 	"Entani VeduDuRa MroKkenuRa KonTaiNa Manavini",
         "Taavaka Namaani Subhadani PrajaPaani",
+        "IntakaTe Bhakthi Vaatsalyam EntaYu TaguNammaa",
       ],
       "notes": {
         "aarohana": "S R2 M1 P N2 S ",
